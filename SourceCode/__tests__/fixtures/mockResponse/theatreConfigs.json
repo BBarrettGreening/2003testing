@@ -1,0 +1,50 @@
+[
+    {
+      "id": 2001,
+      "name": "princeofwalestheatre.co.uk",
+      "url": "https://www.princeofwalestheatre.co.uk/whats-on/",
+      "selectors": {
+        "eventCard": ".c-event-card",
+        "title": ".c-event-card__title",
+        "date": ".c-event-card__date",
+        "link": ".c-event-card__link"
+      },
+      "location": "London, UK"
+    },
+    {
+      "id": 2002,
+      "name": "lwtheatres.co.uk",
+      "url": "https://lwtheatres.co.uk/theatres/the-london-palladium/whats-on/",
+      "selectors": {
+        "eventCard": ".WhatsOnPanel__ShowCardWrapper-sc-1q6jo28-0",
+        "title": ".WhatsOnPanel__ShowTitle-sc-1q6jo28-2 a",
+        "date": ".Text-sc-1pb273e-0.gwbjhH",
+        "link": ".WhatsOnPanel__ShowTitle-sc-1q6jo28-3 > a"
+      },
+      "location": "London, UK"
+    },
+    {
+      "id": 2003,
+      "name": "atgtickets.com",
+      "url": "https://www.atgtickets.com/venues/lyceum-theatre/",
+      "selectors": {
+        "eventCard": ".whats-on__event",
+        "title": ".whats-on__event-title",
+        "date": ".whats-on__event-date",
+        "link": ".whats-on__event-tile > a"
+      },
+      "location": "London, UK"
+    },
+    {
+      "id": 2004,
+      "name": "nederlander.co.uk",
+      "url": "https://www.nederlander.co.uk/dominion-theatre",
+      "selectors": {
+        "eventCard": ".event-card",
+        "title": ".event-card__title",
+        "date": ".event-card__date",
+        "link": ".event-card__link"
+      },
+      "location": "London, UK"
+    }
+  ]

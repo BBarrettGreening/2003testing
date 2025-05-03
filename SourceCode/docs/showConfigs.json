@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Test Show",
+    "url": "https://example.com/show",
+    "selectors": {
+      "eventCard": ".event-card",
+      "date": ".date",
+      "location": ".venue",
+      "link": "a.link"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Concord Show",
+    "url": "https://www.concordtheatricals.co.uk/p/123/test-show",
+    "selectors": {
+      "eventCard": ".production-item",
+      "date": ".show-date",
+      "location": ".theatre-name",
+      "link": ".book-link"
+    }
+  }
+]

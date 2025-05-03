@@ -1,0 +1,138 @@
+openapi: 3.0.0
+info:
+  title: Show Scraper API
+  description: API for scraping theatre and production show data
+  version: 1.1.0
+
+servers:
+  - url: http://localhost:3000
+
+paths:
+  /scrape:
+    get:
+      summary: Scrapes shows, location, and dates from predefined theatre sites.
+      responses:
+        '200':
+          description: JSON response with the number of events saved per site.
+          content:
+            application/json:
+              schema:
+                type: object
+        '500':
+          description: Error scraping events.
+
+  /fetchStructure:
+    post:
+      summary: Detects website structures for theatre pages.
+      description: Reads a predefined list of theatre websites and extracts their structure.
+      responses:
+        '200':
+          description: Successfully processed theatre website structures.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        url:
+                          type: string
+                        selectors:
+                          type: object
+                          properties:
+                            eventCard:
+                              type: string
+                            title:
+                              type: string
+                            date:
+                              type: string
+                            location:
+                              type: string
+                            link:
+                              type: string
+        '500':
+          description: Error processing theatre website structures.
+
+  /fetchShowStructure:
+    post:
+      summary: Detects website structures for production pages.
+      description: Reads a predefined list of production websites and extracts their structure.
+      responses:
+        '200':
+          description: Successfully processed production website structures.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        url:
+                          type: string
+                        selectors:
+                          type: object
+                          properties:
+                            eventCard:
+                              type: string
+                            title:
+                              type: string
+                            date:
+                              type: string
+                            location:
+                              type: string
+                            link:
+                              type: string
+        '500':
+          description: Error processing production website structures.
+
+  /getLatestFile:
+    get:
+      summary: Retrieves the latest scraped show data as a downloadable ZIP file.
+      responses:
+        '200':
+          description: Successfully fetched the latest ZIP file.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  latestFile:
+                    type: string
+                  layoutsFound:
+                    type: integer
+                  downloadUrl:
+                    type: string
+        '404':
+          description: No ZIP files found.
+        '500':
+          description: Error retrieving the latest file.
+
+  /clear-logs:
+    post:
+      summary: Clears the CMD logs stored on the server.
+      responses:
+        '200':
+          description: Logs cleared successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+        '500':
+          description: Error clearing logs.

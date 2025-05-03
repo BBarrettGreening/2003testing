@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "test.com",
+    "url": "https://test.com",
+    "selectors": {
+      "eventCard": ".event-card",
+      "title": ".title",
+      "date": ".date",
+      "link": "a.link"
+    },
+    "location": "London, UK"
+  },
+  {
+    "id": 2,
+    "name": "example.com",
+    "url": "https://example.com/theatre",
+    "selectors": {
+      "eventCard": ".production-item",
+      "title": "h3.show-title",
+      "date": ".show-dates",
+      "link": ".book-now"
+    },
+    "location": "Bristol, UK"
+  }
+]

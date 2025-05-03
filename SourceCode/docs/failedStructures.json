@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3,
+    "name": "No Website Theatre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 4,
+    "name": "Failed Theatre",
+    "url": "https://brokensite.com",
+    "reason": "No valid structure detected"
+  }
+]

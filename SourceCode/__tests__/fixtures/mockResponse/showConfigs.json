@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1001,
+      "name": "Bat Out of Hell",
+      "url": "https://batoutofhellmusical.com/",
+      "selectors": {
+        "eventCard": ".bg-yellow.p-1.w-full",
+        "date": ".text-yellow",
+        "location": ".text-cream",
+        "link": ".block.w-full.py-3"
+      }
+    },
+    {
+      "id": 1002,
+      "name": "Six",
+      "url": "https://sixthemusical.com/uk-tour/tickets/",
+      "selectors": {
+        "eventCard": ".other-gold-gradient.py-6.px-4.space-y-3.transition-all",
+        "date": ".uppercase.text-primary.font-bold.p-0",
+        "location": ".uppercase.text-white.font-bold.p-0",
+        "link": ".border-2.rounded.py-2.bg-white.block.mx-auto.group"
+      }
+    },
+    {
+      "id": 1003,
+      "name": "Blood Brothers",
+      "url": "https://www.kenwright.com/productions/blood-brothers-uk-tour/",
+      "selectors": {
+        "eventCard": ".wpb_row",
+        "date": ".book-dates",
+        "location": ".book-venue",
+        "link": ".book-button"
+      }
+    },
+    {
+      "id": 1004,
+      "name": "42nd Street",
+      "url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street",
+      "selectors": {
+        "eventCard": ".row",
+        "date": " A concocrd link, no values necissary",
+        "location": " A concocrd link, no values necissary",
+        "link": " A concocrd link, no values necissary"
+      }
+    }
+  ]

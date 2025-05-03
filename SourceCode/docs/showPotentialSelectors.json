@@ -1,0 +1,25 @@
+{
+  "eventCard": [
+    ".event-card",
+    ".show-item",
+    ".production-item"
+  ],
+  "date": [
+    ".date",
+    ".event-date",
+    ".show-date",
+    "time"
+  ],
+  "location": [
+    ".location",
+    ".venue",
+    ".theatre-name",
+    ".city"
+  ],
+  "link": [
+    "a.link",
+    ".event-link a",
+    ".book-link",
+    "a.btn"
+  ]
+}

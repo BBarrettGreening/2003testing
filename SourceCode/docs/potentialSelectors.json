@@ -1,0 +1,22 @@
+{
+  "eventCard": [
+    ".event-card",
+    ".production-item",
+    ".show-listing"
+  ],
+  "title": [
+    ".title",
+    "h3.show-title",
+    ".event-name"
+  ],
+  "date": [
+    ".date",
+    ".event-date",
+    ".show-dates"
+  ],
+  "link": [
+    "a.link",
+    ".more-info a",
+    ".book-now"
+  ]
+}

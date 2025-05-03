@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STAGELY WEB SCRAPER</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <script defer src="/js/app.js"></script>
+</head>
+<body>
+<div class="header">
+  <img src="logo.png" alt="Logo" class="logo">
+  <h1>STAGELY WEB SCRAPER</h1>
+
+  <!-- Buttons container -->
+  <div class="header-buttons">
+    <button id="back-to-cms" class="cms-btn"> ← Back to CMS</button>
+    <button id="add-show-button" class="add-btn">Add Show Import File</button>
+    <button id="add-theatre-button" class="add-btn">Add Theatre Import File</button>
+
+  </div>
+</div>
+
+</div>
+  <div class="main-content">
+    <div class="steps-container">
+      <p id="latest-scrape-date">Latest Scrape: Loading...</p>
+
+      <div class="step">
+        <h2>Step 1: Scan Website Layouts</h2>
+        <button id="scan-shows-weblayouts" class="button">Get Show Website Layouts</button>
+        <button id="scan-layouts" class="button">Scan Website Layouts</button>
+      </div>
+
+      <div class="step">
+        <h2>Step 2: Scrape Productions</h2>
+        <button id="scan-shows" class="button">Scrape Productions</button>
+        <button id="export-failed-structures" class="button">Export Failed Structures</button>
+      </div>
+
+      <div class="step">
+        <h2>Final Step: Download Your Data</h2>
+        <a id="download-data" href="#" class="button" style="display: none;">Download the scraped data</a>
+      </div>
+
+      <div class="step">
+        <h2>Scraper Status:</h2>
+        <p id="status-message" style="display: none;"></p>
+      </div>
+    </div>
+
+
+    <!-- First Modal (for Show Import) -->
+    <div id="popup-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn show-close">&times;</span>
+        <h2>Add Show Import File</h2>
+        <div id="drop-zone-show" class="drop-zone">Drop file here or click to browse</div>
+        <input type="file" name="ShowsListReport" id="show-file" accept=".xlsx" style="display: none;" />
+        <button id="save-btn" class="button">Save</button>
+      </div>
+    </div>
+
+
+
+    <!-- Second Modal (for Theatre Import) -->
+    <div id="popup-modal-2" class="modal">
+      <div class="modal-content">
+        <span class="close-btn theatre-close">&times;</span>
+        <h2>Add Theatre Import File</h2>
+        <div id="drop-zone-theatre" class="drop-zone">Drop file here or click to browse</div>
+        <input type="file" id="theatre-file" accept=".xlsx" style="display: none;" />
+        <button id="save-theatre-btn" class="button">Save</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="cmd-sidebar collapsed">
+      <button class="cmd-toggle-btn">Open Debug</button>
+      <div class="cmd-container">
+        <div class="CMDHeader">
+          <h1>Live CMD View</h1>
+          <button id="clear-cmd" class="button">Clear CMD</button>
+          <button id="toggle-scroll" class="button">Auto Scroll: On</button>
+        </div>
+        <iframe id="cmd-iframe" src="terminal.html" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script>
+    let autoScroll = true;
+
+    document.getElementById("clear-cmd").addEventListener("click", () => {
+      const iframe = document.getElementById("cmd-iframe");
+      iframe.src = ""; // Clear the iframe content
+
+      // Send a request to the server to clear the logs
+      fetch('/clear-logs', { method: 'POST' })
+        .then(response => response.json())
+        .then(data => {
+          if (data.success) {
+            console.log('Logs cleared successfully');
+          } else {
+            console.error('Failed to clear logs');
+          }
+        });
+    });
+
+    document.getElementById("toggle-scroll").addEventListener("click", () => {
+      autoScroll = !autoScroll;
+      document.getElementById("toggle-scroll").textContent = `Auto Scroll: ${autoScroll ? 'On' : 'Off'}`;
+    });
+
+    // Function to scroll the iframe to the bottom
+    function scrollIframeToBottom() {
+      if (autoScroll) {
+        const iframe = document.getElementById("cmd-iframe");
+        iframe.contentWindow.scrollTo(0, iframe.contentDocument.body.scrollHeight);
+      }
+    }
+
+    // Scroll the iframe to the bottom when the content is loaded
+    document.getElementById("cmd-iframe").onload = scrollIframeToBottom;
+
+    // Continuously check and scroll to the bottom
+    setInterval(scrollIframeToBottom, 1000);
+  </script>
+</body>
+</html>

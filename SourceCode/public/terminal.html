@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Terminal</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        body {
+            background-color: #00004d; /* Dark blue background */
+            color: white; /* White text */
+            font-family: monospace;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <pre id="terminal"></pre>
+    <script>
+        const terminal = document.getElementById('terminal');
+        const socket = io('http://localhost:3000');
+
+        socket.on('stdout', (message) => {
+            terminal.innerHTML += message;
+            terminal.scrollTop = terminal.scrollHeight;
+        });
+
+        socket.on('stderr', (message) => {
+            terminal.innerHTML += `<span style="color:red;">${message}</span>\n`;
+            terminal.scrollTop = terminal.scrollHeight;
+        });
+
+        socket.on('exit', (message) => {
+            terminal.innerHTML += `${message}\n`;
+            terminal.scrollTop = terminal.scrollHeight;
+        });
+
+        socket.on('error', (message) => {
+            terminal.innerHTML += `<span style="color:red;">${message}</span>\n`;
+            terminal.scrollTop = terminal.scrollHeight;
+        });
+
+        socket.on('connect_error', (error) => {
+            terminal.innerHTML += `<span style="color:red;">Socket.io error: ${error.message}</span>\n`;
+            terminal.scrollTop = terminal.scrollHeight;
+        });
+
+        socket.on('disconnect', () => {
+            terminal.innerHTML += "<p>Socket.io connection closed</p>";
+            terminal.scrollTop = terminal.scrollHeight;
+        });
+
+        // ws.onopen = () => {
+        //     console.log('WebSocket connection opened.');
+        // };
+
+        // ws.onmessage = (event) => {
+        //     output.innerHTML += event.data;
+        // };
+
+        // ws.onerror = (error) => {
+        //     output.innerHTML += `<span style="color:red;">WebSocket error: ${error.message}</span>`;
+        //     console.error(`WebSocket error: ${error.message}`);
+        // };
+
+        // ws.onclose = () => {
+        //     output.innerHTML += '<p>WebSocket connection closed</p>';
+        //     console.log('WebSocket connection closed.');
+        // };
+    </script>
+</body>
+</html>
