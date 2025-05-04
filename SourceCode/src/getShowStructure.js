@@ -97,9 +97,22 @@ const detectShowStructure = ($, potentialSelectors, url) => {
  * @returns {object|null} - The detected configuration or null if analysis fails.
  */
 const analyzeShowWebsite = async (url, potentialSelectors) => {
+    if (!url || typeof url !== 'string') {
+        console.warn(`Invalid URL provided: ${url}`);
+        return null;
+    }
+
     try {
         console.log(`Analyzing show website: ${url}...`);
-        const response = await axios.get(url);
+        
+        // Add timeout to prevent hanging on slow websites
+        const response = await axios.get(url, { timeout: 30000 });
+        
+        if (!response.data) {
+            console.warn(`No data received from ${url}`);
+            return null;
+        }
+
         const $ = cheerio.load(response.data);
 
         // Detect show structure dynamically
@@ -115,7 +128,11 @@ const analyzeShowWebsite = async (url, potentialSelectors) => {
             selectors,
         };
     } catch (error) {
-        console.error(`Error analyzing ${url}: ${error.message}`);
+        if (error.code === 'ECONNREFUSED' || error.code === 'ENOTFOUND' || error.message.includes('timeout')) {
+            console.error(`Network error analyzing ${url}: ${error.message}`);
+        } else {
+            console.error(`Error analyzing ${url}: ${error.message}`);
+        }
         return null;
     }
 };

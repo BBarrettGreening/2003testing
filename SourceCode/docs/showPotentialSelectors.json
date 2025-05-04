@@ -1,25 +1,38 @@
 {
   "eventCard": [
-    ".event-card",
-    ".show-item",
-    ".production-item"
+    ".wp-bootstrap-blocks-row .row.content",
+    ".tour-date",
+    ".front-page-main.container-fluid",
+    ".wp-block-columns .wp-block-column",
+    ".wp-block-group.wp-block-group__inner-container",
+    ".wp-block-media-text.wp-block-media-text__content",
+    ".wp-block-media-text.wp-block-media-text__content.wp-block-button",
+    ".wpb_row",
+    ".row",
+    ".other-gold-gradient.py-6.px-4.space-y-3.transition-all",
+    ".bg-yellow.p-1.w-full"
   ],
   "date": [
-    ".date",
     ".event-date",
-    ".show-date",
-    "time"
+    ".tour-date__dates",
+    ".tour-date",
+    ".book-dates",
+    ".uppercase.text-primary.font-bold.p-0",
+    ".text-yellow"
   ],
   "location": [
-    ".location",
-    ".venue",
-    ".theatre-name",
-    ".city"
+    ".show-venue",
+    ".tour-venue",
+    ".tour-date__venue",
+    ".book-venue",
+    ".uppercase.text-white.font-bold.p-0",
+    "h3.text-cream, h4"
   ],
   "link": [
-    "a.link",
-    ".event-link a",
-    ".book-link",
-    "a.btn"
+    ".tour-date__link",
+    ".vc_general .vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-modern.vc_btn3-color-blue",
+    ".book-button",
+    ".border-2.rounded.py-2.bg-white.block.mx-auto.group",
+    ".block.w-full.py-3"
   ]
 }

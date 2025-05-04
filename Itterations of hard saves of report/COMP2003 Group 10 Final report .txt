@@ -1,0 +1,259 @@
+﻿COMP 2003                                                                                 Group 10
+COMP 2003 Semester 2 Final Submission
+  
+
+Group 10 
+* Bence Bekefi 
+* Bustamante Barrett-Greening
+* Jake Lear
+* Thomas Drew
+
+
+GitHub: 
+https://github.com/Plymouth-University/comp2003-2024-group-10 
+Trello:
+https://trello.com/invite/672df75b515252cc6ac011e6/ATTI055c4182975c9c37a43efc2f2ea3f6fc6D2A65CC 
+________________
+Table of contents
+COMP 2003 Semester 2 Final Submission        1
+GitHub:        1
+Trello:        1
+Table of contents        2
+Main Page  - Jake Lear        4
+Introduction - Jake Lear        5
+Client introduction - Open for work        5
+Problem statement - Jake Lear        5
+Brief System requirements - Probably best for busty        5
+Other Necessary details - Open for work        6
+Project management        7
+Project planning material - Jake Lear        7
+Project Overview        7
+Project Scope        7
+Project Objectives        7
+Project Proposal        8
+Original project plan of Epics        9
+Communication plan        9
+Sprint Planning - Jake Lear        9
+Sprint Execution - Jake Lear        10
+Risk assessment and Mitigation - Bence???        10
+Project Schedule        10
+Client management        10
+Detailed System Design        11
+User Story        11
+Entity Relationship Diagram (ERD)        11
+Prototype Screenshots        11
+HIPO Chart        11
+State Diagrams        11
+Data Flow Diagrams (DFDs)        11
+Sequence Diagrams        11
+Flowcharts        11
+UML Diagrams        11
+Important Code Snippets (Screenshots)        11
+Web Scraper Core Logic        11
+Page Navigation Handling        11
+Data Extraction Functions        11
+Error Handling and Logging        11
+GitHub Repository Link        11
+Quality Assurance        12
+Surveys and Questionnaires        12
+Unit Testing Documentation        12
+User Acceptance Testing (UAT)        12
+Methodology        12
+Results        12
+Post-Project Support        12
+Other QA Measures        12
+Conclusion        13
+Project Summary        13
+Achievements        13
+Merits and Impact        13
+References        14
+Cited Websites and Papers        14
+Appendix        15
+1000-Word CW Submission Evidence and Evaluation        15
+Jake Lear - link        15
+Bence Bekfi - Link        15
+Bustamante Barrett-Greening - Link        15
+Thomas Drew - Link        15
+
+
+________________
+Main Page  - Jake Lear 
+Client Name: Danniel Lennox 
+Group name: Stagley Webscraper Development - Group 10
+Members:
+
+
+Name:
+	Bence Bekefi 
+	Bustamante Barrett-Greening
+	Jake Lear 
+	Thomas Drew
+	Role:
+	  - Architect 
+	  - Product Owner 
+	  - Team leader 
+	   - Scrum Master 
+	________________
+Introduction - Jake Lear 
+This report is used to outline the development timeline from start to finish, presenting how, as a group, we designed and implemented our solution. The product vision for Stagely is a
+mobile application that gives users information about theatre shows, plays and musicals, it is to provide a tailored selection of productions based on factors like the users location, availability to travel and their preferences. From their personalised list of shows, the user is able to see details about the show, like its time, location and what it’s about, where they can then be taken to the booking link. 
+Based on this, our project vision is to develop a scalable and adaptable web scraping application that runs off of the content management system for stagely. At the press of buttons, current and up to date data about shows; different locations and times, will be available via our various scraping modules that will scrape data about different theatres and what shows they have on; and shows with different locations and the playing group. Having a web scraping application will enable stagely to streamline the process of adding a show to their system, the information we are looking to extract at a minimum is show name, production name, location, dates shown and a link to the show listing. 
+Ultimately, our goal is to take out the longevous hours of manually obtaining the information. 
+
+
+The product provides:
+* An intuitive and visually appealing interface that matches the house theme of the CMS
+* A collapsable interface with a debugging interface that allows the user to see what's happening in the back end and track possible issues. 
+* An XLSX import tool that can take a list of theatres or shows with IDs and static information so the scraper can attempt to find information about showings of the production.
+* A step by step guide to help users do the following tasks 
+   * Find the structure of the provided websites 
+   * Scrape the productions 
+   * Export the failed structures 
+   * Download the scraped data as a CSV
+
+
+The report will give a detailed insights into how the application has be developed through; project management and planning; design of the system aided by graphs and key parts of the code; quality assurance with surveys, questionnaires and testing and a conclusion, summarising the project, including achievements and issues. 
+
+
+Client introduction - Open for work
+
+
+Problem statement - Jake Lear
+Without a web scraper, populating data like show information from theatre and show websites into the Stagely content management system (CMS) can be extremely time consuming, not only this, but can be inconsistent and vulnerable to human error. Due to the huge variation in the structure of theatre and show websites, a scraper made to deal with this will need to be dynamic to obtain details like the show name, location, dates and the link. The info must be formatted in a way that is uniform across all inputs and websites, from where it can then be sent to the stagely CMS. 
+
+
+Brief System requirements - Probably best for busty
+
+
+Other Necessary details - Open for work
+
+
+________________
+
+
+Project management 
+Project planning material - Jake Lear
+Project Overview
+The goal of our project is to create a web scraping application that will take information about shows from all the theatre websites in the UK and push them to the Stagely CMS. The application will need to dynamically find the structure of these websites and extract the specific information Stagely wants to be on their CMS to streamline the process of adding a show to their system, the information we are looking to extract at a minimum is show name, production name, location, dates shown and a link to the show listing. 
+
+
+Project Scope
+Our web scraping application will be scraping information about theatre shows in the UK. The scope of this includes professional and amateur theatres, but we will not be scraping information from other venues such as stadiums and cinemas.
+The application will only be pushing information to the Stagely CMS so any other services it could be considered to interact with are out of scope
+
+
+Project Objectives 
+* Dynamically read the structure of theatre websites to be scraped from
+* Extract the relevant information from theatre websites and save it in an appropriate format
+* Sort extracted information to only contain shows that are linked to a theatre production
+* Sort information to be linked to a production as well as a theatre
+* Push sorted information to the Stagely CMS to autofill fields streamlining the process of adding a show
+
+
+Project Proposal
+  
+
+Original project plan of Epics 
+  
+
+Communication plan
+Across the team we will strive for clear, consistent, and efficient communication among team members and with the client throughout the project. We are and will continue to communicate in a combination of meeting calls, emails, reports and in person meetings, as these methods allow flexibility. Every other week we meet with the client and in the weeks that we don't meet the client, we have our scrum meeting where we can discuss progress and map the path for the near and far future. 
+As a team we have been using discord to communicate between each other, allowing us to do video calls, share files, share code blocks and also develop together.
+
+
+Sprint Planning - Jake Lear 
+
+
+Sprint Execution - Jake Lear 
+
+
+Risk assessment and Mitigation - Bence??? 
+
+
+Project Schedule
+Client management   
+________________
+Detailed System Design
+User Story
+
+
+Entity Relationship Diagram (ERD)
+
+
+Prototype Screenshots
+
+
+HIPO Chart
+
+
+State Diagrams
+
+
+Data Flow Diagrams (DFDs)
+
+
+Sequence Diagrams
+
+
+Flowcharts
+
+
+UML Diagrams
+
+
+Important Code Snippets (Screenshots)
+
+
+Web Scraper Core Logic
+
+
+Page Navigation Handling
+
+
+Data Extraction Functions
+
+
+Error Handling and Logging
+
+
+GitHub Repository Link
+________________
+Quality Assurance
+Surveys and Questionnaires
+
+
+Unit Testing Documentation
+
+
+User Acceptance Testing (UAT)
+Methodology
+
+
+Results
+
+
+Post-Project Support
+
+
+Other QA Measures
+
+
+________________
+Conclusion
+Project Summary
+Achievements
+Merits and Impact
+Challenges
+Issues faced 
+________________
+References
+Cited Websites and Papers
+* [List each reference here in a bullet or numbered format]
+
+________________
+Appendix
+1000-Word CW Submission Evidence and Evaluation
+Jake Lear - link 
+Bence Bekfi - Link 
+Bustamante Barrett-Greening - Link 
+Thomas Drew - Link

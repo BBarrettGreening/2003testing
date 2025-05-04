@@ -13,7 +13,9 @@ router.get("/export-failed-structures", (req, res) => {
       if (err) {
         console.error("Error downloading failedStructures.xlsx:", err);
         res.status(500).send("Error downloading file.");
+        return; // Add explicit return to ensure response is only sent once
       }
+      // Success case is handled automatically by Express
     });
   } else {
     res.status(404).json({ message: "Failed structures file not found." });

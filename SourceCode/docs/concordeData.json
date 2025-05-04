@@ -1,26 +1,3722 @@
 [
   {
-    "Name": "Test Concorde Show performing test-show",
-    "Url": "https://www.concordtheatricals.co.uk/p/123/test-show",
-    "City": "London",
-    "State": "UK",
-    "Opening": "01/05/2025",
-    "Closing": "30/05/2025"
+    "Name": "Dawlish Repertory Company performing the-house-by-the-lake ",
+    "Url": "https://www.concordtheatricals.co.uk/p/15158/the-house-by-the-lake ",
+    "City": "Dawlish",
+    "State": "Devon",
+    "Opening": "07/10/2026",
+    "Closing": "10/10/2026"
   },
   {
-    "Name": "Another Concorde Show performing another-show",
-    "Url": "https://www.concordtheatricals.co.uk/p/456/another-show",
-    "City": "Edinburgh",
-    "State": "UK",
+    "Name": "Blackpool Operatic Players performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "BLCKPOOL",
+    "State": "Lancashire",
+    "Opening": "01/04/2026",
+    "Closing": "04/04/2026"
+  },
+  {
+    "Name": "Geoids Musical Theatre performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "London",
+    "State": "London",
+    "Opening": "22/04/2025",
+    "Closing": "26/04/2025"
+  },
+  {
+    "Name": "Lamproom Musical Theatre Company performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Barnsley",
+    "State": "South Yorkshire",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "RMTC performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Radlett",
+    "State": "Hertfordshire",
+    "Opening": "14/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "South Manchester AOS performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Manchester",
+    "State": "Manchester (Greater)",
+    "Opening": "02/07/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Lymington Players performing boeing-boeing ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1943/boeing-boeing ",
+    "City": "Lymington",
+    "State": "Hampshire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Pyrford Little Theatre performing fallen-angels ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2885/fallen-angels ",
+    "City": "Woking",
+    "State": "Surrey",
+    "Opening": "22/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Bloomsbury House performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Windsor",
+    "State": "Ontario",
+    "Opening": "04/07/2025",
+    "Closing": "13/07/2025"
+  },
+  {
+    "Name": "Coalville Adult School Drama Group performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Coalville",
+    "State": "Leicestershire",
+    "Opening": "10/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Gallery 7 Theatre and Performing Arts Society performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Abbotsford",
+    "State": "British Columbia",
+    "Opening": "08/05/2026",
+    "Closing": "24/05/2026"
+  },
+  {
+    "Name": "The Chameleons Amateur Dramatic Society performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Ickenham",
+    "State": "Middlesex",
+    "Opening": "17/07/2025",
+    "Closing": "19/07/2025"
+  },
+  {
+    "Name": "Ad Hoc Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Huntingdon",
+    "State": "Cambridgeshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "ADC Theatre* performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Cambridge",
+    "State": "Cambridgeshire",
+    "Opening": "27/05/2025",
+    "Closing": "31/05/2025"
+  },
+  {
+    "Name": "Bethany School performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Goudhurst",
+    "State": "Kent",
+    "Opening": "10/10/2025",
+    "Closing": "11/10/2025"
+  },
+  {
+    "Name": "Broughton Amateur Dramatic Society performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Broughton",
+    "State": "Lincolnshire",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Camus Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Eversley",
+    "State": "Hampshire",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "04/05/2026",
+    "Closing": "09/05/2026"
+  },
+  {
+    "Name": "Eltham College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "LOndon",
+    "State": "London",
+    "Opening": "08/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Glenalmond College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Perth",
+    "State": "Perth and Kinross",
+    "Opening": "16/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "13/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "Newcastle-under-Lyme School performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Newcastle-under-Lyme",
+    "State": "Staffordshire",
+    "Opening": "24/06/2025",
+    "Closing": "26/06/2025"
+  },
+  {
+    "Name": "Rickmansworth Players performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Rickmansworth",
+    "State": "Hertfordshire",
+    "Opening": "19/11/2025",
+    "Closing": "22/11/2025"
+  },
+  {
+    "Name": "Wellington College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Berkshire",
+    "State": "Berkshire",
+    "Opening": "30/04/2025",
+    "Closing": "02/05/2025"
+  },
+  {
+    "Name": "Erewash Musical Society performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Nottingham",
+    "State": "",
+    "Opening": "07/10/2025",
+    "Closing": "11/10/2025"
+  },
+  {
+    "Name": "GEMS on Stage performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Northfleet",
+    "State": "Kent",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "12/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Radcliffe-on-Trent Drama Group performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Nottingham",
+    "State": "Nottinghamshire",
+    "Opening": "06/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Wigan Little Theatre performing the-accrington-pals",
+    "Url": "https://www.concordtheatricals.co.uk/p/11184/the-accrington-pals",
+    "City": "Wigan",
+    "State": "Lancashire",
+    "Opening": "15/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Tyldesley Little Theatre performing all-in-good-time ",
+    "Url": "https://www.concordtheatricals.co.uk/p/4781/all-in-good-time ",
+    "City": "Nr. Manchester",
+    "State": "Manchester (Greater)",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Salterton Drama Club performing 84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8999/84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "City": "Budleigh Salterton",
+    "State": "Devon",
+    "Opening": "02/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Todmorden A O D S performing 84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8999/84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "City": "Todmorden",
+    "State": "West Yorkshire",
+    "Opening": "09/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Wilmslow Green Room Theatre performing 84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8999/84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "City": "Wilmslow",
+    "State": "Cheshire",
+    "Opening": "16/03/2026",
+    "Closing": "21/03/2026"
+  },
+  {
+    "Name": "TOADS Theatre Company performing butterflies-are-free?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2297/butterflies-are-free?utm_source=google.com&utm_medium=organic ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "21/04/2025",
+    "Closing": "26/04/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing my-mother-said-i-never-should ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5649/my-mother-said-i-never-should ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "01/09/2025",
+    "Closing": "06/09/2025"
+  },
+  {
+    "Name": "The Miller Centre Theatre Company performing my-mother-said-i-never-should ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5649/my-mother-said-i-never-should ",
+    "City": "Caterham",
+    "State": "Surrey",
+    "Opening": "29/05/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "The Village Players performing it-runs-in-the-family?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2462/it-runs-in-the-family?utm_source=google.com&utm_medium=organic ",
+    "City": "Heathfield",
+    "State": "East Sussex",
+    "Opening": "26/11/2025",
+    "Closing": "29/11/2025"
+  },
+  {
+    "Name": "Bedworth Theatre co. performing the-patient ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1647/the-patient ",
+    "City": "NUNEATON",
+    "State": "Warwickshire",
+    "Opening": "26/04/2025",
+    "Closing": "26/04/2025"
+  },
+  {
+    "Name": "The Marco Players performing the-patient ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1647/the-patient ",
+    "City": "Bolton",
+    "State": "Lancashire",
+    "Opening": "21/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Progressive Players, The performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Gateshead",
+    "State": "Tyne and Wear",
+    "Opening": "10/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Wexford Drama Group performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Co. Wexford",
+    "State": "Wexford",
+    "Opening": "02/05/2025",
+    "Closing": "02/05/2025"
+  },
+  {
+    "Name": "Wexford Drama Group performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Athlone",
+    "State": "Westmeath",
+    "Opening": "13/05/2025",
+    "Closing": "13/05/2025"
+  },
+  {
+    "Name": "farnworth little theatre performing one-flew-over-the-cuckoos-nest ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2795/one-flew-over-the-cuckoos-nest ",
+    "City": "BOLTON",
+    "State": "Manchester (Greater)",
+    "Opening": "16/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Heart Of Yorkshire Education - Wakefield College performing one-flew-over-the-cuckoos-nest ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2795/one-flew-over-the-cuckoos-nest ",
+    "City": "Wakefield",
+    "State": "West Yorkshire",
+    "Opening": "08/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "The Harrogate Dramatic Society performing one-flew-over-the-cuckoos-nest ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2795/one-flew-over-the-cuckoos-nest ",
+    "City": "HARROGATE",
+    "State": "North Yorkshire",
+    "Opening": "30/04/2025",
+    "Closing": "03/05/2025"
+  },
+  {
+    "Name": "Ruislip Dramatic Society performing outside-edge ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11689/outside-edge ",
+    "City": "Ickenham",
+    "State": "",
+    "Opening": "14/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Sheringham Little Theatre performing outside-edge ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11689/outside-edge ",
+    "City": "Norfolk",
+    "State": "Norfolk",
+    "Opening": "25/06/2025",
+    "Closing": "28/06/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Burnley Garrick Theatre Group performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "BURNLEY",
+    "State": "Lancashire",
+    "Opening": "28/05/2025",
+    "Closing": "31/05/2025"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "St Ives Theatre performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "St Ives",
+    "State": "Cornwall",
+    "Opening": "16/02/2026",
+    "Closing": "20/02/2026"
+  },
+  {
+    "Name": "The Bench Theatre performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "Havant",
+    "State": "Hampshire",
+    "Opening": "10/07/2025",
+    "Closing": "19/07/2025"
+  },
+  {
+    "Name": "East Kilbride Repertory Theatre Club performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "East Kilbride",
+    "State": "South Lanarkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Giffnock Theatre Players performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Glasgow",
+    "State": "Glasgow",
+    "Opening": "26/05/2025",
+    "Closing": "28/05/2025"
+  },
+  {
+    "Name": "The Bob Hope Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Eltham",
+    "State": "London",
+    "Opening": "11/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "The Questors Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "LONDON",
+    "State": "London",
+    "Opening": "12/07/2025",
+    "Closing": "19/07/2025"
+  },
+  {
+    "Name": "Ghostlight Performers performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Southport",
+    "State": "Merseyside",
+    "Opening": "21/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "RGS Worcester performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Worcester",
+    "State": "Worcestershire",
+    "Opening": "07/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Syston QT Theatre Group performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Leicester",
+    "State": "Leicestershire",
+    "Opening": "10/06/2025",
+    "Closing": "13/06/2025"
+  },
+  {
+    "Name": "Taking Flight Theatre Company performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Cardiff",
+    "State": "Cardiff",
+    "Opening": "31/07/2025",
+    "Closing": "31/07/2025"
+  },
+  {
+    "Name": "That's The Badger Productions performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Ilkley",
+    "State": "West Yorkshire",
+    "Opening": "04/06/2026",
+    "Closing": "06/06/2026"
+  },
+  {
+    "Name": "Wivelsfield Little Theatre performing day-of-reckoning ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11531/day-of-reckoning ",
+    "City": "Wivelsfield Green",
+    "State": "East Sussex",
+    "Opening": "14/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Bancroft Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Hitchin",
+    "State": "Hertfordshire",
+    "Opening": "21/04/2026",
+    "Closing": "25/04/2026"
+  },
+  {
+    "Name": "Dark Night Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "campbell river",
+    "State": "British Columbia",
+    "Opening": "18/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Newport Playgoers Society performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Newport, South Wales",
+    "State": "Gwent (Blaenau Gwent)",
+    "Opening": "04/02/2026",
+    "Closing": "07/02/2026"
+  },
+  {
+    "Name": "Partington Theatre Club Limited performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Glossop",
+    "State": "Derbyshire",
+    "Opening": "30/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Workington Playgoers Ltd performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Workington",
+    "State": "Cumbria",
+    "Opening": "17/06/2025",
+    "Closing": "20/06/2025"
+  },
+  {
+    "Name": "Bancroft Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Hitchin",
+    "State": "Hertfordshire",
+    "Opening": "21/04/2026",
+    "Closing": "25/04/2026"
+  },
+  {
+    "Name": "Dark Night Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "campbell river",
+    "State": "British Columbia",
+    "Opening": "18/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Newport Playgoers Society performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Newport, South Wales",
+    "State": "Gwent (Blaenau Gwent)",
+    "Opening": "04/02/2026",
+    "Closing": "07/02/2026"
+  },
+  {
+    "Name": "Partington Theatre Club Limited performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Glossop",
+    "State": "Derbyshire",
+    "Opening": "30/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Workington Playgoers Ltd performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Workington",
+    "State": "Cumbria",
+    "Opening": "17/06/2025",
+    "Closing": "20/06/2025"
+  },
+  {
+    "Name": "Bancroft Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Hitchin",
+    "State": "Hertfordshire",
+    "Opening": "21/04/2026",
+    "Closing": "25/04/2026"
+  },
+  {
+    "Name": "Dark Night Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "campbell river",
+    "State": "British Columbia",
+    "Opening": "18/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Newport Playgoers Society performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Newport, South Wales",
+    "State": "Gwent (Blaenau Gwent)",
+    "Opening": "04/02/2026",
+    "Closing": "07/02/2026"
+  },
+  {
+    "Name": "Partington Theatre Club Limited performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Glossop",
+    "State": "Derbyshire",
+    "Opening": "30/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Workington Playgoers Ltd performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Workington",
+    "State": "Cumbria",
+    "Opening": "17/06/2025",
+    "Closing": "20/06/2025"
+  },
+  {
+    "Name": "Bromley Little Theatre performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bromley",
+    "State": "Kent",
+    "Opening": "23/04/2025",
+    "Closing": "27/04/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "24/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Newquay",
+    "State": "Cornwall",
+    "Opening": "30/10/2025",
+    "Closing": "30/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bodmin",
+    "State": "Cornwall",
+    "Opening": "31/10/2025",
+    "Closing": "31/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Cornwall",
+    "State": "Cornwall",
+    "Opening": "01/11/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Downderry",
+    "State": "Cornwall",
+    "Opening": "07/11/2025",
+    "Closing": "07/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "DARTMOUTH",
+    "State": "Devon",
+    "Opening": "08/11/2025",
+    "Closing": "08/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "14/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Kingsand",
+    "State": "Cornwall",
+    "Opening": "15/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Circle 67 performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bramfield",
+    "State": "Suffolk",
+    "Opening": "29/04/2025",
+    "Closing": "29/04/2025"
+  },
+  {
+    "Name": "Hathersage Players performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Hathersage",
+    "State": "Derbyshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Second Thoughts Drama Group performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Stratford-upon-Avon",
+    "State": "Warwickshire",
+    "Opening": "22/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Southend Shakespeare Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Westcliff-on-Sea",
+    "State": "Essex",
+    "Opening": "28/10/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "BAYSTON HILL AMATEUR DRAMATICS SOCIETY performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Shrewsbury",
+    "State": "Shropshire",
     "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Cottingham Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Cottingham",
+    "State": "East Riding of Yorkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Droylsden Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "MANCHESTER",
+    "State": "Lancashire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Proscenium Theatre Group performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Ickenham",
+    "State": "Middlesex",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Limepalm Productions performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Haywards Heath",
+    "State": "West Sussex",
+    "Opening": "03/07/2025",
+    "Closing": "04/07/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "11/02/2026",
+    "Closing": "13/02/2026"
+  },
+  {
+    "Name": "Chester Little Theatre performing last-of-the-red-hot-lovers ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2802/last-of-the-red-hot-lovers ",
+    "City": "Chester",
+    "State": "Cheshire",
+    "Opening": "03/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Lewes Old Grammar School performing teechers-leavers-22 ",
+    "Url": "https://www.concordtheatricals.co.uk/p/95708/teechers-leavers-22 ",
+    "City": "Lewes",
+    "State": "East Sussex",
+    "Opening": "14/06/2025",
     "Closing": "15/06/2025"
   },
   {
-    "Name": "US Show performing broadway-show",
-    "Url": "https://www.concordtheatricals.co.uk/p/789/broadway-show",
-    "City": "New York",
-    "State": "NY",
-    "Opening": "01/06/2025",
-    "Closing": "01/07/2025"
+    "Name": "Parlour Players performing the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1051/the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "City": "South Croydon",
+    "State": "Surrey",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Peninsula Players performing the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1051/the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "City": "Sidney",
+    "State": "British Columbia",
+    "Opening": "16/05/2025",
+    "Closing": "18/05/2025"
+  },
+  {
+    "Name": "St. John's Players performing dead-ringer-ross ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8896/dead-ringer-ross ",
+    "City": "Gloucester",
+    "State": "Gloucestershire",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Bolton Little Theatre performing the-deep-blue-sea  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9612/the-deep-blue-sea  ",
+    "City": "Bolton",
+    "State": "Lancashire",
+    "Opening": "17/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "High Street Players performing the-deep-blue-sea  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9612/the-deep-blue-sea  ",
+    "City": "Harpenden",
+    "State": "Hertfordshire",
+    "Opening": "16/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "The Company of Players performing the-deep-blue-sea  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9612/the-deep-blue-sea  ",
+    "City": "Hertford",
+    "State": "Hertfordshire",
+    "Opening": "01/05/2026",
+    "Closing": "09/05/2026"
+  },
+  {
+    "Name": "Bird College performing titanic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44694/titanic ",
+    "City": "Sidcup",
+    "State": "Kent",
+    "Opening": "30/04/2025",
+    "Closing": "03/05/2025"
+  },
+  {
+    "Name": "King's Lynn Players (Mr L.J. Judd) performing titanic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44694/titanic ",
+    "City": "King's Lynn",
+    "State": "Norfolk",
+    "Opening": "12/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Progress Theatre performing the-cripple-of-inishmaan ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11200/the-cripple-of-inishmaan ",
+    "City": "Reading",
+    "State": "",
+    "Opening": "02/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Market Harborough Drama Society performing breathing-corpses ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11473/breathing-corpses ",
+    "City": "Market Harborough",
+    "State": "Leicestershire",
+    "Opening": "19/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/7480/whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "11/03/2026",
+    "Closing": "21/03/2026"
+  },
+  {
+    "Name": "The Lace Market Theatre performing ring-round-the-moon ",
+    "Url": "https://www.concordtheatricals.co.uk/p/7426/ring-round-the-moon ",
+    "City": "Nottingham",
+    "State": "Nottinghamshire",
+    "Opening": "23/06/2025",
+    "Closing": "28/06/2025"
+  },
+  {
+    "Name": "Bancroft Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Hitchin",
+    "State": "Hertfordshire",
+    "Opening": "21/04/2026",
+    "Closing": "25/04/2026"
+  },
+  {
+    "Name": "Dark Night Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "campbell river",
+    "State": "British Columbia",
+    "Opening": "18/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Newport Playgoers Society performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Newport, South Wales",
+    "State": "Gwent (Blaenau Gwent)",
+    "Opening": "04/02/2026",
+    "Closing": "07/02/2026"
+  },
+  {
+    "Name": "Partington Theatre Club Limited performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Glossop",
+    "State": "Derbyshire",
+    "Opening": "30/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Workington Playgoers Ltd performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Workington",
+    "State": "Cumbria",
+    "Opening": "17/06/2025",
+    "Closing": "20/06/2025"
+  },
+  {
+    "Name": "Dawlish Repertory Company performing the-house-by-the-lake ",
+    "Url": "https://www.concordtheatricals.co.uk/p/15158/the-house-by-the-lake ",
+    "City": "Dawlish",
+    "State": "Devon",
+    "Opening": "07/10/2026",
+    "Closing": "10/10/2026"
+  },
+  {
+    "Name": "Lymington Players performing boeing-boeing ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1943/boeing-boeing ",
+    "City": "Lymington",
+    "State": "Hampshire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Blackpool Operatic Players performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "BLCKPOOL",
+    "State": "Lancashire",
+    "Opening": "01/04/2026",
+    "Closing": "04/04/2026"
+  },
+  {
+    "Name": "Lamproom Musical Theatre Company performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Barnsley",
+    "State": "South Yorkshire",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "RMTC performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Radlett",
+    "State": "Hertfordshire",
+    "Opening": "14/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "South Manchester AOS performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Manchester",
+    "State": "Manchester (Greater)",
+    "Opening": "02/07/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Pyrford Little Theatre performing fallen-angels ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2885/fallen-angels ",
+    "City": "Woking",
+    "State": "Surrey",
+    "Opening": "22/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Ad Hoc Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Huntingdon",
+    "State": "Cambridgeshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "ADC Theatre* performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Cambridge",
+    "State": "Cambridgeshire",
+    "Opening": "27/05/2025",
+    "Closing": "31/05/2025"
+  },
+  {
+    "Name": "Bethany School performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Goudhurst",
+    "State": "Kent",
+    "Opening": "10/10/2025",
+    "Closing": "11/10/2025"
+  },
+  {
+    "Name": "Broughton Amateur Dramatic Society performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Broughton",
+    "State": "Lincolnshire",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Camus Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Eversley",
+    "State": "Hampshire",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "04/05/2026",
+    "Closing": "09/05/2026"
+  },
+  {
+    "Name": "Eltham College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "LOndon",
+    "State": "London",
+    "Opening": "08/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Glenalmond College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Perth",
+    "State": "Perth and Kinross",
+    "Opening": "16/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "13/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "Newcastle-under-Lyme School performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Newcastle-under-Lyme",
+    "State": "Staffordshire",
+    "Opening": "24/06/2025",
+    "Closing": "26/06/2025"
+  },
+  {
+    "Name": "Rickmansworth Players performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Rickmansworth",
+    "State": "Hertfordshire",
+    "Opening": "19/11/2025",
+    "Closing": "22/11/2025"
+  },
+  {
+    "Name": "Wellington College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Berkshire",
+    "State": "Berkshire",
+    "Opening": "30/04/2025",
+    "Closing": "02/05/2025"
+  },
+  {
+    "Name": "Bloomsbury House performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Windsor",
+    "State": "Ontario",
+    "Opening": "04/07/2025",
+    "Closing": "13/07/2025"
+  },
+  {
+    "Name": "Coalville Adult School Drama Group performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Coalville",
+    "State": "Leicestershire",
+    "Opening": "10/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Gallery 7 Theatre and Performing Arts Society performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Abbotsford",
+    "State": "British Columbia",
+    "Opening": "08/05/2026",
+    "Closing": "24/05/2026"
+  },
+  {
+    "Name": "The Chameleons Amateur Dramatic Society performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Ickenham",
+    "State": "Middlesex",
+    "Opening": "17/07/2025",
+    "Closing": "19/07/2025"
+  },
+  {
+    "Name": "Erewash Musical Society performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Nottingham",
+    "State": "",
+    "Opening": "07/10/2025",
+    "Closing": "11/10/2025"
+  },
+  {
+    "Name": "GEMS on Stage performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Northfleet",
+    "State": "Kent",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "12/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Radcliffe-on-Trent Drama Group performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Nottingham",
+    "State": "Nottinghamshire",
+    "Opening": "06/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Wilmslow Green Room Theatre performing the-titfield-thunderbolt ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11020/the-titfield-thunderbolt ",
+    "City": "Wilmslow",
+    "State": "Cheshire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Wigan Little Theatre performing the-accrington-pals",
+    "Url": "https://www.concordtheatricals.co.uk/p/11184/the-accrington-pals",
+    "City": "Wigan",
+    "State": "Lancashire",
+    "Opening": "15/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Tyldesley Little Theatre performing all-in-good-time ",
+    "Url": "https://www.concordtheatricals.co.uk/p/4781/all-in-good-time ",
+    "City": "Nr. Manchester",
+    "State": "Manchester (Greater)",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-late-edwina-black ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12200/the-late-edwina-black ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "19/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "March and District AOS (MADAOS) performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "March",
+    "State": "Cambridgeshire",
+    "Opening": "12/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "Stage-door Theatre company performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Littlehampton",
+    "State": "West Sussex",
+    "Opening": "30/04/2025",
+    "Closing": "03/05/2025"
+  },
+  {
+    "Name": "The Watson Players performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Derby",
+    "State": "Derbyshire",
+    "Opening": "17/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Tingdene Entertainers performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Finedon",
+    "State": "Northamptonshire",
+    "Opening": "19/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Wesley Players Drama Group performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Upminster",
+    "State": "Essex",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Zips theatre company performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "London",
+    "State": "London",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing my-mother-said-i-never-should ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5649/my-mother-said-i-never-should ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "01/09/2025",
+    "Closing": "06/09/2025"
+  },
+  {
+    "Name": "The Miller Centre Theatre Company performing my-mother-said-i-never-should ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5649/my-mother-said-i-never-should ",
+    "City": "Caterham",
+    "State": "Surrey",
+    "Opening": "29/05/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Hyde Little Theatre performing the-memory-of-water ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11662/the-memory-of-water ",
+    "City": "Hyde",
+    "State": "Cheshire",
+    "Opening": "08/08/2025",
+    "Closing": "09/08/2025"
+  },
+  {
+    "Name": "The Robin Hood Theatre Company performing the-memory-of-water ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11662/the-memory-of-water ",
+    "City": "Newark",
+    "State": "Nottinghamshire",
+    "Opening": "29/04/2025",
+    "Closing": "03/05/2025"
+  },
+  {
+    "Name": "Ruislip Dramatic Society performing outside-edge ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11689/outside-edge ",
+    "City": "Ickenham",
+    "State": "",
+    "Opening": "14/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Sheringham Little Theatre performing outside-edge ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11689/outside-edge ",
+    "City": "Norfolk",
+    "State": "Norfolk",
+    "Opening": "25/06/2025",
+    "Closing": "28/06/2025"
+  },
+  {
+    "Name": "The Dunstable Rep Theatre Club performing 3women ",
+    "Url": "https://www.concordtheatricals.co.uk/p/64121/3women ",
+    "City": "Dunstable",
+    "State": "Bedfordshire",
+    "Opening": "09/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "The Village Players performing it-runs-in-the-family?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2462/it-runs-in-the-family?utm_source=google.com&utm_medium=organic ",
+    "City": "Heathfield",
+    "State": "East Sussex",
+    "Opening": "26/11/2025",
+    "Closing": "29/11/2025"
+  },
+  {
+    "Name": "The Lace Market Theatre performing ring-round-the-moon ",
+    "Url": "https://www.concordtheatricals.co.uk/p/7426/ring-round-the-moon ",
+    "City": "Nottingham",
+    "State": "Nottinghamshire",
+    "Opening": "23/06/2025",
+    "Closing": "28/06/2025"
+  },
+  {
+    "Name": "Progressive Players, The performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Gateshead",
+    "State": "Tyne and Wear",
+    "Opening": "10/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Wexford Drama Group performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Co. Wexford",
+    "State": "Wexford",
+    "Opening": "02/05/2025",
+    "Closing": "02/05/2025"
+  },
+  {
+    "Name": "Wexford Drama Group performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Athlone",
+    "State": "Westmeath",
+    "Opening": "13/05/2025",
+    "Closing": "13/05/2025"
+  },
+  {
+    "Name": "The Marco Players performing the-patient ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1647/the-patient ",
+    "City": "Bolton",
+    "State": "Lancashire",
+    "Opening": "21/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "East Kilbride Repertory Theatre Club performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "East Kilbride",
+    "State": "South Lanarkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Giffnock Theatre Players performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Glasgow",
+    "State": "Glasgow",
+    "Opening": "26/05/2025",
+    "Closing": "28/05/2025"
+  },
+  {
+    "Name": "The Bob Hope Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Eltham",
+    "State": "London",
+    "Opening": "11/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "The Questors Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "LONDON",
+    "State": "London",
+    "Opening": "12/07/2025",
+    "Closing": "19/07/2025"
+  },
+  {
+    "Name": "BAYSTON HILL AMATEUR DRAMATICS SOCIETY performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Shrewsbury",
+    "State": "Shropshire",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Cottingham Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Cottingham",
+    "State": "East Riding of Yorkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Droylsden Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "MANCHESTER",
+    "State": "Lancashire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Proscenium Theatre Group performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Ickenham",
+    "State": "Middlesex",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Horfield Theatre Company performing pity-about-kitty ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12083/pity-about-kitty ",
+    "City": "Bristol",
+    "State": "Bristol",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Horfield Theatre Company performing pity-about-kitty ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12083/pity-about-kitty ",
+    "City": "Bristol",
+    "State": "Bristol",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Horfield Theatre Company performing pity-about-kitty ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12083/pity-about-kitty ",
+    "City": "Bristol",
+    "State": "Bristol",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Horfield Theatre Company performing pity-about-kitty ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12083/pity-about-kitty ",
+    "City": "Bristol",
+    "State": "Bristol",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Bromley Little Theatre performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bromley",
+    "State": "Kent",
+    "Opening": "23/04/2025",
+    "Closing": "27/04/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "24/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Newquay",
+    "State": "Cornwall",
+    "Opening": "30/10/2025",
+    "Closing": "30/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bodmin",
+    "State": "Cornwall",
+    "Opening": "31/10/2025",
+    "Closing": "31/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Cornwall",
+    "State": "Cornwall",
+    "Opening": "01/11/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Downderry",
+    "State": "Cornwall",
+    "Opening": "07/11/2025",
+    "Closing": "07/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "DARTMOUTH",
+    "State": "Devon",
+    "Opening": "08/11/2025",
+    "Closing": "08/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "14/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Kingsand",
+    "State": "Cornwall",
+    "Opening": "15/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Circle 67 performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bramfield",
+    "State": "Suffolk",
+    "Opening": "29/04/2025",
+    "Closing": "29/04/2025"
+  },
+  {
+    "Name": "Hathersage Players performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Hathersage",
+    "State": "Derbyshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Second Thoughts Drama Group performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Stratford-upon-Avon",
+    "State": "Warwickshire",
+    "Opening": "22/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Southend Shakespeare Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Westcliff-on-Sea",
+    "State": "Essex",
+    "Opening": "28/10/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Limepalm Productions performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Haywards Heath",
+    "State": "West Sussex",
+    "Opening": "03/07/2025",
+    "Closing": "04/07/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "11/02/2026",
+    "Closing": "13/02/2026"
+  },
+  {
+    "Name": "Lewes Old Grammar School performing teechers-leavers-22 ",
+    "Url": "https://www.concordtheatricals.co.uk/p/95708/teechers-leavers-22 ",
+    "City": "Lewes",
+    "State": "East Sussex",
+    "Opening": "14/06/2025",
+    "Closing": "15/06/2025"
+  },
+  {
+    "Name": "The Harper Trust performing the-worst-witch ",
+    "Url": "https://www.concordtheatricals.co.uk/p/65799/the-worst-witch ",
+    "City": "Bedford",
+    "State": "Bedfordshire",
+    "Opening": "03/07/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "ALTRINCHAM LITTLE THEATRE performing murder-by-misadventure ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8731/murder-by-misadventure ",
+    "City": "Altrincham",
+    "State": "Cheshire",
+    "Opening": "18/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Salterton Drama Club performing murder-by-misadventure ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8731/murder-by-misadventure ",
+    "City": "Budleigh Salterton",
+    "State": "Devon",
+    "Opening": "01/12/2025",
+    "Closing": "06/12/2025"
+  },
+  {
+    "Name": "Market Harborough Drama Society performing breathing-corpses ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11473/breathing-corpses ",
+    "City": "Market Harborough",
+    "State": "Leicestershire",
+    "Opening": "19/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/7480/whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "11/03/2026",
+    "Closing": "21/03/2026"
+  },
+  {
+    "Name": "Bird College performing titanic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44694/titanic ",
+    "City": "Sidcup",
+    "State": "Kent",
+    "Opening": "30/04/2025",
+    "Closing": "03/05/2025"
+  },
+  {
+    "Name": "King's Lynn Players (Mr L.J. Judd) performing titanic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44694/titanic ",
+    "City": "King's Lynn",
+    "State": "Norfolk",
+    "Opening": "12/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Cotswold Players performing rosencrantz-and-guildenstern-are-dead ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2819/rosencrantz-and-guildenstern-are-dead ",
+    "City": "Stroud",
+    "State": "Gloucestershire",
+    "Opening": "30/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "The Edward Alderton Theatre performing rosencrantz-and-guildenstern-are-dead ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2819/rosencrantz-and-guildenstern-are-dead ",
+    "City": "Bexleyheath",
+    "State": "Kent",
+    "Opening": "16/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Progress Theatre performing the-cripple-of-inishmaan ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11200/the-cripple-of-inishmaan ",
+    "City": "Reading",
+    "State": "",
+    "Opening": "02/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Horfield Theatre Company performing pity-about-kitty ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12083/pity-about-kitty ",
+    "City": "Bristol",
+    "State": "Bristol",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "East Kilbride Repertory Theatre Club performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "East Kilbride",
+    "State": "South Lanarkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Giffnock Theatre Players performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Glasgow",
+    "State": "Glasgow",
+    "Opening": "26/05/2025",
+    "Closing": "28/05/2025"
+  },
+  {
+    "Name": "The Bob Hope Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Eltham",
+    "State": "London",
+    "Opening": "11/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "The Questors Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "LONDON",
+    "State": "London",
+    "Opening": "12/07/2025",
+    "Closing": "19/07/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "15/09/2025",
+    "Closing": "20/09/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "15/09/2025",
+    "Closing": "20/09/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "15/09/2025",
+    "Closing": "20/09/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "15/09/2025",
+    "Closing": "20/09/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "15/09/2025",
+    "Closing": "20/09/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "15/09/2025",
+    "Closing": "20/09/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "15/09/2025",
+    "Closing": "20/09/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Dewsbury Arts Group performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Dewsbury",
+    "State": "West Yorkshire",
+    "Opening": "27/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Blackpool Operatic Players performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "BLCKPOOL",
+    "State": "Lancashire",
+    "Opening": "01/04/2026",
+    "Closing": "04/04/2026"
+  },
+  {
+    "Name": "Lamproom Musical Theatre Company performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Barnsley",
+    "State": "South Yorkshire",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Pyrford Little Theatre performing fallen-angels ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2885/fallen-angels ",
+    "City": "Woking",
+    "State": "Surrey",
+    "Opening": "22/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Eltham College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "LOndon",
+    "State": "London",
+    "Opening": "08/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Glenalmond College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Perth",
+    "State": "Perth and Kinross",
+    "Opening": "16/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "13/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "Newcastle-under-Lyme School performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Newcastle-under-Lyme",
+    "State": "Staffordshire",
+    "Opening": "24/06/2025",
+    "Closing": "26/06/2025"
+  },
+  {
+    "Name": "Bloomsbury House performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Windsor",
+    "State": "Ontario",
+    "Opening": "04/07/2025",
+    "Closing": "13/07/2025"
+  },
+  {
+    "Name": "Coalville Adult School Drama Group performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Coalville",
+    "State": "Leicestershire",
+    "Opening": "10/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Gallery 7 Theatre and Performing Arts Society performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Abbotsford",
+    "State": "British Columbia",
+    "Opening": "08/05/2026",
+    "Closing": "24/05/2026"
+  },
+  {
+    "Name": "Ad Hoc Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Huntingdon",
+    "State": "Cambridgeshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "ADC Theatre* performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Cambridge",
+    "State": "Cambridgeshire",
+    "Opening": "27/05/2025",
+    "Closing": "31/05/2025"
+  },
+  {
+    "Name": "Broughton Amateur Dramatic Society performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Broughton",
+    "State": "Lincolnshire",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Camus Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Eversley",
+    "State": "Hampshire",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "04/05/2026",
+    "Closing": "09/05/2026"
+  },
+  {
+    "Name": "Metropolitan United Church performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "London",
+    "State": "Ontario",
+    "Opening": "25/06/2025",
+    "Closing": "28/06/2025"
+  },
+  {
+    "Name": "Oxford University Drama Society performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Oxford",
+    "State": "Oxfordshire",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Peterborough Mask Theatre performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Peterborough",
+    "State": "Cambridgeshire",
+    "Opening": "29/10/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Ratae Cooperative Players performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Leicester",
+    "State": "Leicestershire",
+    "Opening": "16/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "Redbourn Players performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "St. Albans",
+    "State": "Hertfordshire",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Shinfield Players Theatre performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Reading",
+    "State": "Berkshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "The Company of Players performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Hertford",
+    "State": "Hertfordshire",
+    "Opening": "05/12/2025",
+    "Closing": "13/12/2025"
+  },
+  {
+    "Name": "The Woolgatherers performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Birkenhead",
+    "State": "Merseyside",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Erewash Musical Society performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Nottingham",
+    "State": "",
+    "Opening": "07/10/2025",
+    "Closing": "11/10/2025"
+  },
+  {
+    "Name": "GEMS on Stage performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Northfleet",
+    "State": "Kent",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "12/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Radcliffe-on-Trent Drama Group performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Nottingham",
+    "State": "Nottinghamshire",
+    "Opening": "06/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Salterton Drama Club performing 84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8999/84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "City": "Budleigh Salterton",
+    "State": "Devon",
+    "Opening": "02/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Todmorden A O D S performing 84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8999/84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "City": "Todmorden",
+    "State": "West Yorkshire",
+    "Opening": "09/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Cambrian Players performing the-wolves",
+    "Url": "https://www.concordtheatricals.co.uk/p/62099/the-wolves",
+    "City": "Thunder Bay",
+    "State": "Ontario",
+    "Opening": "26/02/2026",
+    "Closing": "07/03/2026"
+  },
+  {
+    "Name": "March and District AOS (MADAOS) performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "March",
+    "State": "Cambridgeshire",
+    "Opening": "12/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "The Watson Players performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Derby",
+    "State": "Derbyshire",
+    "Opening": "17/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Tingdene Entertainers performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Finedon",
+    "State": "Northamptonshire",
+    "Opening": "19/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Wesley Players Drama Group performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Upminster",
+    "State": "Essex",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Hyde Little Theatre performing the-memory-of-water ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11662/the-memory-of-water ",
+    "City": "Hyde",
+    "State": "Cheshire",
+    "Opening": "08/08/2025",
+    "Closing": "09/08/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing my-mother-said-i-never-should ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5649/my-mother-said-i-never-should ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "01/09/2025",
+    "Closing": "06/09/2025"
+  },
+  {
+    "Name": "Progressive Players, The performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Gateshead",
+    "State": "Tyne and Wear",
+    "Opening": "10/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "farnworth little theatre performing one-flew-over-the-cuckoos-nest ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2795/one-flew-over-the-cuckoos-nest ",
+    "City": "BOLTON",
+    "State": "Manchester (Greater)",
+    "Opening": "16/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Heart Of Yorkshire Education - Wakefield College performing one-flew-over-the-cuckoos-nest ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2795/one-flew-over-the-cuckoos-nest ",
+    "City": "Wakefield",
+    "State": "West Yorkshire",
+    "Opening": "08/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Ruislip Dramatic Society performing outside-edge ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11689/outside-edge ",
+    "City": "Ickenham",
+    "State": "",
+    "Opening": "14/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Burnley Garrick Theatre Group performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "BURNLEY",
+    "State": "Lancashire",
+    "Opening": "28/05/2025",
+    "Closing": "31/05/2025"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "St Ives Theatre performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "St Ives",
+    "State": "Cornwall",
+    "Opening": "16/02/2026",
+    "Closing": "20/02/2026"
+  },
+  {
+    "Name": "East Kilbride Repertory Theatre Club performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "East Kilbride",
+    "State": "South Lanarkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Giffnock Theatre Players performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Glasgow",
+    "State": "Glasgow",
+    "Opening": "26/05/2025",
+    "Closing": "28/05/2025"
+  },
+  {
+    "Name": "The Bob Hope Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Eltham",
+    "State": "London",
+    "Opening": "11/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "Ditchling Players performing murder-in-play ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11651/murder-in-play ",
+    "City": "Ditchling",
+    "State": "East Sussex",
+    "Opening": "21/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Bancroft Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Hitchin",
+    "State": "Hertfordshire",
+    "Opening": "21/04/2026",
+    "Closing": "25/04/2026"
+  },
+  {
+    "Name": "Dark Night Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "campbell river",
+    "State": "British Columbia",
+    "Opening": "18/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Newport Playgoers Society performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Newport, South Wales",
+    "State": "Gwent (Blaenau Gwent)",
+    "Opening": "04/02/2026",
+    "Closing": "07/02/2026"
+  },
+  {
+    "Name": "Partington Theatre Club Limited performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Glossop",
+    "State": "Derbyshire",
+    "Opening": "30/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Ghostlight Performers performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Southport",
+    "State": "Merseyside",
+    "Opening": "21/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "RGS Worcester performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Worcester",
+    "State": "Worcestershire",
+    "Opening": "07/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Syston QT Theatre Group performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Leicester",
+    "State": "Leicestershire",
+    "Opening": "10/06/2025",
+    "Closing": "13/06/2025"
+  },
+  {
+    "Name": "Taking Flight Theatre Company performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Cardiff",
+    "State": "Cardiff",
+    "Opening": "31/07/2025",
+    "Closing": "31/07/2025"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing the-father-hamptonzeller ",
+    "Url": "https://www.concordtheatricals.co.uk/p/61151/the-father-hamptonzeller ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "08/07/2026",
+    "Closing": "18/07/2026"
+  },
+  {
+    "Name": "Pequeno Teatro Del Lago A.C performing the-father-hamptonzeller ",
+    "Url": "https://www.concordtheatricals.co.uk/p/61151/the-father-hamptonzeller ",
+    "City": "Chapala Jal",
+    "State": "",
+    "Opening": "16/01/2026",
+    "Closing": "25/01/2026"
+  },
+  {
+    "Name": "Attfield Theatre Company Limited performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Oswestry",
+    "State": "Shropshire",
+    "Opening": "18/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "08/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Retford Little Theatre (Stan Balmer) performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Retford",
+    "State": "Nottinghamshire",
+    "Opening": "19/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Rhiwbina Amateur Theatrical Society performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Cardiff",
+    "State": "Cardiff",
+    "Opening": "16/07/2025",
+    "Closing": "18/07/2025"
+  },
+  {
+    "Name": "Somerleigh Players performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Dorchester",
+    "State": "Dorset",
+    "Opening": "14/05/2025",
+    "Closing": "16/05/2025"
+  },
+  {
+    "Name": "Stoke on Trent Repertory Players performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Stoke-on-Trent",
+    "State": "Staffordshire",
+    "Opening": "09/06/2026",
+    "Closing": "13/06/2026"
+  },
+  {
+    "Name": "The Dunstable Rep Theatre Club performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Dunstable",
+    "State": "Bedfordshire",
+    "Opening": "03/07/2026",
+    "Closing": "11/07/2026"
+  },
+  {
+    "Name": "Up close theatre performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Hatherleigh",
+    "State": "Devon",
+    "Opening": "03/04/2026",
+    "Closing": "03/04/2026"
+  },
+  {
+    "Name": "Up close theatre performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "ilfracombe",
+    "State": "Devon",
+    "Opening": "04/04/2026",
+    "Closing": "04/04/2026"
+  },
+  {
+    "Name": "Brixworth Drama Group performing run-for-your-wife?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2287/run-for-your-wife?utm_source=google.com&utm_medium=organic ",
+    "City": "Brixworth",
+    "State": "Northamptonshire",
+    "Opening": "11/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "BAYSTON HILL AMATEUR DRAMATICS SOCIETY performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Shrewsbury",
+    "State": "Shropshire",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Cottingham Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Cottingham",
+    "State": "East Riding of Yorkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Droylsden Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "MANCHESTER",
+    "State": "Lancashire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "24/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Newquay",
+    "State": "Cornwall",
+    "Opening": "30/10/2025",
+    "Closing": "30/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bodmin",
+    "State": "Cornwall",
+    "Opening": "31/10/2025",
+    "Closing": "31/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Cornwall",
+    "State": "Cornwall",
+    "Opening": "01/11/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Downderry",
+    "State": "Cornwall",
+    "Opening": "07/11/2025",
+    "Closing": "07/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "DARTMOUTH",
+    "State": "Devon",
+    "Opening": "08/11/2025",
+    "Closing": "08/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "14/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Kingsand",
+    "State": "Cornwall",
+    "Opening": "15/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Hathersage Players performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Hathersage",
+    "State": "Derbyshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Southend Shakespeare Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Westcliff-on-Sea",
+    "State": "Essex",
+    "Opening": "28/10/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Limepalm Productions performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Haywards Heath",
+    "State": "West Sussex",
+    "Opening": "03/07/2025",
+    "Closing": "04/07/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "11/02/2026",
+    "Closing": "13/02/2026"
+  },
+  {
+    "Name": "Chester Little Theatre performing last-of-the-red-hot-lovers ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2802/last-of-the-red-hot-lovers ",
+    "City": "Chester",
+    "State": "Cheshire",
+    "Opening": "03/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Bolton Little Theatre performing the-deep-blue-sea  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9612/the-deep-blue-sea  ",
+    "City": "Bolton",
+    "State": "Lancashire",
+    "Opening": "17/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "High Street Players performing the-deep-blue-sea  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9612/the-deep-blue-sea  ",
+    "City": "Harpenden",
+    "State": "Hertfordshire",
+    "Opening": "16/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Parlour Players performing the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1051/the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "City": "South Croydon",
+    "State": "Surrey",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Peninsula Players performing the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1051/the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "City": "Sidney",
+    "State": "British Columbia",
+    "Opening": "16/05/2025",
+    "Closing": "18/05/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "Belfrey Theatre performing dads-army ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12280/dads-army ",
+    "City": "Telford",
+    "State": "Shropshire",
+    "Opening": "10/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Carver Theatre performing dads-army ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12280/dads-army ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "09/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing dads-army ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12280/dads-army ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "25/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "ALTRINCHAM LITTLE THEATRE performing murder-by-misadventure ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8731/murder-by-misadventure ",
+    "City": "Altrincham",
+    "State": "Cheshire",
+    "Opening": "18/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Attfield Theatre Company Limited performing bedside-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1137/bedside-manners ",
+    "City": "Oswestry",
+    "State": "Shropshire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/7480/whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "11/03/2026",
+    "Closing": "21/03/2026"
+  },
+  {
+    "Name": "King's Lynn Players (Mr L.J. Judd) performing titanic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44694/titanic ",
+    "City": "King's Lynn",
+    "State": "Norfolk",
+    "Opening": "12/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Cotswold Players performing rosencrantz-and-guildenstern-are-dead ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2819/rosencrantz-and-guildenstern-are-dead ",
+    "City": "Stroud",
+    "State": "Gloucestershire",
+    "Opening": "30/09/2025",
+    "Closing": "04/10/2025"
+  },
+  {
+    "Name": "Dawlish Repertory Company performing the-house-by-the-lake ",
+    "Url": "https://www.concordtheatricals.co.uk/p/15158/the-house-by-the-lake ",
+    "City": "Dawlish",
+    "State": "Devon",
+    "Opening": "07/10/2026",
+    "Closing": "10/10/2026"
+  },
+  {
+    "Name": "Blackpool Operatic Players performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "BLCKPOOL",
+    "State": "Lancashire",
+    "Opening": "01/04/2026",
+    "Closing": "04/04/2026"
+  },
+  {
+    "Name": "Lamproom Musical Theatre Company performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Barnsley",
+    "State": "South Yorkshire",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "South Manchester AOS performing 42nd-street?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44615/42nd-street?utm_source=google.com&utm_medium=organic ",
+    "City": "Manchester",
+    "State": "Manchester (Greater)",
+    "Opening": "02/07/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Ad Hoc Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Huntingdon",
+    "State": "Cambridgeshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "ADC Theatre* performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Cambridge",
+    "State": "Cambridgeshire",
+    "Opening": "27/05/2025",
+    "Closing": "31/05/2025"
+  },
+  {
+    "Name": "Broughton Amateur Dramatic Society performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Broughton",
+    "State": "Lincolnshire",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Camus Productions performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Eversley",
+    "State": "Hampshire",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "04/05/2026",
+    "Closing": "09/05/2026"
+  },
+  {
+    "Name": "Metropolitan United Church performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "London",
+    "State": "Ontario",
+    "Opening": "25/06/2025",
+    "Closing": "28/06/2025"
+  },
+  {
+    "Name": "Oxford University Drama Society performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Oxford",
+    "State": "Oxfordshire",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Peterborough Mask Theatre performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Peterborough",
+    "State": "Cambridgeshire",
+    "Opening": "29/10/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Ratae Cooperative Players performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Leicester",
+    "State": "Leicestershire",
+    "Opening": "16/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "Redbourn Players performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "St. Albans",
+    "State": "Hertfordshire",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Shinfield Players Theatre performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Reading",
+    "State": "Berkshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "The Company of Players performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Hertford",
+    "State": "Hertfordshire",
+    "Opening": "05/12/2025",
+    "Closing": "13/12/2025"
+  },
+  {
+    "Name": "The Woolgatherers performing and-then-there-were-none",
+    "Url": "https://www.concordtheatricals.co.uk/p/914/and-then-there-were-none",
+    "City": "Birkenhead",
+    "State": "Merseyside",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Bloomsbury House performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Windsor",
+    "State": "Ontario",
+    "Opening": "04/07/2025",
+    "Closing": "13/07/2025"
+  },
+  {
+    "Name": "Coalville Adult School Drama Group performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Coalville",
+    "State": "Leicestershire",
+    "Opening": "10/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Gallery 7 Theatre and Performing Arts Society performing a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2810/a-few-good-men?utm_source=google.com&utm_medium=organic ",
+    "City": "Abbotsford",
+    "State": "British Columbia",
+    "Opening": "08/05/2026",
+    "Closing": "24/05/2026"
+  },
+  {
+    "Name": "Pyrford Little Theatre performing fallen-angels ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2885/fallen-angels ",
+    "City": "Woking",
+    "State": "Surrey",
+    "Opening": "22/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Erewash Musical Society performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Nottingham",
+    "State": "",
+    "Opening": "07/10/2025",
+    "Closing": "11/10/2025"
+  },
+  {
+    "Name": "GEMS on Stage performing top-hat?utm_source=google.com&utm_medium=organic",
+    "Url": "https://www.concordtheatricals.co.uk/p/65907/top-hat?utm_source=google.com&utm_medium=organic",
+    "City": "Northfleet",
+    "State": "Kent",
+    "Opening": "23/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Eltham College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "LOndon",
+    "State": "London",
+    "Opening": "08/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Glenalmond College performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Perth",
+    "State": "Perth and Kinross",
+    "Opening": "16/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "13/10/2025",
+    "Closing": "18/10/2025"
+  },
+  {
+    "Name": "Newcastle-under-Lyme School performing treasure-island-lavery",
+    "Url": "https://www.concordtheatricals.co.uk/p/57080/treasure-island-lavery",
+    "City": "Newcastle-under-Lyme",
+    "State": "Staffordshire",
+    "Opening": "24/06/2025",
+    "Closing": "26/06/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "12/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Radcliffe-on-Trent Drama Group performing the-graduate?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2199/the-graduate?utm_source=google.com&utm_medium=organic ",
+    "City": "Nottingham",
+    "State": "Nottinghamshire",
+    "Opening": "06/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Wilmslow Green Room Theatre performing the-titfield-thunderbolt ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11020/the-titfield-thunderbolt ",
+    "City": "Wilmslow",
+    "State": "Cheshire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Wigan Little Theatre performing the-accrington-pals",
+    "Url": "https://www.concordtheatricals.co.uk/p/11184/the-accrington-pals",
+    "City": "Wigan",
+    "State": "Lancashire",
+    "Opening": "15/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Tyldesley Little Theatre performing all-in-good-time ",
+    "Url": "https://www.concordtheatricals.co.uk/p/4781/all-in-good-time ",
+    "City": "Nr. Manchester",
+    "State": "Manchester (Greater)",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "TOADS Theatre Company performing the-late-edwina-black ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12200/the-late-edwina-black ",
+    "City": "Torquay",
+    "State": "Devon",
+    "Opening": "19/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Salterton Drama Club performing 84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8999/84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "City": "Budleigh Salterton",
+    "State": "Devon",
+    "Opening": "02/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Todmorden A O D S performing 84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8999/84-charing-cross-road?utm_source=google.com&utm_medium=organic ",
+    "City": "Todmorden",
+    "State": "West Yorkshire",
+    "Opening": "09/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Cambrian Players performing the-wolves",
+    "Url": "https://www.concordtheatricals.co.uk/p/62099/the-wolves",
+    "City": "Thunder Bay",
+    "State": "Ontario",
+    "Opening": "26/02/2026",
+    "Closing": "07/03/2026"
+  },
+  {
+    "Name": "March and District AOS (MADAOS) performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "March",
+    "State": "Cambridgeshire",
+    "Opening": "12/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "The Watson Players performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Derby",
+    "State": "Derbyshire",
+    "Opening": "17/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Tingdene Entertainers performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Finedon",
+    "State": "Northamptonshire",
+    "Opening": "19/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Wesley Players Drama Group performing cheshire-cats ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9641/cheshire-cats ",
+    "City": "Upminster",
+    "State": "Essex",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Hyde Little Theatre performing the-memory-of-water ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11662/the-memory-of-water ",
+    "City": "Hyde",
+    "State": "Cheshire",
+    "Opening": "08/08/2025",
+    "Closing": "09/08/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing my-mother-said-i-never-should ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5649/my-mother-said-i-never-should ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "01/09/2025",
+    "Closing": "06/09/2025"
+  },
+  {
+    "Name": "The Village Players performing it-runs-in-the-family?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2462/it-runs-in-the-family?utm_source=google.com&utm_medium=organic ",
+    "City": "Heathfield",
+    "State": "East Sussex",
+    "Opening": "26/11/2025",
+    "Closing": "29/11/2025"
+  },
+  {
+    "Name": "Progressive Players, The performing skylight ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1982/skylight ",
+    "City": "Gateshead",
+    "State": "Tyne and Wear",
+    "Opening": "10/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "The Lace Market Theatre performing ring-round-the-moon ",
+    "Url": "https://www.concordtheatricals.co.uk/p/7426/ring-round-the-moon ",
+    "City": "Nottingham",
+    "State": "Nottinghamshire",
+    "Opening": "23/06/2025",
+    "Closing": "28/06/2025"
+  },
+  {
+    "Name": "farnworth little theatre performing one-flew-over-the-cuckoos-nest ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2795/one-flew-over-the-cuckoos-nest ",
+    "City": "BOLTON",
+    "State": "Manchester (Greater)",
+    "Opening": "16/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Heart Of Yorkshire Education - Wakefield College performing one-flew-over-the-cuckoos-nest ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2795/one-flew-over-the-cuckoos-nest ",
+    "City": "Wakefield",
+    "State": "West Yorkshire",
+    "Opening": "08/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Ruislip Dramatic Society performing outside-edge ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11689/outside-edge ",
+    "City": "Ickenham",
+    "State": "",
+    "Opening": "14/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "The Dunstable Rep Theatre Club performing 3women ",
+    "Url": "https://www.concordtheatricals.co.uk/p/64121/3women ",
+    "City": "Dunstable",
+    "State": "Bedfordshire",
+    "Opening": "09/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Chads Theatre Company performing dangerous-corner ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9052/dangerous-corner ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "24/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Burnley Garrick Theatre Group performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "BURNLEY",
+    "State": "Lancashire",
+    "Opening": "28/05/2025",
+    "Closing": "31/05/2025"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "St Ives Theatre performing stepping-out ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2292/stepping-out ",
+    "City": "St Ives",
+    "State": "Cornwall",
+    "Opening": "16/02/2026",
+    "Closing": "20/02/2026"
+  },
+  {
+    "Name": "East Kilbride Repertory Theatre Club performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "East Kilbride",
+    "State": "South Lanarkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Giffnock Theatre Players performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Glasgow",
+    "State": "Glasgow",
+    "Opening": "26/05/2025",
+    "Closing": "28/05/2025"
+  },
+  {
+    "Name": "The Bob Hope Theatre performing table-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1037/table-manners ",
+    "City": "Eltham",
+    "State": "London",
+    "Opening": "11/06/2025",
+    "Closing": "14/06/2025"
+  },
+  {
+    "Name": "Ditchling Players performing murder-in-play ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11651/murder-in-play ",
+    "City": "Ditchling",
+    "State": "East Sussex",
+    "Opening": "21/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Wivelsfield Little Theatre performing day-of-reckoning ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11531/day-of-reckoning ",
+    "City": "Wivelsfield Green",
+    "State": "East Sussex",
+    "Opening": "14/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Bancroft Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Hitchin",
+    "State": "Hertfordshire",
+    "Opening": "21/04/2026",
+    "Closing": "25/04/2026"
+  },
+  {
+    "Name": "Dark Night Players performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "campbell river",
+    "State": "British Columbia",
+    "Opening": "18/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "Keighley Playhouse performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Keighley",
+    "State": "West Yorkshire",
+    "Opening": "26/01/2026",
+    "Closing": "31/01/2026"
+  },
+  {
+    "Name": "Newport Playgoers Society performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Newport, South Wales",
+    "State": "Gwent (Blaenau Gwent)",
+    "Opening": "04/02/2026",
+    "Closing": "07/02/2026"
+  },
+  {
+    "Name": "Partington Theatre Club Limited performing educating-rita ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2392/educating-rita ",
+    "City": "Glossop",
+    "State": "Derbyshire",
+    "Opening": "30/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Ghostlight Performers performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Southport",
+    "State": "Merseyside",
+    "Opening": "21/06/2025",
+    "Closing": "21/06/2025"
+  },
+  {
+    "Name": "RGS Worcester performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Worcester",
+    "State": "Worcestershire",
+    "Opening": "07/05/2025",
+    "Closing": "09/05/2025"
+  },
+  {
+    "Name": "Syston QT Theatre Group performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Leicester",
+    "State": "Leicestershire",
+    "Opening": "10/06/2025",
+    "Closing": "13/06/2025"
+  },
+  {
+    "Name": "Taking Flight Theatre Company performing teechers  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/5244/teechers  ",
+    "City": "Cardiff",
+    "State": "Cardiff",
+    "Opening": "31/07/2025",
+    "Closing": "31/07/2025"
+  },
+  {
+    "Name": "AmEgos performing the-ladykillers ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11083/the-ladykillers ",
+    "City": "Wantage",
+    "State": "Oxfordshire",
+    "Opening": "30/10/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing the-father-hamptonzeller ",
+    "Url": "https://www.concordtheatricals.co.uk/p/61151/the-father-hamptonzeller ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "08/07/2026",
+    "Closing": "18/07/2026"
+  },
+  {
+    "Name": "Pequeno Teatro Del Lago A.C performing the-father-hamptonzeller ",
+    "Url": "https://www.concordtheatricals.co.uk/p/61151/the-father-hamptonzeller ",
+    "City": "Chapala Jal",
+    "State": "",
+    "Opening": "16/01/2026",
+    "Closing": "25/01/2026"
+  },
+  {
+    "Name": "Brixworth Drama Group performing run-for-your-wife?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2287/run-for-your-wife?utm_source=google.com&utm_medium=organic ",
+    "City": "Brixworth",
+    "State": "Northamptonshire",
+    "Opening": "11/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Horfield Theatre Company performing pity-about-kitty ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12083/pity-about-kitty ",
+    "City": "Bristol",
+    "State": "Bristol",
+    "Opening": "07/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Attfield Theatre Company Limited performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Oswestry",
+    "State": "Shropshire",
+    "Opening": "18/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Guide Bridge Theatre performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Tameside",
+    "State": "Manchester (Greater)",
+    "Opening": "08/09/2025",
+    "Closing": "13/09/2025"
+  },
+  {
+    "Name": "Retford Little Theatre (Stan Balmer) performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Retford",
+    "State": "Nottinghamshire",
+    "Opening": "19/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "Rhiwbina Amateur Theatrical Society performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Cardiff",
+    "State": "Cardiff",
+    "Opening": "16/07/2025",
+    "Closing": "18/07/2025"
+  },
+  {
+    "Name": "Somerleigh Players performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Dorchester",
+    "State": "Dorset",
+    "Opening": "14/05/2025",
+    "Closing": "16/05/2025"
+  },
+  {
+    "Name": "Stoke on Trent Repertory Players performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Stoke-on-Trent",
+    "State": "Staffordshire",
+    "Opening": "09/06/2026",
+    "Closing": "13/06/2026"
+  },
+  {
+    "Name": "The Dunstable Rep Theatre Club performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Dunstable",
+    "State": "Bedfordshire",
+    "Opening": "03/07/2026",
+    "Closing": "11/07/2026"
+  },
+  {
+    "Name": "Up close theatre performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "Hatherleigh",
+    "State": "Devon",
+    "Opening": "03/04/2026",
+    "Closing": "03/04/2026"
+  },
+  {
+    "Name": "Up close theatre performing sheilas-island ",
+    "Url": "https://www.concordtheatricals.co.uk/p/94321/sheilas-island ",
+    "City": "ilfracombe",
+    "State": "Devon",
+    "Opening": "04/04/2026",
+    "Closing": "04/04/2026"
+  },
+  {
+    "Name": "BAYSTON HILL AMATEUR DRAMATICS SOCIETY performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Shrewsbury",
+    "State": "Shropshire",
+    "Opening": "15/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Cottingham Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "Cottingham",
+    "State": "East Riding of Yorkshire",
+    "Opening": "01/01/2030",
+    "Closing": "01/01/2030"
+  },
+  {
+    "Name": "Droylsden Little Theatre performing confusions ",
+    "Url": "https://www.concordtheatricals.co.uk/p/939/confusions ",
+    "City": "MANCHESTER",
+    "State": "Lancashire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Limepalm Productions performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Haywards Heath",
+    "State": "West Sussex",
+    "Opening": "03/07/2025",
+    "Closing": "04/07/2025"
+  },
+  {
+    "Name": "NK Theatre Arts performing the-history-boys ",
+    "Url": "https://www.concordtheatricals.co.uk/p/6792/the-history-boys ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "11/02/2026",
+    "Closing": "13/02/2026"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "24/10/2025",
+    "Closing": "25/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Newquay",
+    "State": "Cornwall",
+    "Opening": "30/10/2025",
+    "Closing": "30/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Bodmin",
+    "State": "Cornwall",
+    "Opening": "31/10/2025",
+    "Closing": "31/10/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Cornwall",
+    "State": "Cornwall",
+    "Opening": "01/11/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Downderry",
+    "State": "Cornwall",
+    "Opening": "07/11/2025",
+    "Closing": "07/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "DARTMOUTH",
+    "State": "Devon",
+    "Opening": "08/11/2025",
+    "Closing": "08/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Liskeard",
+    "State": "Cornwall",
+    "Opening": "14/11/2025",
+    "Closing": "14/11/2025"
+  },
+  {
+    "Name": "Camp Theatre Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Kingsand",
+    "State": "Cornwall",
+    "Opening": "15/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Hathersage Players performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Hathersage",
+    "State": "Derbyshire",
+    "Opening": "04/06/2025",
+    "Closing": "07/06/2025"
+  },
+  {
+    "Name": "Southend Shakespeare Company performing the-dresser ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11205/the-dresser ",
+    "City": "Westcliff-on-Sea",
+    "State": "Essex",
+    "Opening": "28/10/2025",
+    "Closing": "01/11/2025"
+  },
+  {
+    "Name": "Chester Little Theatre performing last-of-the-red-hot-lovers ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2802/last-of-the-red-hot-lovers ",
+    "City": "Chester",
+    "State": "Cheshire",
+    "Opening": "03/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Parlour Players performing the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1051/the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "City": "South Croydon",
+    "State": "Surrey",
+    "Opening": "08/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Peninsula Players performing the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1051/the-unexpected-guest?utm_source=google.com&utm_medium=organic ",
+    "City": "Sidney",
+    "State": "British Columbia",
+    "Opening": "16/05/2025",
+    "Closing": "18/05/2025"
+  },
+  {
+    "Name": "Lewes Old Grammar School performing teechers-leavers-22 ",
+    "Url": "https://www.concordtheatricals.co.uk/p/95708/teechers-leavers-22 ",
+    "City": "Lewes",
+    "State": "East Sussex",
+    "Opening": "14/06/2025",
+    "Closing": "15/06/2025"
+  },
+  {
+    "Name": "St. John's Players performing dead-ringer-ross ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8896/dead-ringer-ross ",
+    "City": "Gloucester",
+    "State": "Gloucestershire",
+    "Opening": "13/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Bolton Little Theatre performing the-deep-blue-sea  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9612/the-deep-blue-sea  ",
+    "City": "Bolton",
+    "State": "Lancashire",
+    "Opening": "17/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "High Street Players performing the-deep-blue-sea  ",
+    "Url": "https://www.concordtheatricals.co.uk/p/9612/the-deep-blue-sea  ",
+    "City": "Harpenden",
+    "State": "Hertfordshire",
+    "Opening": "16/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Axstane Players performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Dartford",
+    "State": "Kent",
+    "Opening": "09/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Susan Nicholl performing the-hollow ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1385/the-hollow ",
+    "City": "Victoria",
+    "State": "British Columbia",
+    "Opening": "01/10/2025",
+    "Closing": "12/10/2025"
+  },
+  {
+    "Name": "Belfrey Theatre performing dads-army ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12280/dads-army ",
+    "City": "Telford",
+    "State": "Shropshire",
+    "Opening": "10/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Carver Theatre performing dads-army ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12280/dads-army ",
+    "City": "Stockport",
+    "State": "Cheshire",
+    "Opening": "09/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing dads-army ",
+    "Url": "https://www.concordtheatricals.co.uk/p/12280/dads-army ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "25/06/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Attfield Theatre Company Limited performing bedside-manners ",
+    "Url": "https://www.concordtheatricals.co.uk/p/1137/bedside-manners ",
+    "City": "Oswestry",
+    "State": "Shropshire",
+    "Opening": "12/05/2025",
+    "Closing": "17/05/2025"
+  },
+  {
+    "Name": "ALTRINCHAM LITTLE THEATRE performing murder-by-misadventure ",
+    "Url": "https://www.concordtheatricals.co.uk/p/8731/murder-by-misadventure ",
+    "City": "Altrincham",
+    "State": "Cheshire",
+    "Opening": "18/05/2025",
+    "Closing": "24/05/2025"
+  },
+  {
+    "Name": "The Harper Trust performing the-worst-witch ",
+    "Url": "https://www.concordtheatricals.co.uk/p/65799/the-worst-witch ",
+    "City": "Bedford",
+    "State": "Bedfordshire",
+    "Opening": "03/07/2025",
+    "Closing": "05/07/2025"
+  },
+  {
+    "Name": "Market Harborough Drama Society performing breathing-corpses ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11473/breathing-corpses ",
+    "City": "Market Harborough",
+    "State": "Leicestershire",
+    "Opening": "19/05/2026",
+    "Closing": "23/05/2026"
+  },
+  {
+    "Name": "Knutsford Little Theatre performing whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/7480/whos-afraid-of-virginia-woolf?utm_source=google.com&utm_medium=organic ",
+    "City": "Knutsford",
+    "State": "Cheshire",
+    "Opening": "11/03/2026",
+    "Closing": "21/03/2026"
+  },
+  {
+    "Name": "King's Lynn Players (Mr L.J. Judd) performing titanic ",
+    "Url": "https://www.concordtheatricals.co.uk/p/44694/titanic ",
+    "City": "King's Lynn",
+    "State": "Norfolk",
+    "Opening": "12/11/2025",
+    "Closing": "15/11/2025"
+  },
+  {
+    "Name": "Progress Theatre performing the-cripple-of-inishmaan ",
+    "Url": "https://www.concordtheatricals.co.uk/p/11200/the-cripple-of-inishmaan ",
+    "City": "Reading",
+    "State": "",
+    "Opening": "02/05/2025",
+    "Closing": "10/05/2025"
+  },
+  {
+    "Name": "Cotswold Players performing rosencrantz-and-guildenstern-are-dead ",
+    "Url": "https://www.concordtheatricals.co.uk/p/2819/rosencrantz-and-guildenstern-are-dead ",
+    "City": "Stroud",
+    "State": "Gloucestershire",
+    "Opening": "30/09/2025",
+    "Closing": "04/10/2025"
   }
 ]

@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const getStartEndDate = require("./getStartEndDate");
 const e = require("express");
-const failedAttemps = [];
+const failedAttempts = [];
 /**
 * Function to update the output file with new data.
 * @param {Array} newData - The new data to be added to the output file.
@@ -38,8 +38,8 @@ const updateOutPutFile = (newData, outputFile) => {
  * @returns {int} - The number of pages available in the table.
  *                  If the table is not found, return -1.
 */
-const pageCnt = async (page) => {
-    const isNext = await page.evaluate(() => {
+const pageCnt = async (iframe) => {
+    const isNext = await iframe.evaluate(() => {
         const table = document.querySelector("#map-table-container");
         if (!table) {
             return "Table not found.";
@@ -68,13 +68,14 @@ const pageCnt = async (page) => {
  * @return {Array} - The data from the table as an array of objects.
  *                   Each object contains the keys: Producer, City, State, Opening, Closing.
  */
-const getTableContents = async (page, url, retries = 5) => {
+const getTableContents = async (iframe, url, failedAttempts = []) => {
     let data;
     let lastErrorMessage = null; // Store the last error message
+    let retries = 5;
 
     while (retries > 0) {
         try {
-            data = await page.evaluate(() => {
+            data = await iframe.evaluate(() => {
                 const table = document.querySelector("#map-table-container");
                 if (!table) {
                     return null;
@@ -101,11 +102,13 @@ const getTableContents = async (page, url, retries = 5) => {
 
     if (!data) {
         console.error("Failed to get table contents after multiple attempts.");
-        failedAttempts.push({
-            url: url,
-            error: lastErrorMessage,
-            retries: 0
-        });
+        if (Array.isArray(failedAttempts)) {
+            failedAttempts.push({
+                url: url,
+                error: lastErrorMessage,
+                retries: 0
+            });
+        }
         return [];
     }
 
@@ -125,14 +128,14 @@ const getTableContents = async (page, url, retries = 5) => {
 
 /**
  * Function to save failed attempts to a JSON file.
- * @param {Array} failedAttemps - The array of failed attempts to save.
+ * @param {Array} failedAttempts - The array of failed attempts to save.
  * @return {void} - No return value.
  *                The function saves the failed attempts to a JSON file.
  */
-const saveFailedAttempts = (failedAttemps) => {
+const saveFailedAttempts = (failedAttempts) => {
     const failedAttemptsFile = path.join(__dirname, "../docs/failedAttempts.json");
-    if (failedAttemps.length > 0) {
-        fs.writeFileSync(failedAttemptsFile, JSON.stringify(failedAttemps, null, 2), "utf-8");
+    if (failedAttempts.length > 0) {
+        fs.writeFileSync(failedAttemptsFile, JSON.stringify(failedAttempts, null, 2), "utf-8");
         console.log(`Failed attempts saved to ${failedAttemptsFile}`);
     } else {
         console.log("No failed attempts to save.");
@@ -148,8 +151,8 @@ const zoomout = async (page) => {
     const centerX = viewport.width / 2;
     const centerY = viewport.height / 2;
     await page.mouse.click(centerX, centerY);
-    for (i = 0; i < 11; i++){       
-        await page.keyboard.press('-');    
+    for (let i = 0; i < 11; i++){       
+        await page.keyboard.press('-');
     }
 }
 
@@ -182,7 +185,7 @@ const analyseConcorde = async (url, outputFile) => {
         await delay(120000);
 
         //get table contents
-        let data = await getTableContents(page, url);
+        let data = await getTableContents(page, url, failedAttempts);
 
         results.push(...data); 
 
@@ -207,7 +210,7 @@ const analyseConcorde = async (url, outputFile) => {
                 ])
 
 
-                data = await getTableContents(page, url); // Get the data from the table
+                data = await getTableContents(page, url, failedAttempts); // Get the data from the table
                 if (data === "Table not found in iframe.") {
                     console.error("Table not found in iframe.");
                     return;
@@ -261,13 +264,14 @@ const analyseConcorde = async (url, outputFile) => {
         }
     }
     // Save failed attempts to a JSON file
-    saveFailedAttempts(failedAttemps);
+    saveFailedAttempts(failedAttempts);
 };
 
 module.exports = {
-    analyseConcorde
+    analyseConcorde,
+    updateOutPutFile,
+    saveFailedAttempts,
+    pageCnt,
+    getTableContents,
+    zoomout
 };
-
-
-// testing url
-analyseConcorde("https://shop.concordtheatricals.co.uk/now-playing", path.join(__dirname, "../docs/concordAllData.json"));

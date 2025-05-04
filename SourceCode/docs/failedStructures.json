@@ -1,14 +1,4040 @@
 [
   {
-    "id": 3,
-    "name": "No Website Theatre",
+    "id": 9202,
+    "name": "Glasgow Pavilion Theatre",
     "url": null,
     "reason": "No website provided"
   },
   {
-    "id": 4,
-    "name": "Failed Theatre",
-    "url": "https://brokensite.com",
+    "id": 9200,
+    "name": "Blackheath Halls",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9199,
+    "name": "BEAM",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9196,
+    "name": "Bord Gáis Energy Theatre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9195,
+    "name": "Storyhouse Theatre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9194,
+    "name": "Opera House Manchester",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9176,
+    "name": "Denny Civic Theatre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9141,
+    "name": "Dudley Evolve Theatre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9108,
+    "name": "Desborough Theatre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8992,
+    "name": "Ross Band Stand",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8967,
+    "name": "Muni Arts Centre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8937,
+    "name": "Civic Hall Stanley",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8876,
+    "name": "Harpenden Public Halls",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8873,
+    "name": "Gilded Balloon Teviot",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8851,
+    "name": "FTH Theatre",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8772,
+    "name": "Theatre Royal Margate",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 8736,
+    "name": "Sam Wanamaker Playhouse",
+    "url": null,
+    "reason": "No website provided"
+  },
+  {
+    "id": 9181,
+    "name": "Cecil Hepworth Playhouse",
+    "url": "https://www.cecilhepworthplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9180,
+    "name": "C ARTS | C venues",
+    "url": "http://www.cthearts.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9166,
+    "name": "Altrincham Little Theatre",
+    "url": "http://www.clubtheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9164,
+    "name": "Barons Court Theatre",
+    "url": "https://www.baronscourttheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9156,
+    "name": "Hermon Chapel Arts Centre",
+    "url": "https://www.hermon-arts.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9112,
+    "name": "Orkney Theatre",
+    "url": "https://orkneytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9098,
+    "name": "Esher Theatre",
+    "url": "https://www.eshertheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9109,
+    "name": "St Austell Arts Centre",
+    "url": "http://www.staustellartstheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9105,
+    "name": "Drama Studio",
+    "url": "https://performancevenues.group.shef.ac.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9064,
+    "name": "Abbey Theatre",
+    "url": "http://www.abbeytheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9043,
+    "name": "Chelmsford Theatre",
+    "url": "https://www.chelmsfordtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9042,
+    "name": "The Carnegie",
+    "url": "https://www.thecarnegiethetford.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9076,
+    "name": "Tara Theatre",
+    "url": "https://taratheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8996,
+    "name": "Stamford Arts Centre",
+    "url": "https://www.stamfordartscentre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8994,
+    "name": "Manor Pavilion Theatre",
+    "url": "https://www.manorpavilion.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8991,
+    "name": "Halifax Playhouse",
+    "url": "http://www.halifaxplayhouse.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8978,
+    "name": "Winter Garden",
+    "url": "https://www.eastbournetheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8966,
+    "name": "Old Town Inn",
+    "url": "https://www.oldtowninn-scilly.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8972,
+    "name": "The Vaults London",
+    "url": "https://www.thevaults.london/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8963,
+    "name": "The Fisher Theatre",
+    "url": "https://fishertheatre.org/FisherTheatre.dll/Home",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8961,
+    "name": "Stantonbury Theatre",
+    "url": "http://www.stantonburytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8950,
+    "name": "Unity Theatre",
+    "url": "http://www.unitytheatreliverpool.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8915,
+    "name": "Plaza Theatre",
+    "url": "http://www.plazatheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8927,
+    "name": "YMCA Theatre",
+    "url": "https://ymcatheatre.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8908,
+    "name": "Congress Theatre",
+    "url": "http://www.congresstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9197,
+    "name": "Loading Bay",
+    "url": "https://bradford2025.co.uk/programme/loading-bay/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9193,
+    "name": "Buxton Opera House",
+    "url": "https://buxtonoperahouse.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8932,
+    "name": "The Other Place",
+    "url": "https://www.rsc.org.uk/your-visit/the-other-place",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9189,
+    "name": "The Bridge House Theatre and Warwick Hall",
+    "url": "https://www.bridgehousetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8914,
+    "name": "The Bowdon Rooms",
+    "url": "https://thebowdonrooms.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9198,
+    "name": "Arts Depot",
+    "url": "https://www.artsdepot.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8883,
+    "name": "Bob Hope Theatre",
+    "url": "http://www.bobhopetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9171,
+    "name": "The Billericay Theatre",
+    "url": "https://www.thebillericaytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8870,
+    "name": "The CryerArts Centre",
+    "url": "https://cryerarts.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9173,
+    "name": "Seckford Theatre",
+    "url": "https://www.seckfordtheatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9165,
+    "name": "The Courtyard Theatre",
+    "url": "http://www.chipsteadplayers.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9159,
+    "name": "The Queen's Hall Theatre",
+    "url": "http://www.queenshalltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8857,
+    "name": "Shelley Theatre",
+    "url": "http://www.shelleytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9155,
+    "name": "Spinney Theatre",
+    "url": "http://www.nsg.northants.sch.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9148,
+    "name": "The Geoffrey Whitworth Theatre",
+    "url": "http://www.thegwt.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8848,
+    "name": "Rotherham Civic Theatre",
+    "url": "https://www.rotherhamtheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8829,
+    "name": "Tamworth Assembly Rooms",
+    "url": "https://www.tamworthassemblyrooms.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9132,
+    "name": "Theatre Porto",
+    "url": "https://theatreporto.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9123,
+    "name": "The Masque Theatre",
+    "url": "https://masquekettering.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9115,
+    "name": "Conquest Theatre",
+    "url": "https://conquest-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8775,
+    "name": "Joseph Rowntree Theatre",
+    "url": "https://www.josephrowntreetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8781,
+    "name": "Perth Theatre",
+    "url": "http://www.horsecross.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9085,
+    "name": "Saltburn Community & Arts Association Ltd",
+    "url": "https://saltburnarts.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8753,
+    "name": "The Palace Theatre",
+    "url": "https://eastayrshireleisure.com/culture/palace-theatre-grand-hall/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9066,
+    "name": "The Flavel Arts Centre",
+    "url": "http://www.theflavel.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9065,
+    "name": "Corn Exchange",
+    "url": "https://www.dorchesterarts.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9052,
+    "name": "Lace Market Theatre",
+    "url": "http://www.lacemarkettheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9049,
+    "name": "Empire Theatre",
+    "url": "http://www.empire-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9037,
+    "name": "Malthouse Theatre",
+    "url": "https://malthousetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9012,
+    "name": "Borough Theatre",
+    "url": "https://boroughtheatreabergavenny.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8694,
+    "name": "Exeter Corn Exchange",
+    "url": "http://www.exetercornexchange.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8661,
+    "name": "Devonshire Park Theatre",
+    "url": "https://www.eastbournetheatres.co.uk/venue/devonshire-park-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8702,
+    "name": "The Swan Theatre",
+    "url": "https://www.rsc.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8678,
+    "name": "The Sheldonian Theatre",
+    "url": "https://www.sheldonian.ox.ac.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8638,
+    "name": "Congress Theatre",
+    "url": "https://www.eastbournetheatres.co.uk/index.php/about-us/venue-information/congress-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8973,
+    "name": "The Mount Without",
+    "url": "https://www.themountwithout.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8617,
+    "name": "Mansfield Palace Theatre",
+    "url": "https://www.mansfield.gov.uk/palacetheatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8595,
+    "name": "The Other Palace",
+    "url": "https://theotherpalace.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8939,
+    "name": "Brixton House",
+    "url": "https://brixtonhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8942,
+    "name": "Tabard Theatre",
+    "url": "https://tabard.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8597,
+    "name": "Cast Doncaster",
+    "url": "https://www.castindoncaster.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8525,
+    "name": "Festival Theatre",
+    "url": "https://www.capitaltheatres.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8919,
+    "name": "Nottingham Arts Theatre",
+    "url": "http://www.nottingham-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8916,
+    "name": "Lyttelton Theatre",
+    "url": "https://www.nationaltheatre.org.uk/your-visit/national-theatre-venues/lyttelton-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8500,
+    "name": "Cambridge Theatre",
+    "url": "https://lwtheatres.co.uk/theatres/cambridge",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8493,
+    "name": "Gillian Lynne Theatre",
+    "url": "https://lwtheatres.co.uk/theatres/gillian-lynne",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8471,
+    "name": "Theatre Royal Drury Lane",
+    "url": "https://lwtheatres.co.uk/theatres/theatre-royal-drury-lane/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8899,
+    "name": "Cheltenham Playhouse",
+    "url": "http://www.cheltplayhouse.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8463,
+    "name": "His Majesty's Theatre",
+    "url": "https://lwtheatres.co.uk/theatres/his-majestys/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8465,
+    "name": "The London Palladium",
+    "url": "https://lwtheatres.co.uk/theatres/the-london-palladium/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8475,
+    "name": "Adelphi Theatre",
+    "url": "https://lwtheatres.co.uk/theatres/adelphi",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8882,
+    "name": "Lincoln Arts Centre",
+    "url": "https://lincolnartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8893,
+    "name": "New Art Exchange",
+    "url": "http://www.nae.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8885,
+    "name": "Junction Theatre & Cinema",
+    "url": "http://www.junctiongoole.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8897,
+    "name": "The Montgomery",
+    "url": "http://themontgomery.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8492,
+    "name": "Royal Shakespeare Theatre",
+    "url": "https://www.rsc.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8871,
+    "name": "The Alnwick Playhouse",
+    "url": "https://alnwickplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8858,
+    "name": "Ardhowen Theatre",
+    "url": "https://ardhowen.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8867,
+    "name": "Bernie Grant Arts Centre",
+    "url": "http://www.berniegrantcentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8845,
+    "name": "Church Hill Theatre",
+    "url": "https://churchhilltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8832,
+    "name": "Dorfman Theatre",
+    "url": "https://www.nationaltheatre.org.uk/your-visit/national-theatre-venues/dorfman-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8847,
+    "name": "Hanger Farm Arts Centre",
+    "url": "https://www.hangerfarm.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8840,
+    "name": "The Webster Memorial Theatre",
+    "url": "https://angusalive.scot/theatres-venues/our-venues/webster-memorial-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8835,
+    "name": "Dugdale Arts Centre",
+    "url": "https://www.dugdaleartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8823,
+    "name": "Barnfield Theatre",
+    "url": "https://exeternorthcott.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8836,
+    "name": "Sheringham Little Theatre",
+    "url": "http://sheringhamlittletheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8819,
+    "name": "Phoenix Theatre",
+    "url": "http://www.thephoenixtheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8796,
+    "name": "Unicorn Theatre",
+    "url": "https://www.unicorntheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8769,
+    "name": "The Landmark Theatre",
+    "url": "https://www.queenstheatre-barnstaple.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8766,
+    "name": "Tron Theatre",
+    "url": "http://www.tron.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8728,
+    "name": "Prince of Wales Theatre",
+    "url": "http://www.princeofwales.live/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8854,
+    "name": "Bloomsbury Theatre and Studio",
+    "url": "https://www.ucl.ac.uk/bloomsbury-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8718,
+    "name": "Menier Chocolate Factory",
+    "url": "http://www.menierchocolatefactory.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8712,
+    "name": "West Cliff Theatre",
+    "url": "http://www.westcliffclacton.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8709,
+    "name": "The Regal",
+    "url": "http://www.regalstowmarket.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8705,
+    "name": "The Gaiety Theatre",
+    "url": "https://thegaiety.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8707,
+    "name": "Harrogate Theatre",
+    "url": "http://www.harrogatetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8687,
+    "name": "Arcola Theatre",
+    "url": "https://www.arcolatheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8689,
+    "name": "Lakeside Arts",
+    "url": "http://www.lakesidearts.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8666,
+    "name": "Spa Pavilion",
+    "url": "http://www.felixstowespa.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8660,
+    "name": "Assembly Hall Theatre",
+    "url": "https://www.assemblyhalltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8674,
+    "name": "The Albert Halls",
+    "url": "http://www.alberthalls-bolton.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8663,
+    "name": "New Theatre",
+    "url": "https://www.newtheatre-peterborough.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8647,
+    "name": "The New Wolsey Theatre",
+    "url": "http://www.wolseytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8642,
+    "name": "Theatre By The Lake",
+    "url": "http://www.theatrebythelake.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8645,
+    "name": "Key Theatre",
+    "url": "https://keytheatre-peterborough.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8635,
+    "name": "Dorking Halls",
+    "url": "http://www.dorkinghalls.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8596,
+    "name": "St Helens Theatre Royal",
+    "url": "http://www.sthelenstheatreroyal.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8594,
+    "name": "King George's Hall",
+    "url": "http://www.kinggeorgeshall.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8582,
+    "name": "The Customs House",
+    "url": "https://www.customshouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8577,
+    "name": "Norwich Playhouse",
+    "url": "https://norwichtheatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8588,
+    "name": "Victoria Theatre Halifax",
+    "url": "https://www.victoriatheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8563,
+    "name": "Birmingham Repertory Theatre",
+    "url": "https://www.birmingham-rep.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8562,
+    "name": "Theatre Severn",
+    "url": "http://www.theatresevern.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8559,
+    "name": "Darlington Hippodrome",
+    "url": "https://www.darlingtonhippodrome.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8560,
+    "name": "Bristol Old Vic",
+    "url": "https://bristololdvic.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8556,
+    "name": "Lighthouse, Poole's Centre for the Arts",
+    "url": "https://www.lighthousepoole.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8552,
+    "name": "Kings Theatre",
+    "url": "http://www.kingsportsmouth.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8546,
+    "name": "Peacock Theatre",
+    "url": "https://www.sadlerswells.com/your-visit/peacock-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8549,
+    "name": "Regent's Park Open Air Theatre",
+    "url": "https://openairtheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8520,
+    "name": "Duchess Theatre",
+    "url": "https://theduchesstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8523,
+    "name": "Bridlington Spa",
+    "url": "https://www.bridspa.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8515,
+    "name": "Royal & Derngate",
+    "url": "http://www.royalandderngate.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8527,
+    "name": "Floral Pavilion Theatre",
+    "url": "http://www.floralpavilion.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8516,
+    "name": "Garrick Theatre",
+    "url": "https://thegarricktheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8519,
+    "name": "Apollo Theatre",
+    "url": "https://theapollotheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8480,
+    "name": "Mayflower Theatre",
+    "url": "https://www.mayflower.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8477,
+    "name": "National Theatre",
+    "url": "https://www.nationaltheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8473,
+    "name": "Palace Theatre",
+    "url": "https://palacetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8468,
+    "name": "Pavilion Theatre",
+    "url": "https://www.cromerpier.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8461,
+    "name": "Shakespeare's Globe",
+    "url": "https://www.shakespearesglobe.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9172,
+    "name": "Middlesbrough Little Theatre",
+    "url": "http://mltmiddlesbrough.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9169,
+    "name": "Helmsley Arts Centre",
+    "url": "http://www.helmsleyarts.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9149,
+    "name": "Adrian Mann Theatre @ NESCOT",
+    "url": "https://www.nescot.ac.uk/about-nescot/facilities/performance-spaces/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9184,
+    "name": "Cotswold Playhouse",
+    "url": "http://www.cotswoldplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9182,
+    "name": "Little Theatre",
+    "url": "http://www.littletheatrewells.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9153,
+    "name": "Detling Village Hall",
+    "url": "http://www.detlingvillagehall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9191,
+    "name": "Ifield Barn Theatre",
+    "url": "https://www.ifieldbarn.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9168,
+    "name": "East Kilbride Village Theatre",
+    "url": "https://www.slleisureandculture.co.uk/info/51/village_theatre_east_kilbride",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9167,
+    "name": "The Old Laundry Theatre",
+    "url": "http://www.oldlaundrytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9140,
+    "name": "The Curtain Theatre",
+    "url": "http://www.curtaintheatrerochdale.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9137,
+    "name": "Chester Little Theatre",
+    "url": "http://www.chesterlittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9178,
+    "name": "The Mission Theatre",
+    "url": "http://www.missiontheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9111,
+    "name": "Titchfield Festival Theatre",
+    "url": "http://www.titchfieldfestivaltheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9116,
+    "name": "Shaftesbury Theatre",
+    "url": "http://shaftesbury-dawlish.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9139,
+    "name": "Grove Park Theatre",
+    "url": "http://www.groveparktheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9101,
+    "name": "Bacon Theatre",
+    "url": "http://www.bacontheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9128,
+    "name": "The Sinden",
+    "url": "http://sindentheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9117,
+    "name": "The Oast Theatre, Tonbridge",
+    "url": "https://www.oasttheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9121,
+    "name": "theSpace @ Surgeons Hall",
+    "url": "https://www.thespaceuk.com/edinburgh/thespace-surgeons-hall/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9092,
+    "name": "The Edge Theatre & Arts Centre",
+    "url": "http://www.edgetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9125,
+    "name": "Blue Elephant Theatre",
+    "url": "http://www.blueelephanttheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9113,
+    "name": "Burnley Youth Theatre",
+    "url": "http://www.burnleyyouththeatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9147,
+    "name": "Volcano Theatre",
+    "url": "http://www.volcanotheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9089,
+    "name": "The Athenaeum Centre",
+    "url": "http://www.theath.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9114,
+    "name": "Kirkgate Arts",
+    "url": "http://www.kirkgatearts.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9099,
+    "name": "Priory Theatre",
+    "url": "http://www.priorytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9079,
+    "name": "The Little Theatre",
+    "url": "http://www.carltonlittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8565,
+    "name": "The Hawth Crawley",
+    "url": "https://www.parkwoodtheatres.co.uk/the-hawth",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9059,
+    "name": "The Venue MK",
+    "url": "http://www.thevenuemk.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9134,
+    "name": "Layard Theatre",
+    "url": "http://www.canford.com/layard-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9146,
+    "name": "Carver Theatre",
+    "url": "https://carvertheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9053,
+    "name": "The Fullarton",
+    "url": "https://www.thefullarton.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9069,
+    "name": "theSpace @ Symposium Hall",
+    "url": "https://www.thespaceuk.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9110,
+    "name": "The Terry O'Toole Theatre",
+    "url": "https://betterboxoffice.co.uk/terry-o-toole-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9067,
+    "name": "Theatre503",
+    "url": "http://www.theatre503.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9154,
+    "name": "Ashcroft Playhouse",
+    "url": "http://www.fairfield.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9050,
+    "name": "New Mills Art Theatre",
+    "url": "http://www.arttheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9136,
+    "name": "Gate Theatre",
+    "url": "https://www.gatetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9036,
+    "name": "Oldbury Rep",
+    "url": "http://www.oldburyrep.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9030,
+    "name": "Playhouse Theatre Whitstable",
+    "url": "http://playhousewhitstable.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9025,
+    "name": "Guide Bridge Theatre",
+    "url": "http://www.gbtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9039,
+    "name": "Hat Factory Arts Centre",
+    "url": "http://www.culturetrust.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9091,
+    "name": "Millgate Arts Centre",
+    "url": "http://millgateartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9097,
+    "name": "Harborough Theatre",
+    "url": "http://www.harboroughtheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9041,
+    "name": "Bedwas Workmen's Hall & Institute",
+    "url": "http://www.bedwasworkmenshall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9029,
+    "name": "Ludlow Assembly Rooms",
+    "url": "https://ludlowassemblyrooms.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9021,
+    "name": "Merlin Theatre",
+    "url": "http://www.merlintheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9023,
+    "name": "Garsington Opera",
+    "url": "https://www.garsingtonopera.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9005,
+    "name": "New Diorama Theatre",
+    "url": "http://newdiorama.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8998,
+    "name": "Haslemere Hall",
+    "url": "http://www.haslemerehall.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9006,
+    "name": "The Exchange",
+    "url": "https://exchangetwickenham.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9017,
+    "name": "Laban Theatre",
+    "url": "http://www.trinitylaban.ac.uk/whats-on/dance-events",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9070,
+    "name": "Half Moon Theatre",
+    "url": "http://www.halfmoon.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9138,
+    "name": "The Blakehay Theatre",
+    "url": "https://blakehaytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9020,
+    "name": "Hartlepool Town Hall Theatre",
+    "url": "https://www.culturehartlepool.com/town-hall-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9001,
+    "name": "Salford Arts Theatre",
+    "url": "https://www.salfordartstheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9015,
+    "name": "The Playhouse",
+    "url": "http://www.derryplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9014,
+    "name": "Headgate Theatre",
+    "url": "http://www.headgatetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9013,
+    "name": "The Alley Theatre",
+    "url": "http://www.alley-theatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9048,
+    "name": "Devonport Playhouse",
+    "url": "https://www.plymouththeatrecompany.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8983,
+    "name": "The Little Theatre",
+    "url": "http://toadslittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9086,
+    "name": "Sutton Arts Theatre",
+    "url": "http://www.suttonartstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9008,
+    "name": "Rondo Theatre",
+    "url": "http://www.rondotheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9063,
+    "name": "Sheffield Library Theatre",
+    "url": "https://www.sheffield.gov.uk/libraries-archives/library-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8981,
+    "name": "Barn Theatre",
+    "url": "http://www.barntheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9009,
+    "name": "The Eric Morecambe Centre",
+    "url": "https://www.the-emc.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9032,
+    "name": "Glusburn Institute Community & Arts Centre",
+    "url": "http://www.gicac.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9035,
+    "name": "The Playground Theatre",
+    "url": "https://theplaygroundtheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9077,
+    "name": "Cardiff Open Air Theatre Festival: Everyman Theatre",
+    "url": "http://cardiffopenairtheatrefestival.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9018,
+    "name": "The Old Savoy",
+    "url": "https://www.theoldsavoy.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8982,
+    "name": "Cottiers Theatre",
+    "url": "http://www.cottiers.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8990,
+    "name": "Norwich Puppet Theatre",
+    "url": "http://www.puppettheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8970,
+    "name": "Cambridge Arts Theatre",
+    "url": "http://www.cambridgeartstheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9004,
+    "name": "Old Fire Station",
+    "url": "http://www.oldfirestation.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9075,
+    "name": "The Buccleuch Centre",
+    "url": "http://www.buccleuchcentre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9028,
+    "name": "Castle Roy",
+    "url": "http://castleroy.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8977,
+    "name": "Princess Theatre, Hunstanton",
+    "url": "https://www.princesshunstanton.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8974,
+    "name": "The Princess Theatre and Arts Centre",
+    "url": "http://www.theprincesstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8968,
+    "name": "The Palace Cinema Devizes",
+    "url": "http://www.devizescinema.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9007,
+    "name": "The Arts Centre, Hounslow",
+    "url": "http://www.theartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9011,
+    "name": "Accidental Theatre",
+    "url": "http://www.accidentaltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8993,
+    "name": "Doncaster Little Theatre",
+    "url": "https://www.doncasterlittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8995,
+    "name": "Rosehill Arts Trust Limited",
+    "url": "https://rosehilltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8985,
+    "name": "Tacchi-Morris Arts Centre",
+    "url": "http://www.tacchi-morris.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8999,
+    "name": "Quarterhouse",
+    "url": "http://www.creativefolkestone.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8958,
+    "name": "The Coronet Theatre",
+    "url": "http://www.thecoronettheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9096,
+    "name": "Partington Theatre",
+    "url": "https://partingtontheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8965,
+    "name": "Bridewell Centre",
+    "url": "https://www.sbf.org.uk/venue-hire/bridewell-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9040,
+    "name": "The Grange Theatre",
+    "url": "http://www.thegrangetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8957,
+    "name": "Castleford Phoenix Theatre",
+    "url": "http://www.castlefordphoenixtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8959,
+    "name": "Heswall Hall",
+    "url": "http://www.heswallhall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8987,
+    "name": "Ormskirk Civic Hall",
+    "url": "http://www.ormskirkcivichall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9084,
+    "name": "Market Theatre",
+    "url": "http://www.markettheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8947,
+    "name": "Theatre On The Steps",
+    "url": "https://www.theatreonthesteps.co.uk/page/what-s-on",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8964,
+    "name": "Bolton Little Theatre",
+    "url": "https://www.boltonlittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8953,
+    "name": "Century Theatre",
+    "url": "http://www.centurytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8933,
+    "name": "Bradford Playhouse",
+    "url": "http://www.bradfordplayhouse.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8944,
+    "name": "Preston Playhouse",
+    "url": "https://www.prestonplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8925,
+    "name": "Hampton Hill Theatre",
+    "url": "http://www.hamptonhilltheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8922,
+    "name": "Arena Theatre",
+    "url": "http://www.arena.wlv.ac.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8921,
+    "name": "Strode Theatre",
+    "url": "http://www.strodetheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8918,
+    "name": "The Old Courthouse",
+    "url": "http://theoldcourthousetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8906,
+    "name": "Middleton Hall",
+    "url": "http://www.ticketsource.co.uk/middleton-hall",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8923,
+    "name": "Compass Theatre",
+    "url": "https://discover.hillingdon.gov.uk/compass-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8924,
+    "name": "Hippodrome Theatre",
+    "url": "http://www.todhip.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8952,
+    "name": "The Henrician",
+    "url": "https://www.henrician.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8904,
+    "name": "Union Theatre",
+    "url": "http://www.uniontheatre.biz/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8892,
+    "name": "The Berry Theatre",
+    "url": "http://www.theberrytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8888,
+    "name": "Frome Memorial Theatre",
+    "url": "http://www.fmt.website/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8894,
+    "name": "Rhoda McGaw Theatre",
+    "url": "https://www.atgtickets.com/venues/rhoda-mcgaw-theatre-woking/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8917,
+    "name": "The Place Bedford",
+    "url": "http://www.theplacebedford.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8886,
+    "name": "Plowright Theatre",
+    "url": "http://www.scunthorpetheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8900,
+    "name": "The Academy Theatre",
+    "url": "http://www.academytheatre.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8902,
+    "name": "Alphabetti Theatre",
+    "url": "http://www.alphabettitheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8901,
+    "name": "The Forum Theatre",
+    "url": "https://www.theforumtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8905,
+    "name": "Court Theatre",
+    "url": "http://www.courttheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8887,
+    "name": "Marine Theatre",
+    "url": "http://www.marinetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8931,
+    "name": "The Majestic Theatre",
+    "url": "http://www.themajestictheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8895,
+    "name": "Omnibus Theatre",
+    "url": "http://omnibus-clapham.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8875,
+    "name": "Victoria Hall",
+    "url": "https://www.atgtickets.com/venues/victoria-hall/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8879,
+    "name": "Aberdeen Arts Centre",
+    "url": "http://www.aberdeenartscentre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8862,
+    "name": "Guildhall Arts Centre",
+    "url": "http://www.guildhallartscentre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8855,
+    "name": "The Theatre Chipping Norton",
+    "url": "http://www.chippingnortontheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8868,
+    "name": "Gosforth Civic Theatre",
+    "url": "http://www.gosforthcivictheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8849,
+    "name": "Bridport Electric Palace",
+    "url": "http://www.electricpalace.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8856,
+    "name": "Citizens Theatre",
+    "url": "http://citz.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8869,
+    "name": "Sharmanka Kinetic Theatre",
+    "url": "https://www.sharmanka.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8860,
+    "name": "East Riding Theatre",
+    "url": "http://www.eastridingtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8844,
+    "name": "The Muni Theatre",
+    "url": "http://www.themuni.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8839,
+    "name": "Little Angel Theatre",
+    "url": "http://www.littleangeltheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8834,
+    "name": "Millfield Theatre",
+    "url": "http://www.millfieldtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8843,
+    "name": "Websters Theatre",
+    "url": "http://www.webstersglasgow.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8827,
+    "name": "Sherman Theatre",
+    "url": "http://www.shermantheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8833,
+    "name": "Gardyne Theatre Ltd",
+    "url": "http://www.gardynetheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8828,
+    "name": "ADC Theatre",
+    "url": "http://www.adctheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8820,
+    "name": "Ropetackle Arts Centre",
+    "url": "http://ropetacklecentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8821,
+    "name": "The Octagon Theatre",
+    "url": "http://www.octagon-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8805,
+    "name": "The Dancehouse",
+    "url": "http://www.thedancehouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8826,
+    "name": "Jacksons Lane Arts Centre",
+    "url": "http://www.jacksonslane.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8814,
+    "name": "Wilde Theatre",
+    "url": "http://www.southhillpark.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8808,
+    "name": "Gatehouse Theatre",
+    "url": "https://gatehousetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8806,
+    "name": "Brighton Open Air Theatre",
+    "url": "http://www.brightonopenairtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8802,
+    "name": "Stamford Corn Exchange Theatre",
+    "url": "http://www.stamfordcornexchange.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8818,
+    "name": "Cumbernauld Theatre at Lanternhouse",
+    "url": "https://lanternhousearts.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8803,
+    "name": "Bonington Theatre",
+    "url": "http://www.boningtontheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8813,
+    "name": "Stoke-on-Trent Repertory Theatre",
+    "url": "https://stokerepplayers.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8807,
+    "name": "Cornerstone Arts Centre",
+    "url": "http://www.cornerstone-arts.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8797,
+    "name": "Winston Churchill Theatre",
+    "url": "http://www.hillingdontheatres.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8799,
+    "name": "Broadway",
+    "url": "http://www.broadwaytheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8810,
+    "name": "Morecambe Winter Gardens",
+    "url": "https://www.morecambewintergardens.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8838,
+    "name": "Shoreditch Town Hall",
+    "url": "http://www.shoreditchtownhall.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8824,
+    "name": "Carnegie Theatre & Arts Centre",
+    "url": "https://carnegietheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8795,
+    "name": "@sohoplace",
+    "url": "http://www.sohoplace.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8861,
+    "name": "Wigan Little Theatre",
+    "url": "https://wiganlittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8780,
+    "name": "The Alexandra Theatre",
+    "url": "https://www.atgtickets.com/venues/the-alexandra-theatre-birmingham/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8787,
+    "name": "The Duchess Theatre, Chatsworth Centre",
+    "url": "http://www.duchess-theatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8789,
+    "name": "The Carriageworks Theatre",
+    "url": "http://www.carriageworkstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8779,
+    "name": "The Lemon Tree",
+    "url": "http://www.aberdeenperformingarts.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8788,
+    "name": "The Lamproom Theatre",
+    "url": "http://www.barnsleylamproom.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8771,
+    "name": "Bridge Theatre",
+    "url": "http://bridgetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8770,
+    "name": "The McMillan Theatre",
+    "url": "https://mcmillantheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8794,
+    "name": "The Wardrobe Theatre",
+    "url": "http://thewardrobetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8782,
+    "name": "Traverse Theatre",
+    "url": "http://www.traverse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8767,
+    "name": "The Savoy Theatre",
+    "url": "https://www.monmouth-savoy.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8762,
+    "name": "Pavilion Theatre & Bandstand, Gorleston",
+    "url": "https://www.gorlestonpavilion.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8773,
+    "name": "Kenneth More Theatre",
+    "url": "https://visionrcl.org.uk/kmt",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8759,
+    "name": "Epstein Theatre",
+    "url": "http://www.epsteintheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8755,
+    "name": "Trinity Theatre",
+    "url": "http://www.trinitytheatre.net/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8757,
+    "name": "Empire Theatre & Cinema",
+    "url": "https://www.empireconsett.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8777,
+    "name": "The Market Place Theatre & Arts Centre",
+    "url": "https://visitarmagh.com/places-to-explore/the-market-place-theatre-arts-centre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8758,
+    "name": "Chequer Mead Theatre",
+    "url": "http://www.chequermead.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8778,
+    "name": "South Holland Centre",
+    "url": "http://www.southhollandcentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8761,
+    "name": "The Altrincham Garrick Playhouse",
+    "url": "http://www.altrinchamgarrick.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8744,
+    "name": "Tobacco Factory Theatres",
+    "url": "http://www.tobaccofactorytheatres.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8748,
+    "name": "The Little Theatre",
+    "url": "https://www.thelittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8740,
+    "name": "Torch Theatre",
+    "url": "http://www.torchtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8738,
+    "name": "Eastwood Park Theatre & Gallery",
+    "url": "http://www.eastwoodparktheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8742,
+    "name": "Palace Theatre",
+    "url": "http://www.palacetheatrepaignton.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8734,
+    "name": "Crescent Theatre",
+    "url": "http://www.crescent-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8729,
+    "name": "Forum Theatre Billingham",
+    "url": "http://www.forumtheatrebillingham.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8784,
+    "name": "Hinckley Concordia Theatre",
+    "url": "http://www.concordiatheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8730,
+    "name": "Palace Theatre",
+    "url": "http://www.palacenewark.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8725,
+    "name": "Princes Hall",
+    "url": "http://www.princeshall.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8727,
+    "name": "The Woodville",
+    "url": "https://www.woodville.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8731,
+    "name": "Wyllyotts Theatre & Cinema",
+    "url": "http://www.wyllyottstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8722,
+    "name": "Bush Theatre",
+    "url": "http://www.bushtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8720,
+    "name": "Queen's Theatre",
+    "url": "http://www.queenstheatre-barnstaple.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8726,
+    "name": "Epsom Playhouse",
+    "url": "http://www.epsomplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8723,
+    "name": "Taunton Brewhouse",
+    "url": "http://www.tauntonbrewhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8735,
+    "name": "Blackburn Empire Theatre",
+    "url": "https://blackburnempire.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8710,
+    "name": "Beacon Arts Centre",
+    "url": "http://www.beaconartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8713,
+    "name": "Stockton Globe Theatre",
+    "url": "https://www.stocktonglobe.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8721,
+    "name": "Lighthouse Theatre",
+    "url": "http://lighthousetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8711,
+    "name": "Camberley Theatre",
+    "url": "https://www.camberleytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8693,
+    "name": "New Theatre Royal",
+    "url": "http://www.newtheatreroyal.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9026,
+    "name": "Cervantes Theatre",
+    "url": "http://www.cervantestheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8691,
+    "name": "Oldham Coliseum Theatre",
+    "url": "http://www.coliseum.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8690,
+    "name": "Theatre Royal Winchester",
+    "url": "http://www.theatreroyalwinchester.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8688,
+    "name": "Hull Truck Theatre",
+    "url": "http://www.hulltruck.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9044,
+    "name": "Theatr Soar",
+    "url": "http://www.theatrsoar.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8683,
+    "name": "Stratford East",
+    "url": "http://www.stratfordeast.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8679,
+    "name": "Castle Theatre",
+    "url": "https://www.parkwoodtheatres.co.uk/castle-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8673,
+    "name": "Loughborough Town Hall",
+    "url": "http://www.loughboroughtownhall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8684,
+    "name": "The Ambassadors Theatre",
+    "url": "https://www.atgtickets.com/venues/ambassadors-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8670,
+    "name": "Brewery Arts",
+    "url": "http://www.breweryarts.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8669,
+    "name": "Marina Theatre",
+    "url": "http://www.marinatheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8667,
+    "name": "Palace Theatre",
+    "url": "http://www.redditchpalacetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8664,
+    "name": "Derby Theatre",
+    "url": "http://www.derbytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8662,
+    "name": "The Beck Theatre",
+    "url": "https://becktheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8659,
+    "name": "Fortune Theatre",
+    "url": "https://www.atgtickets.com/venues/fortune-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8656,
+    "name": "Pitlochry Festival Theatre",
+    "url": "https://pitlochryfestivaltheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8654,
+    "name": "Shanklin Theatre",
+    "url": "http://www.shanklintheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8655,
+    "name": "Park Theatre",
+    "url": "http://www.parktheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8650,
+    "name": "Yvonne Arnaud Theatre",
+    "url": "http://www.yvonne-arnaud.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8648,
+    "name": "The Cresset",
+    "url": "http://www.cresset.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8646,
+    "name": "Institute of Contemporary Arts",
+    "url": "https://www.ica.art/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8653,
+    "name": "New Theatre Royal Lincoln",
+    "url": "http://www.newtheatreroyallincoln.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8641,
+    "name": "Grand Opera House",
+    "url": "https://www.atgtickets.com/venues/grand-opera-house-york/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8672,
+    "name": "The Brunton Theatre",
+    "url": "http://www.thebrunton.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8633,
+    "name": "Oxford Playhouse",
+    "url": "http://www.oxfordplayhouse.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8625,
+    "name": "Telford Theatre",
+    "url": "http://www.telfordtheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8624,
+    "name": "Lyric Hammersmith Theatre",
+    "url": "http://www.lyric.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8640,
+    "name": "Whitby Pavilion",
+    "url": "http://www.whitbypavilion.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8776,
+    "name": "Southmill Arts Centre",
+    "url": "https://southmillarts.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8615,
+    "name": "Burnley Mechanics Theatre",
+    "url": "https://blcgroup.co.uk/locations/burnley-mechanics-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8600,
+    "name": "Grove Theatre",
+    "url": "http://www.grovetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8629,
+    "name": "Komedia",
+    "url": "http://www.komedia.co.uk/bath/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8620,
+    "name": "Mercury Theatre",
+    "url": "http://www.mercurytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8605,
+    "name": "Skegness, Embassy Theatre",
+    "url": "http://www.embassytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9080,
+    "name": "Clonter Opera Theatre",
+    "url": "http://www.clonteropera.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8590,
+    "name": "The Gordon Craig Theatre",
+    "url": "http://www.gordon-craig.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8622,
+    "name": "Tyne Theatre & Opera House",
+    "url": "https://tynetheatreandoperahouse.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8616,
+    "name": "New Victoria Theatre",
+    "url": "https://www.atgtickets.com/venues/new-victoria-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8636,
+    "name": "Cambridge Junction",
+    "url": "http://www.junction.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8574,
+    "name": "Everyman Theatre",
+    "url": "http://everymantheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8606,
+    "name": "The Vaults Theatre",
+    "url": "http://www.thevaults.london/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8609,
+    "name": "Aylesbury Waterside Theatre",
+    "url": "https://www.atgtickets.com/venues/aylesbury-waterside-theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8626,
+    "name": "Lyric Theatre Belfast",
+    "url": "http://www.lyrictheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8608,
+    "name": "The Brindley",
+    "url": "https://thebrindley.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8613,
+    "name": "The Playhouse, Weston-super-Mare",
+    "url": "http://www.theplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8649,
+    "name": "Theatre Royal Wakefield",
+    "url": "http://www.theatreroyalwakefield.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8602,
+    "name": "Playhouse Whitley Bay",
+    "url": "http://www.playhousewhitleybay.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8685,
+    "name": "Phoenix Arts Club",
+    "url": "https://phoenixartsclub.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8610,
+    "name": "Rose Theatre",
+    "url": "http://www.rosetheatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8607,
+    "name": "New Vic Theatre",
+    "url": "http://www.newvictheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8499,
+    "name": "Alhambra Theatre, Bradford",
+    "url": "https://www.bradford-theatres.co.uk/venues/the-alhambra-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8513,
+    "name": "The Old Vic",
+    "url": "https://www.oldvictheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8593,
+    "name": "South Hill Park Arts Centre",
+    "url": "http://www.southhillpark.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8639,
+    "name": "Exmouth Pavilion & Cafe",
+    "url": "https://www.ledleisure.co.uk/exmouth-pavilion",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8612,
+    "name": "Hall for Cornwall",
+    "url": "http://www.hallforcornwall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8619,
+    "name": "Fairfield Halls",
+    "url": "http://fairfield.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8598,
+    "name": "Theatr Clwyd",
+    "url": "https://www.theatrclwyd.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8469,
+    "name": "Royal Festival Hall",
+    "url": "https://www.southbankcentre.co.uk/venues/royal-festival-hall",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8579,
+    "name": "Lyceum Theatre",
+    "url": "https://crewelyceum.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8634,
+    "name": "The Riverfront",
+    "url": "https://www.newportlive.co.uk/en/theatre-arts/performances/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8580,
+    "name": "Stables Theatre",
+    "url": "http://www.stables.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8592,
+    "name": "York Theatre Royal",
+    "url": "http://www.yorktheatreroyal.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8587,
+    "name": "Arnolfini Arts",
+    "url": "https://www.arnolfini.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8576,
+    "name": "Leicester Square Theatre",
+    "url": "http://www.leicestersquaretheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8581,
+    "name": "Carlton Cinema",
+    "url": "http://www.westgatecinema.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8571,
+    "name": "Theatre Royal, Bath",
+    "url": "http://www.theatreroyal.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8572,
+    "name": "King's Theatre",
+    "url": "http://www.capitaltheatres.com/kings",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8567,
+    "name": "His Majesty's Theatre",
+    "url": "http://www.aberdeenperformingarts.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8568,
+    "name": "Leeds Playhouse",
+    "url": "http://www.leedsplayhouse.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8564,
+    "name": "Wycombe Swan Theatre",
+    "url": "https://wycombeswan.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8547,
+    "name": "Belgrade Theatre",
+    "url": "http://www.belgrade.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8551,
+    "name": "Storyhouse",
+    "url": "http://www.storyhouse.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8550,
+    "name": "Vaudeville Theatre",
+    "url": "https://www.thevaudevilletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8538,
+    "name": "Chichester Festival Theatre",
+    "url": "https://www.cft.org.uk/about-us",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8539,
+    "name": "Wyndham's Theatre",
+    "url": "https://www.wyndhamstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8536,
+    "name": "The Orchard Theatre",
+    "url": "https://orchardtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8528,
+    "name": "The Criterion Theatre",
+    "url": "http://www.criterion-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8800,
+    "name": "The Old Rep Theatre",
+    "url": "http://www.oldreptheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8812,
+    "name": "Opera Holland Park",
+    "url": "https://operahollandpark.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8535,
+    "name": "Noël Coward Theatre",
+    "url": "https://www.noelcowardtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8526,
+    "name": "Victoria Palace Theatre",
+    "url": "https://www.victoriapalacetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8531,
+    "name": "Royal Court Theatre",
+    "url": "https://liverpoolsroyalcourt.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8514,
+    "name": "Barbican Centre",
+    "url": "https://www.barbican.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8518,
+    "name": "Gielgud Theatre",
+    "url": "https://www.gielgudtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8532,
+    "name": "New Theatre",
+    "url": "http://newtheatrecardiff.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8470,
+    "name": "Birmingham Hippodrome",
+    "url": "http://www.birminghamhippodrome.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8478,
+    "name": "Prince of Wales Theatre",
+    "url": "https://www.princeofwalestheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8467,
+    "name": "Prince Edward Theatre",
+    "url": "https://www.princeedwardtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8486,
+    "name": "Novello Theatre",
+    "url": "https://www.novellotheatrelondon.info/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8511,
+    "name": "Curve Theatre",
+    "url": "http://www.curveonline.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8498,
+    "name": "Theatre Royal Haymarket",
+    "url": "http://www.trh.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8512,
+    "name": "Grand Opera House",
+    "url": "http://www.goh.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9190,
+    "name": "Neath Little Theatre",
+    "url": "http://www.neathlittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8472,
+    "name": "Dominion Theatre",
+    "url": "https://www.nederlander.co.uk/dominion-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9150,
+    "name": "Shinfield Players Theatre",
+    "url": "http://www.shinfieldplayers.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9187,
+    "name": "Farnworth Little Theatre",
+    "url": "http://www.farnworthlittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9019,
+    "name": "Kilworth House Theatre",
+    "url": "http://www.kilworthhousetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8955,
+    "name": "The Dolman Theatre",
+    "url": "http://www.dolmantheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9100,
+    "name": "Waterside Theatre",
+    "url": "http://www.watersidetheatreni.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9047,
+    "name": "Minerva Theatre",
+    "url": "http://www.cft.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8971,
+    "name": "The Barn Theatre",
+    "url": "http://www.barntheatreoxted.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9133,
+    "name": "Apollo Theatre",
+    "url": "http://www.apollo-theatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8975,
+    "name": "Playhouse 2",
+    "url": "http://www.playhouse2.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9129,
+    "name": "Brookdale Club & Theatre Ltd",
+    "url": "http://www.thebrookdaleclub.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9082,
+    "name": "Players Theatre",
+    "url": "http://www.playerstheatre.info/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8558,
+    "name": "The Grand Theatre Blackpool",
+    "url": "https://www.blackpoolgrand.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8484,
+    "name": "Cliffs Pavilion",
+    "url": "https://trafalgartickets.com/cliffs-pavilion-southend/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8943,
+    "name": "The Dearne Playhouse",
+    "url": "http://www.dearneplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9102,
+    "name": "The Archway Theatre",
+    "url": "http://www.archwaytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8501,
+    "name": "HOME Theatre Manchester",
+    "url": "http://homemcr.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8930,
+    "name": "Pendle Hippodrome Theatre",
+    "url": "http://www.phtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8541,
+    "name": "The Plaza",
+    "url": "http://www.stockportplaza.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8490,
+    "name": "Lyric Theatre",
+    "url": "https://www.thelyrictheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8489,
+    "name": "The Lowry (Quays Theatre)",
+    "url": "https://www.thelowry.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8488,
+    "name": "The Lowry (Lyric theatre)",
+    "url": "https://www.thelowry.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9054,
+    "name": "The Commemoration Hall",
+    "url": "http://www.commhall.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9126,
+    "name": "The Blake Theatre",
+    "url": "http://www.theblaketheatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9122,
+    "name": "Victoria Hall Theatre",
+    "url": "http://www.victoriahalltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8898,
+    "name": "The Quay",
+    "url": "http://www.quaysudbury.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9144,
+    "name": "Waterloo East Theatre",
+    "url": "http://www.waterlooeast.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9051,
+    "name": "The Lantern",
+    "url": "http://www.lanterntheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9185,
+    "name": "Tyldesley Little Theatre",
+    "url": "http://www.tlt.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8809,
+    "name": "King's Hall & Winter Garden",
+    "url": "http://www.bradford-theatres.co.uk/kings-hall",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8505,
+    "name": "Theatre Royal",
+    "url": "http://www.theatreroyal.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9088,
+    "name": "Theatro Technis @ 26 Crowndale",
+    "url": "http://www.theatrotechnis.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8631,
+    "name": "St George's Hall",
+    "url": "http://www.bradford-theatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8884,
+    "name": "The Public Hall Witham",
+    "url": "http://www.withampublichall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9106,
+    "name": "Medway Little Theatre",
+    "url": "http://www.mlt.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8872,
+    "name": "Georgian Theatre Royal",
+    "url": "http://www.georgiantheatreroyal.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8852,
+    "name": "The Tower Theatre",
+    "url": "http://www.towertheatrefolkestone.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8746,
+    "name": "Charing Cross Theatre",
+    "url": "http://www.charingcrosstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9161,
+    "name": "Nantwich Players Theatre",
+    "url": "http://www.nantwichplayers.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8485,
+    "name": "The Shaftesbury Theatre",
+    "url": "http://www.shaftesburytheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8926,
+    "name": "Riverhouse Barn",
+    "url": "http://www.riverhousebarn.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8874,
+    "name": "Lyric Theatre",
+    "url": "http://www.theatrausirgar.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9057,
+    "name": "Ffwrnes Theatre",
+    "url": "http://www.theatrausirgar.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9183,
+    "name": "Brookside Theatre",
+    "url": "http://www.brooksidetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9045,
+    "name": "Progress Theatre",
+    "url": "http://www.progresstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8989,
+    "name": "Streatham Space Project",
+    "url": "http://www.streathamspaceproject.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9083,
+    "name": "The Old Courthouse, Caernarfon",
+    "url": "http://www.theoldcourthouse.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9016,
+    "name": "Jermyn Street Theatre",
+    "url": "http://www.jermynstreettheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8704,
+    "name": "Civic Theatre",
+    "url": "https://www.chelmsford.gov.uk/theatres/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9003,
+    "name": "Stockport Garrick Theatre",
+    "url": "http://www.stockportgarrick.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9142,
+    "name": "Linbury Theatre",
+    "url": "http://www.roh.org.uk/venues/linbury-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8815,
+    "name": "Assembly Roxy",
+    "url": "http://www.assemblyroxy.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9034,
+    "name": "Thornton Little Theatre",
+    "url": "https://www.wyretheatres.co.uk/thornton-little-theatre/thornton-little-theatre-1/1",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8863,
+    "name": "Swindon Arts Centre",
+    "url": "https://trafalgartickets.com/swindon-arts-centre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9094,
+    "name": "The Lyric Theatre",
+    "url": "http://www.thelyricdinnington.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8754,
+    "name": "Pavilions Teignmouth",
+    "url": "http://www.pavilionsteignmouth.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9033,
+    "name": "Highbury Theatre",
+    "url": "http://www.highburytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9160,
+    "name": "Neuadd Ogwen",
+    "url": "http://neuaddogwen.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8946,
+    "name": "The Stage Door",
+    "url": "http://thestagedoor.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8816,
+    "name": "Newhampton Arts Centre",
+    "url": "http://www.newhamptonarts.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9152,
+    "name": "The Market Theatre",
+    "url": "http://www.themarkettheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8737,
+    "name": "Theatre At The Mill",
+    "url": "http://www.theatreatthemill.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8948,
+    "name": "The Rose Theatre",
+    "url": "http://www.rosetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8611,
+    "name": "Pleasance Courtyard",
+    "url": "https://www.pleasance.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9073,
+    "name": "Barbican Theatre",
+    "url": "http://www.barbicantheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8825,
+    "name": "Blackwood Miners' Institute",
+    "url": "http://www.blackwoodminersinstitute.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8537,
+    "name": "Parkway Cinema",
+    "url": "http://www.parkwaycinemas.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9201,
+    "name": "Blackfriars Theatre and Arts Centre",
+    "url": "https://blackfriarsartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8717,
+    "name": "Galeri Caernarfon",
+    "url": "http://www.galericaernarfon.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9087,
+    "name": "Areley Kings Village Hall",
+    "url": "http://www.areleykingsvillagehall.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8910,
+    "name": "Live Theatre",
+    "url": "http://www.live.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8614,
+    "name": "Corn Ex-change Theatre and Cinema",
+    "url": "http://www.kingslynncornexchange.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8997,
+    "name": "The Welfare Ystradgynlais",
+    "url": "http://www.thewelfare.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8936,
+    "name": "Bowhill House",
+    "url": "http://www.bowhillhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8765,
+    "name": "Marine Hall",
+    "url": "http://www.marinehall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8497,
+    "name": "The Marlowe",
+    "url": "http://www.marlowetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8509,
+    "name": "The Grand Theatre & Opera House Leeds",
+    "url": "http://www.leedsheritagetheatres.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8524,
+    "name": "Hull New Theatre",
+    "url": "http://www.hulltheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8920,
+    "name": "Rugby Theatre Society",
+    "url": "http://www.rugbytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8774,
+    "name": "Thameside Theatre",
+    "url": "http://www.thurrock.gov.uk/theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8785,
+    "name": "Brick Lane Music Hall",
+    "url": "http://www.bricklanemusichall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9135,
+    "name": "The Met",
+    "url": "http://www.the-met.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9118,
+    "name": "Sundial Theatre",
+    "url": "http://www.sundial-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9010,
+    "name": "Brentwood Theatre",
+    "url": "http://www.brentwood-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8739,
+    "name": "Watford Palace Theatre",
+    "url": "http://www.watfordpalacetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9188,
+    "name": "St George's Guildhall",
+    "url": "http://www.nationaltrust.org.uk/st-georges-guildhall/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8768,
+    "name": "The Broadway Theatre",
+    "url": "http://www.thebroadwaybarking.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8853,
+    "name": "The Plough Arts Centre",
+    "url": "http://www.theploughartscentre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8665,
+    "name": "Babbacombe Theatre",
+    "url": "http://www.babbacombe-theatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8962,
+    "name": "The Barrington Centre & Theatre",
+    "url": "https://www.barringtoncentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8890,
+    "name": "The Kenton Theatre",
+    "url": "http://www.kentontheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8940,
+    "name": "Pontio Arts and Innovation Centre",
+    "url": "https://www.pontio.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8791,
+    "name": "The Lights",
+    "url": "http://www.thelights.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8960,
+    "name": "The Garage",
+    "url": "http://www.thegarage.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9143,
+    "name": "Brixham Theatre",
+    "url": "http://www.brixhamtheatre.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8913,
+    "name": "The Yard Theatre",
+    "url": "http://www.theyardtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8561,
+    "name": "The Hexagon",
+    "url": "http://whatsonreading.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8692,
+    "name": "Kiln Theatre",
+    "url": "http://www.kilntheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8733,
+    "name": "Hazlitt Theatre",
+    "url": "http://www.hazlitttheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9081,
+    "name": "The Frazer Theatre",
+    "url": "http://www.frazertheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9090,
+    "name": "Gallery Studio Theatre",
+    "url": "http://www.gallerystudiotheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8621,
+    "name": "Winding Wheel Theatre",
+    "url": "http://www.chesterfieldtheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8696,
+    "name": "Pomegranate Theatre & Cinema",
+    "url": "http://www.chesterfieldtheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9174,
+    "name": "Tiverton Community Arts Theatre",
+    "url": "http://www.tivertontheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9192,
+    "name": "Robin Hood Theatre",
+    "url": "http://robinhoodtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8476,
+    "name": "Sondheim Theatre",
+    "url": "http://www.sondheimtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8658,
+    "name": "Troubadour Wembley Park Theatre",
+    "url": "https://www.troubadourtheatres.com/wembley-park",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8697,
+    "name": "The Courtyard",
+    "url": "http://www.courtyard.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9107,
+    "name": "Bromley Little Theatre",
+    "url": "http://www.bromleylittletheatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8548,
+    "name": "Trafalgar Theatre",
+    "url": "http://www.trafalgartheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8557,
+    "name": "St. Martin's Theatre",
+    "url": "https://www.stmartinstheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8699,
+    "name": "Redgrave Theatre",
+    "url": "http://www.redgravetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9127,
+    "name": "Kings Theatre Gloucester",
+    "url": "http://www.kingstheatregloucester.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8749,
+    "name": "Tivoli Theatre",
+    "url": "http://www.thetivolitheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9002,
+    "name": "Canal Cafe Theatre",
+    "url": "http://www.canalcafetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8637,
+    "name": "Lawrence Batley Theatre",
+    "url": "http://www.thelbt.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8783,
+    "name": "Theatr Colwyn",
+    "url": "http://www.theatrcolwyn.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8703,
+    "name": "Princes Theatre",
+    "url": "http://www.princestheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9056,
+    "name": "Jack Studio Theatre",
+    "url": "http://www.brockleyjack.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9157,
+    "name": "Neverland Theatre",
+    "url": "http://www.neverlandtheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8544,
+    "name": "Eden Court Inverness",
+    "url": "http://www.eden-court.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8668,
+    "name": "Pavilion Theatre Rhyl",
+    "url": "http://www.rhylpavilion.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8934,
+    "name": "Donald Gordon Theatre",
+    "url": "http://www.wmc.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8841,
+    "name": "The Astor Theatre, Deal",
+    "url": "http://www.theastor.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8750,
+    "name": "Greenwich Theatre",
+    "url": "http://www.greenwichtheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8483,
+    "name": "London Coliseum",
+    "url": "http://londoncoliseum.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8680,
+    "name": "Watford Colosseum",
+    "url": "https://watfordcolosseum.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8956,
+    "name": "Theatre Royal",
+    "url": "http://theatreroyaldumfries.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8686,
+    "name": "Grand Pavilion",
+    "url": "http://www.grandpavilion.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9158,
+    "name": "The Hope Street Theatre",
+    "url": "http://www.hopestreettheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9130,
+    "name": "theSpace Triplex",
+    "url": "http://www.thespaceuk.com/edinburgh/spacetriplex-v38/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8935,
+    "name": "Queens Park Arts Centre",
+    "url": "http://www.queensparkarts.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8682,
+    "name": "Stephen Joseph Theatre",
+    "url": "https://www.sjt.uk.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8954,
+    "name": "Sterts Theatre and Arts Centre",
+    "url": "http://www.sterts.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8632,
+    "name": "Exeter Phoenix",
+    "url": "http://www.exeterphoenix.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8508,
+    "name": "Royal Exchange Theatre",
+    "url": "https://www.royalexchange.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8793,
+    "name": "The Haymarket",
+    "url": "http://www.anvilarts.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8751,
+    "name": "Chorley Theatre",
+    "url": "http://www.chorleytheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8811,
+    "name": "Shaw Theatre",
+    "url": "http://www.shaw-theatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8677,
+    "name": "Theatre Royal Bury St Edmunds",
+    "url": "http://www.theatreroyal.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8929,
+    "name": "The Electric Theatre",
+    "url": "http://www.electric.theatre/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8671,
+    "name": "Hampstead Theatre",
+    "url": "http://www.hampsteadtheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8798,
+    "name": "Princess Royal Theatre",
+    "url": "http://www.princessroyaltheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8817,
+    "name": "The Y Theatre",
+    "url": "http://ytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8763,
+    "name": "The Point",
+    "url": "http://www.thepointeastleigh.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8786,
+    "name": "Theatr Brycheiniog",
+    "url": "http://www.brycheiniog.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8644,
+    "name": "Lichfield Garrick Theatre",
+    "url": "http://www.lichfieldgarrick.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9074,
+    "name": "Bridgwater Arts Centre",
+    "url": "http://bridgwaterartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8764,
+    "name": "The Radlett Centre",
+    "url": "http://www.radlettcentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9145,
+    "name": "Criterion Theatre",
+    "url": "http://www.criteriontheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8695,
+    "name": "Liverpool Playhouse Theatre",
+    "url": "http://www.everymanplayhouse.com/playhouse",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9119,
+    "name": "Sharnbrook Mill Theatre",
+    "url": "http://www.sharnbrookmilltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8979,
+    "name": "The Stables Theatre",
+    "url": "http://www.stablestheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8747,
+    "name": "Swan Theatre, Worcester",
+    "url": "http://www.worcestertheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8578,
+    "name": "Hackney Empire",
+    "url": "http://www.hackneyempire.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8909,
+    "name": "Riverside Theatre",
+    "url": "http://www.riversidetheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8618,
+    "name": "Millennium Forum Theatre and Conference Centre",
+    "url": "http://www.millenniumforum.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8570,
+    "name": "Wilton's Music Hall",
+    "url": "http://www.wiltons.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9186,
+    "name": "Kays Theatre Group",
+    "url": "http://www.kaystheatregroup.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8630,
+    "name": "Everyman Playhouse",
+    "url": "http://www.everymanplayhouse.com/everyman",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8652,
+    "name": "Southwark Playhouse Borough",
+    "url": "https://www.southwarkplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9095,
+    "name": "Craic Theatre & Arts",
+    "url": "http://www.craicartscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8599,
+    "name": "Gala Theatre & Cinema",
+    "url": "http://www.galadurham.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9071,
+    "name": "Southwark Playhouse",
+    "url": "http://www.southwarkplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9103,
+    "name": "Caxton Theatre Grimsby",
+    "url": "http://www.caxtontheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8681,
+    "name": "Octagon Theatre",
+    "url": "http://octagonbolton.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9120,
+    "name": "The Miller Centre Theatre and Club",
+    "url": "https://www.themiller.net/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8482,
+    "name": "Aldwych Theatre",
+    "url": "http://aldwychtheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9177,
+    "name": "Putney Arts Theatre",
+    "url": "http://www.putneyartstheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8865,
+    "name": "The Leatherhead Theatre & Cinema",
+    "url": "https://www.theleatherheadtheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8540,
+    "name": "Crucible Theatre",
+    "url": "http://www.sheffieldtheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8980,
+    "name": "The Mowlem Theatre",
+    "url": "http://themowlem.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8701,
+    "name": "Dundee Rep Theatre",
+    "url": "http://www.dundeerep.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8517,
+    "name": "Lyceum Theatre",
+    "url": "http://www.sheffieldtheatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9162,
+    "name": "Ruddock Performing Arts Centre",
+    "url": "http://www.ruddockpac.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8555,
+    "name": "Weymouth Pavilion",
+    "url": "https://www.weymouthpavilion.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9078,
+    "name": "MADS Theatre",
+    "url": "http://www.madstheatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8907,
+    "name": "Greenwood Theatre",
+    "url": "http://www.kcl.ac.uk/greenwood",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9170,
+    "name": "Squire Performing Arts Centre",
+    "url": "http://www.squirepac.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8724,
+    "name": "Hope Mill Theatre",
+    "url": "http://www.hopemilltheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8790,
+    "name": "The Pleasance Theatre",
+    "url": "http://www.pleasance.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8651,
+    "name": "Exeter Northcott Theatre",
+    "url": "http://www.exeternorthcott.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9062,
+    "name": "The Beacon Sports Centre",
+    "url": "https://www.better.org.uk/leisure-centre/south-bucks/the-beacon-sports-centre-and-theatre",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8715,
+    "name": "The Theatre Cafe",
+    "url": "http://www.thetheatrecafe.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9022,
+    "name": "The Old Town Hall",
+    "url": "http://www.oldtownhall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8569,
+    "name": "Cambridge Corn Exchange",
+    "url": "http://www.cornex.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8850,
+    "name": "The Elgiva Theatre",
+    "url": "http://www.elgiva.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8804,
+    "name": "The Cockpit",
+    "url": "http://thecockpit.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8951,
+    "name": "Contact Theatre",
+    "url": "http://www.contactmcr.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8756,
+    "name": "Waterside",
+    "url": "http://www.watersidearts.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8603,
+    "name": "Queen's Theatre",
+    "url": "http://www.queens-theatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8988,
+    "name": "The Turbine Theatre",
+    "url": "https://www.theturbinetheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8912,
+    "name": "Eastgate Theatre",
+    "url": "http://www.eastgatearts.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8586,
+    "name": "Wyvern Theatre",
+    "url": "https://trafalgartickets.com/wyvern-theatre-swindon/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8566,
+    "name": "Churchill Theatre",
+    "url": "https://trafalgartickets.com/churchill-theatre-bromley/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8745,
+    "name": "Salisbury Playhouse",
+    "url": "http://www.wiltshirecreative.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8891,
+    "name": "EM Forster Theatre",
+    "url": "http://www.emftheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9068,
+    "name": "Acorn Theatre, Worksop",
+    "url": "http://www.acorntheatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8601,
+    "name": "Palace Theatre",
+    "url": "https://trafalgartickets.com/palace-theatre-southend/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8880,
+    "name": "The Seagull",
+    "url": "http://www.theseagull.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9131,
+    "name": "Westovian Theatre",
+    "url": "http://www.westovians.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9058,
+    "name": "The Savoy Theatre",
+    "url": "http://savoytheatre.net/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8877,
+    "name": "Montgomery Hall Theatre",
+    "url": "http://www.montgomery-hall.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8859,
+    "name": "Blue Orange Theatre",
+    "url": "http://www.blueorangetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8842,
+    "name": "Alexandra Theatre",
+    "url": "http://www.alexandratheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8700,
+    "name": "Royal Hippodrome Theatre",
+    "url": "http://www.royalhippodrome.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8945,
+    "name": "Luton Library Theatre",
+    "url": "http://www.librarytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8938,
+    "name": "Beccles Public Hall & Theatre",
+    "url": "http://www.becclespublichall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9027,
+    "name": "Gladstone Theatre",
+    "url": "http://www.gladstonetheatre.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8676,
+    "name": "Lancaster Grand Theatre",
+    "url": "http://www.lancastergrand.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8706,
+    "name": "The Black Box",
+    "url": "http://www.blackboxbelfast.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8714,
+    "name": "Corn Exchange",
+    "url": "http://www.cornexchangenew.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9093,
+    "name": "The Rhyl Little Theatre",
+    "url": "http://rhyllittletheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9000,
+    "name": "OSO Arts Centre",
+    "url": "http://www.osoarts.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8801,
+    "name": "Yeadon Town Hall Theatre",
+    "url": "http://www.yeadontownhall.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8837,
+    "name": "The Byre Theatre",
+    "url": "http://www.byretheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8830,
+    "name": "The Royal Court Theatre",
+    "url": "http://www.royalcourttheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8698,
+    "name": "Rosemary Branch",
+    "url": "http://www.rosemarybranch.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8554,
+    "name": "Malvern Theatres",
+    "url": "http://www.malvern-theatres.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8732,
+    "name": "Harlow Playhouse",
+    "url": "http://www.harlowplayhouse.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8573,
+    "name": "Swansea Grand Theatre",
+    "url": "http://www.swanseagrand.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9038,
+    "name": "Stockwell Playhouse",
+    "url": "http://www.stockwellph.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9151,
+    "name": "Scottish Youth Theatre",
+    "url": "http://www.scottishyouththeatre.org/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9124,
+    "name": "Hebden Bridge Little Theatre",
+    "url": "http://www.hblt.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8866,
+    "name": "Regis Centre",
+    "url": "http://www.regiscentre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8760,
+    "name": "Seven Arts",
+    "url": "http://www.sevenleeds.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8984,
+    "name": "The Courtyard Theatre",
+    "url": "http://www.thecourtyard.org.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9175,
+    "name": "The Avenue Theatre",
+    "url": "http://www.avenuetheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 9046,
+    "name": "The Royalty Theatre",
+    "url": "http://www.royaltytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8752,
+    "name": "Whitehall Theatre",
+    "url": "http://www.whitehalltheatre.com/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8708,
+    "name": "The Albany Theatre",
+    "url": "http://albanytheatre.co.uk/",
+    "reason": "No valid structure detected"
+  },
+  {
+    "id": 8542,
+    "name": "Soho Theatre",
+    "url": "http://www.sohotheatre.com/",
     "reason": "No valid structure detected"
   }
 ]

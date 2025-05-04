@@ -44,22 +44,5 @@
     "nock": "^14.0.4",
     "sinon": "^20.0.0",
     "supertest": "^7.1.0"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "collectCoverage": true,
-    "coverageDirectory": "coverage",
-    "collectCoverageFrom": [
-      "src/**/*.js",
-      "!**/node_modules/**",
-      "!**/coverage/**",
-      "!jest.config.js"
-    ],
-    "testMatch": [
-      "**/__tests__/**/*.js",
-      "**/?(*.)+(spec|test).js"
-    ],
-    "testTimeout": 30000,
-    "verbose": true
   }
 }

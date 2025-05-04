@@ -1,0 +1,82 @@
+[
+    {
+      "name": "www.andjulietthemusical.co.uk",
+      "url": "https://www.andjulietthemusical.co.uk/",
+      "selectors": {
+        "eventCard": ".tour-date",
+        "date": ".tour-date__dates",
+        "location": ".tour-date__venue",
+        "link": ".tour-date__link"
+      }
+    },
+    {
+      "name": "9to5themusical.co.uk",
+      "url": "https://9to5themusical.co.uk/tour/",
+      "selectors": {
+        "eventCard": ".row",
+        "date": null,
+        "location": null,
+        "link": null
+      }
+    },
+    {
+      "name": "anythinggoesmusical.co.uk",
+      "url": "https://anythinggoesmusical.co.uk/",
+      "selectors": {
+        "eventCard": ".row",
+        "date": null,
+        "location": null,
+        "link": null
+      }
+    },
+    {
+      "name": "beetlejuicebroadway.com",
+      "url": "https://beetlejuicebroadway.com/",
+      "selectors": {
+        "eventCard": ".row",
+        "date": null,
+        "location": null,
+        "link": null
+      }
+    },
+    {
+      "name": "www.kenwright.com",
+      "url": "https://www.kenwright.com/productions/blood-brothers-uk-tour/",
+      "selectors": {
+        "eventCard": ".wpb_row",
+        "date": ".book-dates",
+        "location": ".book-venue",
+        "link": ".book-button"
+      }
+    },
+    {
+      "name": "www.kenwright.com",
+      "url": "https://www.kenwright.com/productions/cruel-intentions-2025-tour/",
+      "selectors": {
+        "eventCard": ".wpb_row",
+        "date": ".book-dates",
+        "location": ".book-venue",
+        "link": ".book-button"
+      }
+    },
+    {
+      "name": "www.kenwright.com",
+      "url": "https://www.kenwright.com/productions/ghost-the-musical-2024-2025-tour/",
+      "selectors": {
+        "eventCard": ".wpb_row",
+        "date": ".book-dates",
+        "location": ".book-venue",
+        "link": ".book-button"
+      }
+    },
+    {
+      "name": "sixthemusical.com",
+      "url": "https://sixthemusical.com/uk-tour/tickets/",
+      "selectors": {
+        "eventCard": ".other-gold-gradient",
+        "date": null,
+        "location": null,
+        "link": ".rounded .py-2"
+      }
+    }
+  ]

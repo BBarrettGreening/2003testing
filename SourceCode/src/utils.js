@@ -21,9 +21,12 @@ const saveHtml = (html) => {
     if (html === null || html === undefined) {
       console.warn("Warning: Attempting to save null or undefined HTML");
       html = "";
+    } else if (html === "") {
+      // Also log a warning for empty strings
+      console.warn("Warning: Attempting to save empty HTML");
     }
     
-    const filename = generateFilename(".html");
+    const filename = generateFilename("", ".html");
     // If env == test create a test data folder, else create a scrapedHTML folder
     const folder = process.env.NODE_ENV === "test" ? "test-data" : "scrapedHTML";
     
@@ -31,6 +34,7 @@ const saveHtml = (html) => {
     try {
       if (!fs.existsSync(folder)) {
         fs.mkdirSync(folder, { recursive: true });
+        console.log(`Created directory: ${folder}`);
       }
     } catch (dirError) {
       console.error(`Error creating directory ${folder}:`, dirError.message);

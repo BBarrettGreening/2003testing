@@ -1,10 +1,8 @@
+// Directly import the module (no mocks needed for this test)
 const getStartEndDate = require('../../src/getStartEndDate');
-const { setupMockFiles } = require('../testUtils');
 
-describe('Date Processing', () => {
-  beforeAll(() => {
-    setupMockFiles();
-  });
+describe('Date Processing Function Tests', () => {
+  // No need for beforeEach setup as this is a pure function with no dependencies
 
   test('handles DD/MM/YYYY - DD/MM/YYYY format', () => {
     const result = getStartEndDate('02/05/2025 - 10/05/2025');
@@ -83,6 +81,31 @@ describe('Date Processing', () => {
     expect(result).toEqual({
       startDate: '',
       endDate: ''
+    });
+  });
+  
+  test('handles undefined input', () => {
+    const result = getStartEndDate(undefined);
+    expect(result).toEqual({
+      startDate: '',
+      endDate: ''
+    });
+  });
+  
+  test('handles unusual single date formats', () => {
+    const result = getStartEndDate('Opening Night: 15 March 2025');
+    expect(result).toEqual({
+      startDate: '15 March 2025',
+      endDate: ''
+    });
+  });
+  
+  // Add more edge cases for the format function's behavior
+  test('handles dates with different day formats', () => {
+    const result = getStartEndDate('01/06/2025 - 10/06/2025');
+    expect(result).toEqual({
+      startDate: '1 June 2025',
+      endDate: '10 June 2025'
     });
   });
 });

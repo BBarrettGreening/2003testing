@@ -1,0 +1,60 @@
+@startuml Initialisation and User Interface
+
+actor "User" as User
+participant "Web Interface" as UI
+participant "Express Server" as Server
+participant "Socket.io Server" as Socket
+
+== Application Initialisation ==
+User -> UI: Access web interface
+UI -> Server: Request application
+Server -> UI: Send HTML/CSS/JS
+UI -> Socket: Establish socket connection
+Socket -> UI: Connection confirmed
+
+== File Upload Interaction ==
+User -> UI: Click "Upload Theatre File" button
+UI -> UI: Open file selection dialog
+User -> UI: Select theatre XLSX file
+UI -> Server: POST /upload/theatre
+Server -> Server: Store uploaded file in memory
+Server --> UI: Upload successful response
+UI --> User: Display success message
+
+User -> UI: Click "Upload Show File" button
+UI -> UI: Open file selection dialog
+User -> UI: Select show XLSX file
+UI -> Server: POST /upload/show
+Server -> Server: Store uploaded file in memory
+Server --> UI: Upload successful response
+UI --> User: Display success message
+
+== Button Operations ==
+User -> UI: Click "Find Structures" button
+UI -> Server: POST /api/find-structure
+Server --> UI: Request received confirmation
+UI -> Socket: Begin terminal output
+Socket -> UI: Display "Finding structures..." message
+
+User -> UI: Click "Start Scraping" button
+UI -> Server: POST /api/scrape
+Server --> UI: Request received confirmation
+UI -> Socket: Begin terminal output
+Socket -> UI: Display "Starting scraping..." message
+
+User -> UI: Click "Download Results" button
+UI -> Server: GET /download
+Server -> Server: Create ZIP archive of results
+Server --> UI: Send ZIP file
+UI --> User: Save results dialog
+
+User -> UI: Click "Export Failed Structures" button
+UI -> Server: GET /export-failed-structures
+Server -> Server: Generate failed structures file
+Server --> UI: Send failed structures file
+UI --> User: Save file dialog
+
+User -> UI: Click "Toggle Terminal" button
+UI -> UI: Show/hide terminal output section
+
+@enduml

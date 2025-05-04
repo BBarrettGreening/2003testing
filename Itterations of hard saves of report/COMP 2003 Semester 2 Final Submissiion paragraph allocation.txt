@@ -1,0 +1,74 @@
+COMP 2003 Semester 2 Final Submission
+GitHub:
+Trello:
+Table of contents
+Main Page  - Jake Lear
+Introduction - Jake Lear
+Client introduction - Open for work
+Problem statement - Jake Lear
+Brief System requirements - Probably best for busty
+Other Necessary details - Open for work
+Project management
+Project planning material - Jake Lear
+Project Overview
+Project Scope
+Project Objectives
+Project Proposal
+Original project plan of Epics
+Communication plan
+Tools and methodologies used - Busta
+Sprint Planning - Jake Lear
+Sprint Execution - Tom
+Backlog Management
+Team work
+Reviewing sprints
+Risk assessment and Mitigation - Bence???
+Identified risks
+Mitigation strategies
+Risk Monitoring
+Project Schedule
+Timeline and Milestones - Busta
+Gantt Chart - Jake
+Client management
+Communication strategy - Bence
+Feedback Integration - Tom
+Stakeholder involvement - Jake
+Detailed System Design
+User Story - Tom
+Entity Relationship Diagram (ERD)  - Busta
+Prototype Screenshots - Busta
+HIPO Chart - Jake
+State Diagrams - Busta
+Data Flow Diagrams (DFDs) - Jake
+Sequence Diagrams - Bence
+Flowcharts  - Tom
+UML Diagrams - Busta
+Important Code Snippets (Screenshots) - Jake
+Web Scraper Core Logic
+Page Navigation Handling
+Data Extraction Functions
+Error Handling and Logging
+GitHub Repository Link
+Quality Assurance
+Surveys and Questionnaires - Bence
+Unit Testing Documentation - N/A at the moment, Busta? Jake?
+User Acceptance Testing (UAT) - Bence || Busta (most housemates)
+Methodology
+Results
+Post-Project Support
+Other QA Measures
+LSEP - Jake
+Conclusion - Will need to be a bit of all
+Project Summary - Jake || Busta
+Achievements - All
+Merits and Impact - All
+Challenges - All
+Issues faced - All
+References
+Cited Websites and Papers
+Appendix - All
+1000-Word CW Submission Evidence and Evaluation
+Jake Lear - link
+Bence Bekfi - Link
+Bustamante Barrett-Greening - Link
+Thomas Drew - Link

@@ -1,0 +1,45 @@
+@startuml Theatre Structure Detection States
+
+[*] --> Ready
+
+state Ready {
+}
+
+state ScanningLayouts {
+  description: Starting theatre website structure detection
+}
+
+state ProcessingLayouts {
+  description: processTheatresFromXLSX()
+}
+
+state DetectingStructures {
+  description: analyzeWebsite() for each theatre
+}
+
+state FindingSelectors {
+  description: detectEventStructure()
+  description: findMatchingSelectors()
+}
+
+state ValidatingURL {
+  description: isValidUrl()
+  description: getBestScrapingUrl()
+}
+
+state SavingWebsiteConfigs {
+  description: Saving to websiteConfigs.json
+}
+
+Ready --> ScanningLayouts : User clicks "Scan Website Layouts"
+ScanningLayouts --> ProcessingLayouts : Start processing
+ProcessingLayouts --> DetectingStructures : Load theatres
+
+DetectingStructures --> ValidatingURL : Check URL
+ValidatingURL --> FindingSelectors : URL valid
+FindingSelectors --> DetectingStructures : Process next theatre
+DetectingStructures --> SavingWebsiteConfigs : All theatres processed
+
+SavingWebsiteConfigs --> Ready : Configuration saved
+
+@enduml

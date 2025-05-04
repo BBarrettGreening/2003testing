@@ -8,6 +8,10 @@ const router = express.Router();
 
 // Upload and replace TheatreListReport.xlsx
 router.post("/upload-theatre", upload.single("TheatreListReport"), (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ message: "No file uploaded." });
+  }
+
   const targetPath = path.join(__dirname, "../../docs/TheatreListReport.xlsx");
 
   fs.rename(req.file.path, targetPath, (err) => {

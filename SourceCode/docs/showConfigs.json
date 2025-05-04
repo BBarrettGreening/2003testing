@@ -1,24 +1,134 @@
 [
   {
-    "id": 1,
-    "name": "Test Show",
-    "url": "https://example.com/show",
+    "id": 38792,
+    "name": "Calendar Girls The Musical",
+    "url": "https://www.kenwright.com/productions/calendar-girls-the-musical-2024/#book-tickets",
     "selectors": {
-      "eventCard": ".event-card",
-      "date": ".date",
-      "location": ".venue",
-      "link": "a.link"
+      "eventCard": ".wpb_row",
+      "date": ".book-dates",
+      "location": ".book-venue",
+      "link": ".book-button"
     }
   },
   {
-    "id": 2,
-    "name": "Concord Show",
-    "url": "https://www.concordtheatricals.co.uk/p/123/test-show",
+    "id": 38784,
+    "name": "Boys from the Blackstuff",
+    "url": "https://www.kenwright.com/productions/boys-from-the-blackstuff-2025-tour/",
     "selectors": {
-      "eventCard": ".production-item",
-      "date": ".show-date",
-      "location": ".theatre-name",
-      "link": ".book-link"
+      "eventCard": ".wpb_row",
+      "date": ".book-dates",
+      "location": ".book-venue",
+      "link": ".book-button"
+    }
+  },
+  {
+    "id": 38706,
+    "name": "The Gulf",
+    "url": "http://concordtheatricals.com/p/62321/the-gulf-full-length",
+    "selectors": {
+      "eventCard": ".row",
+      "date": " A concord link, no values necessary",
+      "location": " A concord link, no values necessary",
+      "link": " A concord link, no values necessary"
+    }
+  },
+  {
+    "id": 38663,
+    "name": "The Ghost Train",
+    "url": "https://www.kenwright.com/productions/ghost-the-musical-2024-2025-tour/",
+    "selectors": {
+      "eventCard": ".wpb_row",
+      "date": ".book-dates",
+      "location": ".book-venue",
+      "link": ".book-button"
+    }
+  },
+  {
+    "id": 38599,
+    "name": "Cruel Intentions",
+    "url": "https://www.kenwright.com/productions/cruel-intentions-2025-tour/",
+    "selectors": {
+      "eventCard": ".wpb_row",
+      "date": ".book-dates",
+      "location": ".book-venue",
+      "link": ".book-button"
+    }
+  },
+  {
+    "id": 38548,
+    "name": "Bat Out of Hell: The Musical",
+    "url": "https://batoutofhellmusical.com/",
+    "selectors": {
+      "eventCard": ".bg-yellow.p-1.w-full",
+      "date": ".text-yellow",
+      "location": "h3.text-cream, h4",
+      "link": ".block.w-full.py-3"
+    }
+  },
+  {
+    "id": 38564,
+    "name": "Blood Brothers",
+    "url": "https://www.kenwright.com/productions/blood-brothers-uk-tour/",
+    "selectors": {
+      "eventCard": ".wpb_row",
+      "date": ".book-dates",
+      "location": ".book-venue",
+      "link": ".book-button"
+    }
+  },
+  {
+    "id": 38280,
+    "name": "Six Characters in Search of an Author",
+    "url": "https://sixthemusical.com/uk-tour/tickets/",
+    "selectors": {
+      "eventCard": ".other-gold-gradient.py-6.px-4.space-y-3.transition-all",
+      "date": ".uppercase.text-primary.font-bold.p-0",
+      "location": ".uppercase.text-white.font-bold.p-0",
+      "link": ".border-2.rounded.py-2.bg-white.block.mx-auto.group"
+    }
+  },
+  {
+    "id": 38279,
+    "name": "Six",
+    "url": "https://sixthemusical.com/uk-tour/tickets/",
+    "selectors": {
+      "eventCard": ".other-gold-gradient.py-6.px-4.space-y-3.transition-all",
+      "date": ".uppercase.text-primary.font-bold.p-0",
+      "location": ".uppercase.text-white.font-bold.p-0",
+      "link": ".border-2.rounded.py-2.bg-white.block.mx-auto.group"
+    }
+  },
+  {
+    "id": 38122,
+    "name": "Half a Sixpence",
+    "url": "https://sixthemusical.com/uk-tour/tickets/",
+    "selectors": {
+      "eventCard": ".other-gold-gradient.py-6.px-4.space-y-3.transition-all",
+      "date": ".uppercase.text-primary.font-bold.p-0",
+      "location": ".uppercase.text-white.font-bold.p-0",
+      "link": ".border-2.rounded.py-2.bg-white.block.mx-auto.group"
+    }
+  },
+  {
+    "id": 38257,
+    "name": "Romeo and Juliet",
+    "url": "https://www.andjulietthemusical.co.uk/",
+    "selectors": {
+      "eventCard": ".tour-date",
+      "date": ".tour-date__dates",
+      "location": ".tour-date__venue",
+      "link": ".tour-date__link"
+    }
+  },
+  {
+    "id": 38109,
+    "name": "Ghost the Musical",
+    "url": "https://www.kenwright.com/productions/ghost-the-musical-2024-2025-tour/",
+    "selectors": {
+      "eventCard": ".wpb_row",
+      "date": ".book-dates",
+      "location": ".book-venue",
+      "link": ".book-button"
     }
   }
 ]

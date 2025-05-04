@@ -1,0 +1,114 @@
+@startuml Theatre Scraper ERD
+
+entity "Theatre" as theatre {
+  * id : Integer <<PK>>
+  --
+  name : String
+  website : String
+  location : String
+  city : String
+  country : String
+  selectors : JSON
+}
+
+entity "Show" as show {
+  * id : Integer <<PK>>
+  --
+  name : String
+  url : String
+  selectors : JSON
+}
+
+entity "Production" as production {
+  * id : Integer <<generated>>
+  --
+  title : String
+  date : String
+  location : String
+  link : String
+}
+
+entity "WebsiteConfig" as websiteConfig {
+  * name : String
+  --
+  url : String
+  selectors : JSON
+  location : String
+}
+
+entity "ShowConfig" as showConfig {
+  * id : Integer <<PK>>
+  --
+  name : String
+  url : String
+  selectors : JSON
+}
+
+entity "ConcordeData" as concorde {
+  * Name : String
+  --
+  Url : String
+  City : String
+  State : String
+  Opening : String
+  Closing : String
+}
+
+entity "FailedAttempt" as failed {
+  * url : String
+  --
+  error : String
+  retries : Integer
+}
+
+entity "ScrapedData" as scraped {
+  * theatre : String
+  --
+  show_name : String
+  shows : Array of Productions
+}
+
+entity "OutputFile" as output {
+  * filename : String
+  --
+  part1 : CSV of show names
+  part2 : CSV of show details
+}
+
+entity "PotentialSelectors" as potSelectors {
+  * eventCard : String[]
+  --
+  title : String[]
+  date : String[]
+  link : String[]
+}
+
+entity "ShowPotentialSelectors" as showPotSelectors {
+  * eventCard : String[]
+  --
+  date : String[]
+  location : String[]
+  link : String[]
+}
+
+entity "WebsitesList" as websitesList {
+  * urls : String[]
+}
+
+entity "ShowWebsitesList" as showWebsitesList {
+  * urls : String[]
+}
+
+' Relationships
+theatre "1" -- "0..*" production : displayed at
+show "1" -- "0..*" production : performed as
+show "1" -- "0..*" concorde : has performances in
+websiteConfig -- theatre : provides structure for
+showConfig -- show : provides structure for
+potSelectors -- websiteConfig : used to detect
+showPotSelectors -- showConfig : used to detect
+scraped "1" -- "0..*" production : contains
+scraped -- output : exported as
+websitesList -- websiteConfig : source for
+
+@enduml

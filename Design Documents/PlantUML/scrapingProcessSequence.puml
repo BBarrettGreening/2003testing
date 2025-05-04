@@ -1,0 +1,90 @@
+@startuml Scraping Process
+
+actor "User" as User
+participant "Web Interface" as UI
+participant "Express Server" as Server
+participant "Socket.io Server" as Socket
+participant "scraper.js" as Scraper
+participant "siteHandlers.js" as SiteHandler
+participant "concordeTheatricalsBespoke.js" as ConcordScraper
+participant "outputData.js" as OutputData
+database "websiteConfigs.json" as TheatreConfigs
+database "showWebsiteConfigs.json" as ShowConfigs
+database "concordeData.json" as ConcordData
+database "External Websites" as ExternalWebsites
+
+== Scraping Initialisation ==
+User -> UI: Click "Start Scraping" button
+UI -> Server: POST /api/scrape
+Server -> Scraper: Call scraper function
+Scraper -> Socket: Log scraping initiation
+Socket -> UI: Display "Starting scraping process"
+
+== Theatre Website Scraping ==
+Scraper -> TheatreConfigs: Load theatre website configurations
+Scraper -> Socket: Log theatre scraping start
+Socket -> UI: Display "Processing theatre websites"
+
+loop For each theatre website in config
+    Scraper -> Socket: Log current theatre processing
+    Socket -> UI: Display theatre name being processed
+
+    Scraper -> SiteHandler: handleSite(name, url, selectors)
+    SiteHandler -> ExternalWebsites: HTTP GET request
+    ExternalWebsites --> SiteHandler: HTML response
+    SiteHandler -> SiteHandler: Parse with Cheerio
+    SiteHandler -> SiteHandler: Extract show data
+    SiteHandler --> Scraper: Return structured data
+
+    Scraper -> Scraper: Format data (theatre entry)
+    Scraper -> Scraper: Add to results array
+end
+
+== Show Website Scraping ==
+Scraper -> ShowConfigs: Load show website configurations
+Scraper -> Socket: Log show scraping start
+Socket -> UI: Display "Processing show websites"
+
+loop For each show website in config
+    Scraper -> Socket: Log current show processing
+    Socket -> UI: Display show name being processed
+
+    alt Not a Concord Theatricals website
+        Scraper -> SiteHandler: scrapeShow(name, url, selectors)
+        SiteHandler -> ExternalWebsites: HTTP GET request
+        ExternalWebsites --> SiteHandler: HTML response
+        SiteHandler -> SiteHandler: Parse with Cheerio
+        SiteHandler -> SiteHandler: Extract show data
+        SiteHandler --> Scraper: Return structured data
+    else Skipping Concord website
+        Scraper -> Socket: Log skipping Concord site
+        Socket -> UI: Display "Skipping Concord site, using pre-scraped data"
+    end
+
+    Scraper -> Scraper: Format data (show entry)
+    Scraper -> Scraper: Add to results array
+end
+
+== Concord Data Processing ==
+Scraper -> ConcordData: Load pre-scraped Concord data
+Scraper -> Socket: Log Concord data processing
+Socket -> UI: Display "Processing Concord Theatricals data"
+
+loop For each show in Concord data
+    Scraper -> Scraper: Format Concord data
+    Scraper -> Scraper: Add to results array
+end
+
+== Data Export ==
+Scraper -> OutputData: saveToCSV(scrapedData, outputPath)
+OutputData -> OutputData: Format data for CSV
+OutputData -> OutputData: Write CSV files
+OutputData --> Scraper: Return file paths
+
+Scraper -> Socket: Log export completion
+Socket -> UI: Display "Scraping completed successfully"
+Scraper --> Server: Return results and file paths
+Server --> UI: Send scraping completion data
+UI --> User: Display scraping results summary
+
+@enduml

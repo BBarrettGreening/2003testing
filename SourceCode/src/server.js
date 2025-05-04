@@ -164,3 +164,13 @@ server.listen(port, () => {
   console.log(`Visit the app at http://localhost:${port}/`);
   console.log(`Swagger docs available at http://localhost:${port}/api`);
 });
+
+// Export for testing
+module.exports = {
+  app,
+  server,
+  clearLogsHandler: (req, res) => {
+    logbuffer = [];
+    res.json({success: true});
+  }
+};

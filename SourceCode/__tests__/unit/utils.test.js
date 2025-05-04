@@ -1,29 +1,40 @@
-const fs = require('fs');
-const path = require('path');
+// Create local mock implementations for file system
+const mockFs = {
+  existsSync: jest.fn(),
+  mkdirSync: jest.fn(),
+  writeFileSync: jest.fn()
+};
+
+// Create local mock implementation for path
+const mockPath = {
+  join: jest.fn((...args) => args.join('/'))
+};
+
+// Mock modules with local implementations
+jest.mock('fs', () => mockFs);
+jest.mock('path', () => mockPath);
+
+// Import the module being tested
 const { generateFilename, saveHtml } = require('../../src/utils');
-const { setupMockFiles, setupTestOutputDir } = require('../testUtils');
 
-// Mock fs module
-jest.mock('fs');
-jest.mock('path');
-
-describe('Utility Functions', () => {
-  beforeAll(() => {
-    setupMockFiles();
-  });
-  
+describe('Utility Functions Tests', () => {
   describe('generateFilename', () => {
     beforeEach(() => {
       // Set up fake timers for each test
       jest.useFakeTimers();
-      setupTestOutputDir();
       
       // Mock the Date object to return a consistent date
       const mockDate = new Date(2025, 4, 3, 9, 22, 37);
       jest.setSystemTime(mockDate);
       
+      // Reset mocks
+      mockPath.join.mockClear();
+      mockFs.existsSync.mockClear();
+      mockFs.mkdirSync.mockClear();
+      mockFs.writeFileSync.mockClear();
+      
       // Mock path.join
-      path.join.mockImplementation((...args) => args.join('/'));
+      mockPath.join.mockImplementation((...args) => args.join('/'));
     });
 
     afterEach(() => {
@@ -60,12 +71,9 @@ describe('Utility Functions', () => {
   describe('saveHtml', () => {
     beforeEach(() => {
       // Reset all mock implementations
-      fs.existsSync.mockReset();
-      fs.mkdirSync.mockReset();
-      fs.writeFileSync.mockReset();
-      setupTestOutputDir();
+      jest.clearAllMocks();
       
-      // Mock date for consistent filenames
+      // Set up mock date for consistent filenames
       jest.spyOn(global, 'Date').mockImplementation(() => ({
         getFullYear: () => 2025,
         getMonth: () => 4,
@@ -76,8 +84,13 @@ describe('Utility Functions', () => {
         toLocaleDateString: () => '5/3/2025'
       }));
       
+      // Default successful implementations
+      mockFs.existsSync.mockReturnValue(true);
+      mockFs.mkdirSync.mockImplementation(() => {});
+      mockFs.writeFileSync.mockImplementation(() => {});
+      
       // Mock path.join
-      path.join.mockImplementation((...args) => args.join('/'));
+      mockPath.join.mockImplementation((...args) => args.join('/'));
     });
 
     afterEach(() => {
@@ -85,60 +98,70 @@ describe('Utility Functions', () => {
     });
 
     test('creates file in correct directory when directory exists', () => {
-      fs.existsSync.mockReturnValue(true);
+      mockFs.existsSync.mockReturnValue(true);
       
       const result = saveHtml('<html></html>');
       
-      expect(fs.existsSync).toHaveBeenCalled();
-      expect(fs.writeFileSync).toHaveBeenCalled();
+      expect(mockFs.existsSync).toHaveBeenCalled();
+      expect(mockFs.writeFileSync).toHaveBeenCalled();
       expect(result).toContain('2025-05-03-09-22-37.html');
     });
 
     test('creates directory when it does not exist', () => {
-      fs.existsSync.mockReturnValue(false);
+      mockFs.existsSync.mockReturnValue(false);
       
       const result = saveHtml('<html></html>');
       
-      expect(fs.existsSync).toHaveBeenCalled();
-      expect(fs.mkdirSync).toHaveBeenCalled();
-      expect(fs.writeFileSync).toHaveBeenCalled();
+      expect(mockFs.existsSync).toHaveBeenCalled();
+      expect(mockFs.mkdirSync).toHaveBeenCalled();
+      expect(mockFs.writeFileSync).toHaveBeenCalled();
       expect(result).toContain('2025-05-03-09-22-37.html');
     });
 
-    test('handles empty HTML gracefully', () => {
-      fs.existsSync.mockReturnValue(true);
-      
-      const result = saveHtml('');
-      
-      expect(fs.writeFileSync).toHaveBeenCalledWith(expect.any(String), '');
-      expect(result).toContain('.html');
-    });
-
     test('handles null HTML gracefully', () => {
-      fs.existsSync.mockReturnValue(true);
-      
       const result = saveHtml(null);
       
-      expect(fs.writeFileSync).toHaveBeenCalledWith(expect.any(String), '');
-      expect(result).toContain('.html');
+      expect(mockFs.writeFileSync).toHaveBeenCalled();
+      // Verify empty string was saved
+      expect(mockFs.writeFileSync.mock.calls[0][1]).toBe('');
     });
 
-    test('handles file system errors gracefully', () => {
-      fs.existsSync.mockReturnValue(true);
-      fs.writeFileSync.mockImplementation(() => {
-        throw new Error('File write error');
-      });
+    test('handles undefined HTML gracefully', () => {
+      const result = saveHtml(undefined);
       
-      expect(() => saveHtml('<html></html>')).not.toThrow();
+      expect(mockFs.writeFileSync).toHaveBeenCalled();
+      // Verify empty string was saved
+      expect(mockFs.writeFileSync.mock.calls[0][1]).toBe('');
     });
 
-    test('handles directory creation errors gracefully', () => {
-      fs.existsSync.mockReturnValue(false);
-      fs.mkdirSync.mockImplementation(() => {
+    test('handles empty HTML gracefully', () => {
+      const result = saveHtml('');
+      
+      expect(mockFs.writeFileSync).toHaveBeenCalled();
+      // Verify empty string was saved
+      expect(mockFs.writeFileSync.mock.calls[0][1]).toBe('');
+    });
+
+    test('returns null if directory creation fails', () => {
+      mockFs.existsSync.mockReturnValue(false);
+      mockFs.mkdirSync.mockImplementation(() => {
         throw new Error('Directory creation error');
       });
       
-      expect(() => saveHtml('<html></html>')).not.toThrow();
+      const result = saveHtml('<html></html>');
+      
+      expect(result).toBeNull();
+    });
+
+    test('returns null if file writing fails', () => {
+      mockFs.existsSync.mockReturnValue(true);
+      mockFs.writeFileSync.mockImplementation(() => {
+        throw new Error('File write error');
+      });
+      
+      const result = saveHtml('<html></html>');
+      
+      expect(result).toBeNull();
     });
   });
 });

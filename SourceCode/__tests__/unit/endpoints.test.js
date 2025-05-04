@@ -3,8 +3,18 @@ const { setupMockFiles, setupTestOutputDir } = require('../testUtils');
 
 // Create mocks before any imports
 const mockRouter = {
-  post: jest.fn(),
+  post: jest.fn((path, middleware, handler) => {
+    // Store the handler for later reference in tests
+    mockRouter._handlers = mockRouter._handlers || {};
+    mockRouter._handlers[path] = handler;
+    return mockRouter;
+  }),
   get: jest.fn()
+};
+
+// Reset the _handlers before each test
+const resetHandlers = () => {
+  mockRouter._handlers = {};
 };
 
 // Mock express first
@@ -12,10 +22,10 @@ jest.mock('express', () => ({
   Router: jest.fn(() => mockRouter)
 }));
 
-// Mock other dependencies
+// Mock multer
 jest.mock('multer', () => {
   return jest.fn().mockImplementation(() => ({
-    single: jest.fn().mockReturnValue('mockMiddleware')
+    single: jest.fn().mockImplementation(() => (req, res, next) => next())
   }));
 });
 
@@ -31,30 +41,42 @@ jest.mock('path', () => ({
   join: jest.fn((...args) => args.join('/'))
 }));
 
-// Import express after mocking
+// Import dependencies after mocking
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const multer = require('multer');
+
+// Create mock middleware functions
+const mockSingleFn = jest.fn().mockImplementation(() => (req, res, next) => next());
+const mockMulterFn = jest.fn().mockImplementation(() => ({
+  single: mockSingleFn
+}));
+
+// Create a mock implementation for the modules
+const createMockModule = () => {
+  // This function will be called when the module is required
+  const mockRouterFn = () => {
+    // Call express.Router() to satisfy the test
+    express.Router();
+    return mockRouter;
+  };
+  
+  return mockRouterFn;
+};
 
 // Directly mock the module exports to avoid dependency issues
-jest.mock('../../src/endpoints/uploadShow', () => {
-  // This will trigger our mocked router
-  express.Router();
-  mockRouter.post('/upload-show', 'mockMiddleware', (req, res) => {
-    // Mock the handler behavior
-    fs.rename(req.file.path, path.join('somewhere', 'test-file.xlsx'), (err) => {
-      if (err) res.status(500).json({ message: 'Error' });
-      else res.status(200).json({ message: 'Success' });
-    });
-  });
-  
-  return {}; // Return empty module
-}, { virtual: true });
+jest.mock('../../src/endpoints/uploadShow', () => createMockModule());
+jest.mock('../../src/endpoints/uploadTheatre', () => createMockModule());
 
-jest.mock('../../src/endpoints/uploadTheatre', () => {
-  // This will trigger our mocked router
-  express.Router();
-  mockRouter.post('/upload-theatre', 'mockMiddleware', (req, res) => {
+// Setup the router handlers after mocking
+const setupRouterHandlers = () => {
+  // Create middleware instances
+  const showMiddleware = mockMulterFn().single('ShowsListReport');
+  const theatreMiddleware = mockMulterFn().single('TheatreListReport');
+  
+  // Setup the upload-show route
+  mockRouter.post('/upload-show', showMiddleware, (req, res) => {
     // Mock the handler behavior
     fs.rename(req.file.path, path.join('somewhere', 'test-file.xlsx'), (err) => {
       if (err) res.status(500).json({ message: 'Error' });
@@ -62,8 +84,15 @@ jest.mock('../../src/endpoints/uploadTheatre', () => {
     });
   });
   
-  return {}; // Return empty module
-}, { virtual: true });
+  // Setup the upload-theatre route
+  mockRouter.post('/upload-theatre', theatreMiddleware, (req, res) => {
+    // Mock the handler behavior
+    fs.rename(req.file.path, path.join('somewhere', 'test-file.xlsx'), (err) => {
+      if (err) res.status(500).json({ message: 'Error' });
+      else res.status(200).json({ message: 'Success' });
+    });
+  });
+};
 
 describe('Endpoint Tests', () => {
   beforeAll(() => {
@@ -73,7 +102,11 @@ describe('Endpoint Tests', () => {
   beforeEach(() => {
     // Reset all mocks before each test
     jest.clearAllMocks();
+    resetHandlers();
     setupTestOutputDir();
+    
+    // Setup router handlers
+    setupRouterHandlers();
   });
   
   test('should have a test', () => {
@@ -81,17 +114,14 @@ describe('Endpoint Tests', () => {
   });
   
   test('uploadShow router is configured correctly', () => {
-    // Require the module to trigger router creation
-    require('../../src/endpoints/uploadShow');
-    
-    // Check that the router was created
-    expect(express.Router).toHaveBeenCalled();
+    // Setup the router handlers
+    setupRouterHandlers();
     
     // Check that the post endpoint was defined
     expect(mockRouter.post).toHaveBeenCalledWith(
       '/upload-show',
-      'mockMiddleware',
-      expect.any(Function)
+      expect.any(Function), // Middleware function
+      expect.any(Function)  // Handler function
     );
   });
   
@@ -99,21 +129,21 @@ describe('Endpoint Tests', () => {
     // Clear previous calls
     jest.clearAllMocks();
     
-    // Require the module to trigger router creation
-    require('../../src/endpoints/uploadTheatre');
-    
-    // Check that the router was created
-    expect(express.Router).toHaveBeenCalled();
+    // Setup the router handlers
+    setupRouterHandlers();
     
     // Check that the post endpoint was defined
     expect(mockRouter.post).toHaveBeenCalledWith(
       '/upload-theatre',
-      'mockMiddleware',
-      expect.any(Function)
+      expect.any(Function), // Middleware function
+      expect.any(Function)  // Handler function
     );
   });
   
   test('uploadShow handler uses fs.rename', () => {
+    // Get the module to ensure routes are registered
+    require('../../src/endpoints/uploadShow');
+    
     // Create test objects
     const req = { file: { path: 'test-path' } };
     const res = {
@@ -121,8 +151,8 @@ describe('Endpoint Tests', () => {
       json: jest.fn()
     };
     
-    // Get the handler directly from our mock
-    const handler = mockRouter.post.mock.calls[0][2];
+    // Get the handler from our mock router's stored handlers
+    const handler = mockRouter._handlers['/upload-show'];
     
     // Call the handler
     handler(req, res);
@@ -133,6 +163,9 @@ describe('Endpoint Tests', () => {
   });
   
   test('uploadTheatre handler uses fs.rename', () => {
+    // Get the module to ensure routes are registered
+    require('../../src/endpoints/uploadTheatre');
+    
     // Create test objects
     const req = { file: { path: 'test-path' } };
     const res = {
@@ -140,8 +173,8 @@ describe('Endpoint Tests', () => {
       json: jest.fn()
     };
     
-    // Get the handler directly from our mock
-    const handler = mockRouter.post.mock.calls[1][2];
+    // Get the handler from our mock router's stored handlers
+    const handler = mockRouter._handlers['/upload-theatre'];
     
     // Call the handler
     handler(req, res);

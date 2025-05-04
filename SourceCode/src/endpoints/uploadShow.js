@@ -6,7 +6,7 @@ const upload = multer({ dest: path.join(__dirname, '../../uploads') });
 
 const router = express.Router();
 
-// Upload and replace ShowListReport.xlsx
+// Upload and replace ShowsListReport.xlsx
 router.post("/upload-show", upload.single("ShowsListReport"), (req, res) => {
   console.log("Received file upload:", req.file);
 
@@ -14,7 +14,7 @@ router.post("/upload-show", upload.single("ShowsListReport"), (req, res) => {
     return res.status(400).json({ message: "No file uploaded." });
   }
 
-  const targetPath = path.join(__dirname, "../../docs/ShowListReport.xlsx");
+  const targetPath = path.join(__dirname, "../../docs/ShowsListReport.xlsx");
   fs.rename(req.file.path, targetPath, (err) => {
     if (err) {
       console.error("Error moving file:", err);

@@ -1,0 +1,74 @@
+@startuml Component Diagram
+
+package "Server Components" {
+  [server.js] as Server
+  [scraper.js] as Router
+}
+
+package "API Endpoints" {
+  [uploadShow.js] as UploadShow
+  [uploadTheatre.js] as UploadTheatre
+  [fetchStructure.js] as FetchStructure
+  [fetchShowStructure.js] as FetchShowStructure
+  [exportFailedStructures.js] as ExportFailed
+  [getLatestFile.js] as GetLatest
+}
+
+package "Scraping Engine" {
+  [siteHandlers.js] as SiteHandlers
+  [concordeTheatricalsBespoke.js] as ConcordeScraper
+  [getStructure.js] as GetStructure
+  [getShowStructure.js] as GetShowStructure
+}
+
+package "Data Processing" {
+  [getStartEndDate.js] as DateProcessor
+  [outputData.js] as OutputData
+  [utils.js] as Utils
+}
+
+package "Configuration & Data" {
+  database "websiteConfigs.json" as TheatreConfigs
+  database "showConfigs.json" as ShowConfigs
+  database "potentialSelectors.json" as PotentialSelectors
+  database "showPotentialSelectors.json" as ShowPotentialSelectors
+  database "concordeData.json" as ConcordeData
+  database "failedAttempts.json" as FailedAttempts
+}
+
+' Server connections
+Server --> Router : routes to
+Server --> UploadShow : registers
+Server --> UploadTheatre : registers
+Server --> FetchStructure : registers
+Server --> FetchShowStructure : registers
+Server --> ExportFailed : registers
+Server --> GetLatest : registers
+
+' Router connections
+Router --> SiteHandlers : uses to scrape sites
+Router --> ConcordeData : reads data from
+Router --> TheatreConfigs : reads configurations
+Router --> ShowConfigs : reads configurations
+Router --> OutputData : calls to save data
+
+' Structure detection connections
+FetchStructure --> GetStructure : uses
+FetchShowStructure --> GetShowStructure : uses
+GetStructure --> PotentialSelectors : reads selectors
+GetShowStructure --> ShowPotentialSelectors : reads selectors
+GetStructure --> TheatreConfigs : writes to
+GetShowStructure --> ShowConfigs : writes to
+
+' Concorde specific connections
+ConcordeScraper --> ConcordeData : writes data to
+ConcordeScraper --> FailedAttempts : tracks failures
+ConcordeScraper --> DateProcessor : processes dates
+
+' Handler connections
+SiteHandlers --> DateProcessor : formats dates
+
+' Output connections
+OutputData --> DateProcessor : uses for date formatting
+OutputData --> Utils : uses for file naming
+@enduml

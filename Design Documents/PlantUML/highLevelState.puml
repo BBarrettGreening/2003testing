@@ -1,0 +1,38 @@
+@startuml High-Level State Diagram
+
+[*] --> Ready : Application Start
+
+state Ready {
+}
+
+state "Website Structure Detection" as WebsiteStructure {
+  state "Analyzing Theatre Websites" as TheatreAnalysis
+}
+
+state "Show Structure Detection" as ShowStructure {
+  state "Analyzing Show Websites" as ShowAnalysis
+  state "Processing Concorde Data" as ConcordeProcessing
+}
+
+state "Scraping Process" as Scraping {
+  state "Extracting Theatre Data" as TheatreScraping
+  state "Extracting Show Data" as ShowScraping
+  state "Saving Output" as OutputSaving
+}
+
+state "Data Management" as DataManagement {
+  state "Exporting Data" as Exporting
+  state "Importing Data" as Importing
+}
+
+Ready --> WebsiteStructure : User clicks "Scan Website Layouts"
+Ready --> ShowStructure : User clicks "Get Show Website Layouts"
+Ready --> Scraping : User clicks "Scrape Productions"
+Ready --> DataManagement : User selects data operation
+
+WebsiteStructure --> Ready : Structure analysis complete
+ShowStructure --> Ready : Structure analysis complete
+Scraping --> Ready : Scraping complete
+DataManagement --> Ready : Data operation complete
+
+@enduml

@@ -19,10 +19,11 @@ describe('Output Data Functions', () => {
     jest.clearAllMocks();
     setupTestOutputDir();
     
-    // Mock generateFilename to return consistent filenames
-    generateFilename.mockImplementation((suffix, extension) => {
-      return `2025-05-03-12-00-00${suffix}${extension}`;
-    });
+  // Update generateFilename mock
+  generateFilename.mockImplementation((suffix, extension) => {
+    return `mock-timestamp${suffix}${extension}`;
+  });
+
     
     // Mock file system functions
     fs.existsSync.mockReturnValue(true);
@@ -71,11 +72,8 @@ describe('Output Data Functions', () => {
     // Check that two files were created
     expect(fs.writeFileSync).toHaveBeenCalledTimes(2);
     
-    // Check returned paths
-    expect(result).toHaveProperty('part1');
-    expect(result).toHaveProperty('part2');
-    expect(result.part1).toContain('Part-1.csv');
-    expect(result.part2).toContain('Part-2.csv');
+    expect(result.part1).toMatch(/Part-1\.csv$/);
+    expect(result.part2).toMatch(/Part-2\.csv$/);
   });
   
   test('saveToCSV handles empty data gracefully', () => {

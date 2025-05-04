@@ -1,0 +1,90 @@
+@startuml Scraping Process States
+
+[*] --> Ready
+
+state Ready {
+}
+
+state Scraping {
+  description: Starting scraping process
+}
+
+state LoadingConfigs {
+  description: Loading configuration files
+  description: loadTheatreConfigs()
+  description: loadShowConfigs()
+  description: loadConcordData()
+}
+
+state ProcessingTheatres {
+  description: Processing theatre websites
+}
+
+state TheatreCheck {
+  description: Check if it's a Concorde site
+  description: normaliseURL()
+}
+
+state HandleTheatreSite {
+  description: handleSite() for general sites
+}
+
+state ProcessingShows {
+  description: Processing show websites
+}
+
+state ShowCheck {
+  description: Check if it's a Concorde site
+  description: normaliseURL()
+}
+
+state HandleShowSite {
+  description: scrapeShow() for general sites
+}
+
+state ProcessingConcordeSites {
+  description: Processing Concorde sites
+}
+
+state CheckConcordeMatch {
+  description: Find matching Concorde data
+}
+
+state ExtractingConcordeData {
+  description: Extract data from concordeData.json
+}
+
+state FormattingData {
+  description: Format scraped data
+}
+
+state SavingScrapedData {
+  description: saveToCSV()
+}
+
+Ready --> Scraping : User clicks "Scrape Productions"
+Scraping --> LoadingConfigs : Start loading configurations
+
+LoadingConfigs --> ProcessingTheatres : Process theatre configurations
+
+ProcessingTheatres --> TheatreCheck : For each theatre
+TheatreCheck --> ProcessingTheatres : Is a Concorde site (skip)
+TheatreCheck --> HandleTheatreSite : Not a Concorde site
+HandleTheatreSite --> ProcessingTheatres : Continue to next theatre
+ProcessingTheatres --> ProcessingShows : All theatres processed
+
+ProcessingShows --> ShowCheck : For each show
+ShowCheck --> ProcessingShows : Is a Concorde site (skip)
+ShowCheck --> HandleShowSite : Not a Concorde site
+HandleShowSite --> ProcessingShows : Continue to next show
+ProcessingShows --> ProcessingConcordeSites : All shows processed
+
+ProcessingConcordeSites --> CheckConcordeMatch : For each show config with Concorde URL
+CheckConcordeMatch --> ExtractingConcordeData : Match found in concordeData.json
+ExtractingConcordeData --> ProcessingConcordeSites : Continue to next Concorde site
+ProcessingConcordeSites --> FormattingData : All Concorde sites processed
+
+FormattingData --> SavingScrapedData : Format all collected data
+SavingScrapedData --> Ready : Data saved to CSV files
+
+@enduml

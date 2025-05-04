@@ -1,0 +1,58 @@
+@startuml Show Structure Detection States
+
+[*] --> Ready
+
+state Ready {
+}
+
+state ScanningShowLayouts {
+  description: Starting show website structure detection
+}
+
+state ProcessingShowLayouts {
+  description: processShowsFromXLSX()
+}
+
+state "Show Type Decision" as ShowTypeDecision
+
+state DetectingShowStructures {
+  description: analyzeShowWebsite()
+  description: detectShowStructure()
+}
+
+state ProcessingConcordeLinks {
+  description: analyseConcorde()
+  description: getTableContents()
+  description: scrollPage()
+}
+
+state RetryingFailedSites {
+  description: retryConcordeFailures()
+}
+
+state SavingShowConfigs {
+  description: Saving to showConfigs.json
+}
+
+state SavingConcordeData {
+  description: Saving to concordeData.json
+}
+
+Ready --> ScanningShowLayouts : User clicks "Get Show Website Layouts"
+ScanningShowLayouts --> ProcessingShowLayouts : Start processing
+
+ProcessingShowLayouts --> ShowTypeDecision : For each show
+
+ShowTypeDecision --> DetectingShowStructures : Regular website
+ShowTypeDecision --> ProcessingConcordeLinks : Concorde website
+
+DetectingShowStructures --> SavingShowConfigs : Structures detected
+ProcessingConcordeLinks --> SavingConcordeData : Concorde data processed
+ProcessingConcordeLinks --> RetryingFailedSites : Some sites failed
+RetryingFailedSites --> SavingConcordeData : Retry complete
+
+SavingShowConfigs --> ShowTypeDecision : Process next show
+SavingConcordeData --> ShowTypeDecision : Process next show
+ShowTypeDecision --> Ready : All shows processed
+
+@enduml

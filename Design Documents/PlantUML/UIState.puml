@@ -1,0 +1,108 @@
+@startuml Stagely Web Scraper - UI States
+
+[*] --> InitialState
+
+state InitialState {
+  description: Application loaded
+  description: Status shows "Latest Scrape: Loading..."
+}
+
+state DataLoaded {
+  description: Latest scrape date displayed
+  description: Download button hidden if no data
+}
+
+state "Theatre Import Modal" as TheatreImportModal {
+  state TheatreDropzone {
+    description: "Drop file here or click to browse"
+  }
+  state TheatreFileSelected {
+    description: File name displayed
+  }
+}
+
+state "Show Import Modal" as ShowImportModal {
+  state ShowDropzone {
+    description: "Drop file here or click to browse"
+  }
+  state ShowFileSelected {
+    description: File name displayed
+  }
+}
+
+state OperationInProgress {
+  description: Status message displayed
+  description: "Processing..." shown
+}
+
+state "Website Structure Detection" as WebsiteStructureDetection {
+  description: Scanning website layouts
+}
+
+state "Show Structure Detection" as ShowStructureDetection {
+  description: Scanning show layouts
+}
+
+state "Scraping Data" as ScrapingData {
+  description: Scraping productions
+}
+
+state "Export Failed Structures" as ExportFailedStructures {
+  description: Exporting failed structures
+}
+
+state OperationComplete {
+  description: Success/error message displayed
+  description: Download button shown if data available
+}
+
+state CMDOutput {
+  description: Live terminal output
+  state AutoScrollOn {
+    description: "Auto Scroll: On"
+  }
+  state AutoScrollOff {
+    description: "Auto Scroll: Off"
+  }
+}
+
+state DataDownloading {
+  description: Browser download dialog
+}
+
+InitialState --> DataLoaded : fetchLatestFile() completes
+
+DataLoaded --> TheatreImportModal : User clicks "Add Theatre Import File"
+TheatreImportModal --> TheatreDropzone : Modal opened
+TheatreDropzone --> TheatreFileSelected : File dragged or selected
+TheatreFileSelected --> DataLoaded : User clicks "Save" or cancels
+
+DataLoaded --> ShowImportModal : User clicks "Add Show Import File"
+ShowImportModal --> ShowDropzone : Modal opened
+ShowDropzone --> ShowFileSelected : File dragged or selected
+ShowFileSelected --> DataLoaded : User clicks "Save" or cancels
+
+DataLoaded --> WebsiteStructureDetection : User clicks "Scan Website Layouts"
+WebsiteStructureDetection --> OperationInProgress : Processing starts
+OperationInProgress --> OperationComplete : Processing completes
+OperationComplete --> DataLoaded : After timeout or user interaction
+
+DataLoaded --> ShowStructureDetection : User clicks "Get Show Website Layouts"
+ShowStructureDetection --> OperationInProgress : Processing starts
+
+DataLoaded --> ScrapingData : User clicks "Scrape Productions"
+ScrapingData --> OperationInProgress : Processing starts
+
+DataLoaded --> ExportFailedStructures : User clicks "Export Failed Structures"
+ExportFailedStructures --> DataDownloading : Browser download initiated
+DataDownloading --> DataLoaded : Download complete or cancelled
+
+DataLoaded --> DataDownloading : User clicks "Download the scraped data"
+
+InitialState -right-> CMDOutput : Terminal view initialized
+CMDOutput --> AutoScrollOn : Default state
+AutoScrollOn --> AutoScrollOff : User toggles scroll
+AutoScrollOff --> AutoScrollOn : User toggles scroll
+DataLoaded -right-> CMDOutput : Terminal continuously updated
+
+@enduml

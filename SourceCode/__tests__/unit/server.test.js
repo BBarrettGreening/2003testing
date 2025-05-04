@@ -24,7 +24,7 @@ jest.mock('express', () => {
     use: jest.fn(),
     get: jest.fn(),
     post: jest.fn(),
-    listen: jest.fn()
+    listen: jest.fn().mockReturnThis()
   };
   
   const expressFn = jest.fn(() => mockApp);
@@ -50,6 +50,15 @@ jest.mock('body-parser', () => ({
   json: jest.fn(() => 'jsonMiddleware')
 }));
 
+jest.mock('swagger-ui-express', () => ({
+  serve: 'swaggerUIServe',
+  setup: jest.fn().mockReturnValue('swaggerUISetup')
+}));
+
+jest.mock('yaml', () => ({
+  parse: jest.fn().mockReturnValue({})
+}));
+
 jest.mock('fs', () => ({
   existsSync: jest.fn().mockReturnValue(true),
   readFileSync: jest.fn().mockReturnValue('{}'),
@@ -59,6 +68,15 @@ jest.mock('fs', () => ({
 
 jest.mock('path', () => ({
   join: jest.fn((...args) => args.join('/'))
+}));
+
+// Mock child_process
+jest.mock('child_process', () => ({
+  spawn: jest.fn().mockReturnValue({
+    on: jest.fn(),
+    stdout: { on: jest.fn() },
+    stderr: { on: jest.fn() }
+  })
 }));
 
 // Mock the endpoint modules
@@ -72,6 +90,8 @@ jest.mock('../../src/endpoints/fetchShowStructure', () => 'fetchShowStructureMod
 
 // Create a mock replacement for server
 jest.mock('../../src/server', () => {
+  // Import express inside the factory function
+  const express = require('express');
   const mockApp = express();
   
   // Mock the server's app and server objects
@@ -110,6 +130,10 @@ describe('Server Initialization', () => {
 describe('Server Endpoints', () => {
   beforeAll(() => {
     setupMockFiles();
+  });
+  
+  beforeEach(() => {
+    setupTestOutputDir();
   });
   
   test('/clear-logs endpoint clears logs', () => {

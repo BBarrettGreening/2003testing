@@ -203,3 +203,4 @@ module.exports = { handleSite };
 module.exports.scrapeShow = scrapeShow;
 module.exports.scrapeNederlander = scrapeNederlander;
 module.exports.scrapeATG = scrapeATG;
+module.exports.scrapeGeneral = scrapeGeneral;

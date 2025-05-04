@@ -1,11 +1,12 @@
 // __tests__/unit/fetchShowStructure.test.js
 const { setupMockFiles, setupTestOutputDir } = require('../testUtils');
 
-// Mock the core dependencies
+// Create mock router BEFORE any imports
 const mockRouter = {
   post: jest.fn()
 };
 
+// Mock express before requiring other modules
 jest.mock('express', () => ({
   Router: jest.fn(() => mockRouter)
 }));
@@ -20,28 +21,34 @@ jest.mock('../../src/getShowStructure', () => ({
   })
 }));
 
-// Mock the module itself using virtual: true
+// Now require the modules after mocking
+const express = require('express');
+const { processShowsFromXLSX } = require('../../src/getShowStructure');
+
+// Create a handler function for testing
+const testHandler = async (req, res) => {
+  try {
+    const result = await processShowsFromXLSX();
+    res.json(result);
+  } catch (error) {
+    res.status(500).json({ error: "Failed to process show website structures." });
+  }
+};
+
+// Create a manual mock for the module
 jest.mock('../../src/endpoints/fetchShowStructure', () => {
   // Trigger router creation to satisfy the test
   const express = require('express');
-  const { processShowsFromXLSX } = require('../../src/getShowStructure');
   
   express.Router();
-  mockRouter.post('/fetchShowStructure', async (req, res) => {
-    try {
-      const result = await processShowsFromXLSX();
-      res.json(result);
-    } catch (error) {
-      res.status(500).json({ error: "Failed to process show website structures." });
-    }
-  });
   
-  return {}; // Return empty module
+  // Ensure post is called with proper arguments
+  mockRouter.post('/fetchShowStructure', testHandler);
+  
+  return {
+    testHandler // Export the handler for testing
+  }; 
 }, { virtual: true });
-
-// Import express and the module dependencies after mocking
-const express = require('express');
-const { processShowsFromXLSX } = require('../../src/getShowStructure');
 
 describe('Fetch Show Structure Endpoint', () => {
   beforeAll(() => {
@@ -57,10 +64,10 @@ describe('Fetch Show Structure Endpoint', () => {
     // Require the module to trigger router creation
     require('../../src/endpoints/fetchShowStructure');
     
-    // Check that the router was created
+    // Check that router was created
     expect(express.Router).toHaveBeenCalled();
     
-    // Check that the post endpoint was defined
+    // Check that post endpoint was defined
     expect(mockRouter.post).toHaveBeenCalledWith(
       '/fetchShowStructure',
       expect.any(Function)
@@ -68,23 +75,20 @@ describe('Fetch Show Structure Endpoint', () => {
   });
   
   test('handler processes show structures successfully', async () => {
-    // Get the handler directly from our mock
-    const handler = mockRouter.post.mock.calls[0][1];
-    
-    // Mock request and response
+    // Create mock request and response
     const req = {};
     const res = {
       json: jest.fn(),
       status: jest.fn().mockReturnThis()
     };
     
-    // Call the handler
-    await handler(req, res);
+    // Call the handler directly
+    await testHandler(req, res);
     
     // Check that processShowsFromXLSX was called
     expect(processShowsFromXLSX).toHaveBeenCalled();
     
-    // Check that res.json was called with the correct response
+    // Check that res.json was called with correct response
     expect(res.json).toHaveBeenCalledWith(expect.objectContaining({
       message: expect.any(String),
       totalWebsites: expect.any(Number),
@@ -94,10 +98,7 @@ describe('Fetch Show Structure Endpoint', () => {
   });
   
   test('handler handles errors gracefully', async () => {
-    // Get the handler directly from our mock
-    const handler = mockRouter.post.mock.calls[0][1];
-    
-    // Mock request and response
+    // Create mock request and response
     const req = {};
     const res = {
       json: jest.fn(),
@@ -107,10 +108,10 @@ describe('Fetch Show Structure Endpoint', () => {
     // Make processShowsFromXLSX throw an error
     processShowsFromXLSX.mockRejectedValueOnce(new Error('Test error'));
     
-    // Call the handler
-    await handler(req, res);
+    // Call the handler directly
+    await testHandler(req, res);
     
-    // Check that the appropriate error response was sent
+    // Check that appropriate error response was sent
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.json).toHaveBeenCalledWith(expect.objectContaining({
       error: expect.any(String)

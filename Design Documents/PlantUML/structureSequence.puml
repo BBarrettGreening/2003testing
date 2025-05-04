@@ -1,0 +1,52 @@
+@startuml Structure Detection Process
+
+actor "User" as User
+participant "Web Interface" as UI
+participant "Express Server" as Server
+participant "Socket.io Server" as Socket
+participant "getStructure.js" as StructureDetector
+participant "Axios/Cheerio" as Parser
+database "Theatre/Show Websites" as Websites
+database "potentialSelectors.json" as PotentialSelectors
+database "websiteConfigs.json/showWebsiteConfigs.json" as WebsiteConfigs
+
+== Structure Detection Initialisation ==
+User -> UI: Click "Find Structures" button
+UI -> Server: POST /api/find-structure
+Server -> StructureDetector: processStructureDetection(uploadedFile)
+StructureDetector -> StructureDetector: Read uploaded XLSX data
+StructureDetector -> PotentialSelectors: Load potential selectors
+StructureDetector -> WebsiteConfigs: Load existing configurations
+
+== Detection Process ==
+loop For each website in XLSX file
+    StructureDetector -> Socket: Log processing website
+    Socket -> UI: Display current website being processed
+    
+    StructureDetector -> Parser: Make HTTP GET request
+    Parser -> Websites: Fetch website HTML
+    Websites --> Parser: HTML response
+    Parser --> StructureDetector: Parsed HTML document
+    
+    StructureDetector -> StructureDetector: Test potential selectors against HTML
+    
+    alt Successful structure detection
+        StructureDetector -> StructureDetector: Build selectors object
+        StructureDetector -> WebsiteConfigs: Add/update website configuration
+        StructureDetector -> Socket: Log successful detection
+        Socket -> UI: Display success message
+    else Failed structure detection
+        StructureDetector -> StructureDetector: Add to failed structures list
+        StructureDetector -> Socket: Log failure
+        Socket -> UI: Display failure message
+    end
+end
+
+== Complete Detection Process ==
+StructureDetector -> Socket: Log detection completion
+Socket -> UI: Display completion message
+StructureDetector --> Server: Return detection results
+Server --> UI: Send final structure detection results
+UI --> User: Display successful and failed detections
+
+@enduml

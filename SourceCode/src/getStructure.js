@@ -126,6 +126,7 @@ const getBestScrapingUrl = async (baseUrl) => {
  * @param {string} theatreName - Name of the theatre.
  * @param {string} theatreLocation - Location (City, Country) of the theatre.
  * @returns {object|null} - Detected configuration or null if analysis fails.
+ * @throws {Error} - Throws an error if network issues occur.
  */
 const analyzeWebsite = async (baseUrl, potentialSelectors, theatreName, theatreLocation) => {
   const url = await getBestScrapingUrl(baseUrl);
@@ -145,6 +146,10 @@ const analyzeWebsite = async (baseUrl, potentialSelectors, theatreName, theatreL
       location: theatreLocation || theatreName,
     };
   } catch (error) {
+    // Propagate network errors up to be handled by the caller
+    if (error.message.includes('Network Error') || error.code === 'ECONNREFUSED' || error.code === 'ENOTFOUND') {
+      throw error;
+    }
     return null;
   }
 };
@@ -155,16 +160,46 @@ const analyzeWebsite = async (baseUrl, potentialSelectors, theatreName, theatreL
  */
 const readTheatreDataFromXLSX = () => {
   const xlsxFilePath = path.join(__dirname, "../docs/TheatreListReport.xlsx");
+  
   try {
+    // Check if the file exists first with a clear error message
     if (!fs.existsSync(xlsxFilePath)) {
       console.error(`File ${xlsxFilePath} does not exist.`);
       return [];
     }
 
-    const workbook = XLSX.readFile(xlsxFilePath);
-    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+    // Try to read the XLSX file
+    let workbook;
+    try {
+      workbook = XLSX.readFile(xlsxFilePath);
+    } catch (readError) {
+      console.error(`Error reading XLSX file: ${readError.message}`);
+      return [];
+    }
 
-    return XLSX.utils.sheet_to_json(sheet).map(row => ({
+    // Make sure the workbook has sheets
+    if (!workbook || !workbook.SheetNames || workbook.SheetNames.length === 0) {
+      console.error(`Invalid XLSX file: No sheets found in ${xlsxFilePath}`);
+      return [];
+    }
+
+    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+    
+    // Make sure the sheet exists
+    if (!sheet) {
+      console.error(`Invalid XLSX file: First sheet is empty in ${xlsxFilePath}`);
+      return [];
+    }
+
+    // Convert to JSON and validate the data
+    const rows = XLSX.utils.sheet_to_json(sheet);
+    
+    if (!Array.isArray(rows) || rows.length === 0) {
+      console.error(`No data found in ${xlsxFilePath}.`);
+      return [];
+    }
+
+    return rows.map(row => ({
       id: row["Theatre Id"],
       name: row["Theatre"],
       website: row["Website Url"]?.trim()?.toUpperCase() !== "N/A" ? row["Website Url"].trim() : null,
@@ -206,7 +241,8 @@ const processTheatresFromXLSX = async () => {
       message: "Error processing theatres: " + error.message,
       totalTheatres: 0,
       successfulScrapes: 0,
-      failedStructures: []
+      failedStructures: [],
+      error: error.message
     };
   }
 
@@ -214,6 +250,7 @@ const processTheatresFromXLSX = async () => {
   const failedStructures = [];
   const theatresWithoutWebsite = [];
   let completedCount = 0;
+  let networkError = null;
 
   const totalTheatres = theatres.length;
 
@@ -221,21 +258,37 @@ const processTheatresFromXLSX = async () => {
     console.log(`Progress: ${completedCount}/${totalTheatres} theatres processed`);
   };
 
-  await Promise.all(theatres.map(async (theatre) => {
-    if (!theatre.website) {
-      theatresWithoutWebsite.push(theatre.name);
-      failedStructures.push({ id: theatre.id, name: theatre.name, url: null, reason: "No website provided" });
-    } else {
-      const config = await analyzeWebsite(theatre.website, potentialSelectors, theatre.name, theatre.location);
-      if (config) {
-        results.push({ id: theatre.id, ...config });
+  try {
+    await Promise.all(theatres.map(async (theatre) => {
+      if (!theatre.website) {
+        theatresWithoutWebsite.push(theatre.name);
+        failedStructures.push({ id: theatre.id, name: theatre.name, url: null, reason: "No website provided" });
       } else {
-        failedStructures.push({ id: theatre.id, name: theatre.name, url: theatre.website, reason: "No valid structure detected" });
+        try {
+          const config = await analyzeWebsite(theatre.website, potentialSelectors, theatre.name, theatre.location);
+          if (config) {
+            results.push({ id: theatre.id, ...config });
+          } else {
+            failedStructures.push({ id: theatre.id, name: theatre.name, url: theatre.website, reason: "No valid structure detected" });
+          }
+        } catch (error) {
+          // Catch any errors that might occur during website analysis
+          failedStructures.push({ id: theatre.id, name: theatre.name, url: theatre.website, reason: `Error: ${error.message}` });
+          if (error.message.includes('Network Error') || error.code === 'ECONNREFUSED' || error.code === 'ENOTFOUND') {
+            networkError = error.message;
+          }
+        }
       }
+      completedCount++;
+      updateProgress();
+    }));
+  } catch (error) {
+    // Catch any errors that might occur during Promise.all
+    console.error(`Error processing theatres: ${error.message}`);
+    if (error.message.includes('Network Error') || error.code === 'ECONNREFUSED' || error.code === 'ENOTFOUND') {
+      networkError = error.message;
     }
-    completedCount++;
-    updateProgress();
-  }));
+  }
 
   console.log(`Website configurations saved to ${outputFile}`);
   try {
@@ -255,12 +308,19 @@ const processTheatresFromXLSX = async () => {
   console.log(`${theatresWithoutWebsite.length} theatres without a website.`);
   console.log(`${failedStructures.length - theatresWithoutWebsite.length} theatres failed to scrape.`);
 
-  return { 
+  const response = { 
     message: "Theatre website structures processed successfully.",
     totalTheatres, 
     successfulScrapes: results.length, 
     failedStructures 
   };
+
+  // Add error property if a network error occurred
+  if (networkError) {
+    response.error = `Network error: ${networkError}`;
+  }
+
+  return response;
 };
 
 if (require.main === module) {
